@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+#header div#description p{
+	font-size:10px;
+	display:inline;
+	margin-left:10px;
+}
+
+#mainContents h1 {
+	margin-bottom:20px;
+}
+
+#contents div#sideContents #tyuukaiNaviTop a,
+#contents div#sideContents #tyuukaiNaviTop_f a,
+#contents div#sideContents #nyukyosyaNaviTop a,
+#contents div#sideContents #nyukyosyaNaviTop_f a{
+	display:block;
+	width:232px;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+
+
+/* サイドナビ（仲介）：マウスオーバー:フォーカス時*/
+#contents div#sideContents #tyuukaiNaviTop a:hover{
+	background:transparent url("../img/side_navi/tyuukai/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+
+/* サイドナビ（仲介）*/
+#contents div#sideContents #tyuukaiNaviTop a{
+	background:transparent url("../img/side_navi/tyuukai/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#tyuukaiNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/tyuukai/side_navi01.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#tyuukaiNavi li#sideNavi02 a{
+	background:transparent url("../img/side_navi/tyuukai/side_navi02.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#tyuukaiNavi li#sideNavi03 a{
+	background:transparent url("../img/side_navi/tyuukai/side_navi03.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#tyuukaiNavi li#sideNavi04 a{
+	background:transparent url("../img/side_navi/tyuukai/side_navi04.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#tyuukaiNavi li#sideNavi05 a{
+	background:transparent url("../img/side_navi/tyuukai/side_navi05.gif") no-repeat scroll left top;
+}
+
+
+#contents div#sideContents ul#tyuukaiNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/tyuukai/side_navi01_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#tyuukaiNavi li#sideNavi02 a:hover{
+	background:transparent url("../img/side_navi/tyuukai/side_navi02_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#tyuukaiNavi li#sideNavi03 a:hover{
+	background:transparent url("../img/side_navi/tyuukai/side_navi03_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#tyuukaiNavi li#sideNavi04 a:hover{
+	background:transparent url("../img/side_navi/tyuukai/side_navi04_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#tyuukaiNavi li#sideNavi05 a:hover{
+	background:transparent url("../img/side_navi/tyuukai/side_navi05_f.gif") no-repeat scroll left top;
+}
+
+
+
+/* 仲介
+======================================================*/
+#contents div#mainContents .tyuukai {
+	clear:both;
+	zoom:1;
+	border-bottom:1px dotted #424242;
+}
+#contents div#mainContents .tyuukai:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contents div#mainContents div.tyuukai div.itemBoxL ,
+#contents div#mainContents div.tyuukai div.itemBoxR {
+	display:block;
+	width:318px;
+	padding:24px 0;
+	zoom:1;
+}
+#contents div#mainContents div.tyuukai div.itemBoxL{
+	float:left;
+}
+#contents div#mainContents div.tyuukai div.itemBoxR{
+	float:right;
+}
+
+#contents div#mainContents div.tyuukai div.itemBoxL img ,
+#contents div#mainContents div.tyuukai div.itemBoxR img{
+	float:left;
+	display:block;
+	padding-right:10px;
+}
+
+#contents div#mainContents div.tyuukai div.itemBoxL dl,
+#contents div#mainContents div.tyuukai div.itemBoxR dl {
+	line-height:1.4;
+	padding:0 15px 0 20px;
+}
+
+#contents div#mainContents div.tyuukai div.itemBoxL dt a ,
+#contents div#mainContents div.tyuukai div.itemBoxR dt a{
+	display:block;
+	height:18px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contents div#mainContents div.tyuukai dl#contItem01 dt a{background:transparent url("../img/tyuukai/tit_item01.gif") no-repeat 0 0;}
+#contents div#mainContents div.tyuukai dl#contItem02 dt a{background:transparent url("../img/tyuukai/tit_item02.gif") no-repeat 0 0;}
+#contents div#mainContents div.tyuukai dl#contItem03 dt a{background:transparent url("../img/tyuukai/tit_item03.gif") no-repeat 0 0;}
+#contents div#mainContents div.tyuukai dl#contItem04 dt a{background:transparent url("../img/tyuukai/tit_item04.gif") no-repeat 0 0;}
+#contents div#mainContents div.tyuukai dl#contItem05 dt a{background:transparent url("../img/tyuukai/tit_item05.gif") no-repeat 0 0;}
+
+#contents div#mainContents div.tyuukai dl#contItem01 dt a:hover,
+#contents div#mainContents div.tyuukai dl#contItem02 dt a:hover,
+#contents div#mainContents div.tyuukai dl#contItem03 dt a:hover,
+#contents div#mainContents div.tyuukai dl#contItem04 dt a:hover,
+#contents div#mainContents div.tyuukai dl#contItem05 dt a:hover{
+	background-position:0 -18px;
+}
+#contents div#mainContents div.tyuukai div.itemBoxL dd ,
+#contents div#mainContents div.tyuukai div.itemBoxR dd {
+	padding-top:10px;
+	font-size:13px;
+}
+
+
+
+
+
+
+
+
+/* サイドナビ（入居者）：マウスオーバー:フォーカス時*/
+#contents div#sideContents #nyukyosyaNaviTop a:hover{
+	background:transparent url("../img/side_navi/nyukyosya/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+
+/* サイドナビ（入居者）*/
+#contents div#sideContents #nyukyosyaNaviTop a{
+	background:transparent url("../img/side_navi/nyukyosya/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#nyukyosyaNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/nyukyosya/side_navi01.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#nyukyosyaNavi li#sideNavi02 a{
+	background:transparent url("../img/side_navi/nyukyosya/side_navi02.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#nyukyosyaNavi li#sideNavi03 a{
+	background:transparent url("../img/side_navi/nyukyosya/side_navi03.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#nyukyosyaNavi li#sideNavi04 a{
+	background:transparent url("../img/side_navi/nyukyosya/side_navi04.gif") no-repeat scroll left top;
+}
+
+
+#contents div#sideContents ul#nyukyosyaNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/nyukyosya/side_navi01_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#nyukyosyaNavi li#sideNavi02 a:hover{
+	background:transparent url("../img/side_navi/nyukyosya/side_navi02_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#nyukyosyaNavi li#sideNavi03 a:hover{
+	background:transparent url("../img/side_navi/nyukyosya/side_navi03_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#nyukyosyaNavi li#sideNavi04 a:hover{
+	background:transparent url("../img/side_navi/nyukyosya/side_navi04_f.gif") no-repeat scroll left top;
+}
+
+
+
+/* 入居者
+======================================================*/
+#contents div#mainContents .nyukyosya {
+	clear:both;
+	zoom:1;
+	border-bottom:1px dotted #424242;
+}
+#contents div#mainContents .nyukyosya:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contents div#mainContents div.nyukyosya div.itemBoxL ,
+#contents div#mainContents div.nyukyosya div.itemBoxR {
+	display:block;
+	width:318px;
+	padding:24px 0;
+	zoom:1;
+}
+#contents div#mainContents div.nyukyosya div.itemBoxL{
+	float:left;
+}
+#contents div#mainContents div.nyukyosya div.itemBoxR{
+	float:right;
+}
+
+#contents div#mainContents div.nyukyosya div.itemBoxL img ,
+#contents div#mainContents div.nyukyosya div.itemBoxR img{
+	float:left;
+	display:block;
+	padding-right:10px;
+}
+
+#contents div#mainContents div.nyukyosya div.itemBoxL dl,
+#contents div#mainContents div.nyukyosya div.itemBoxR dl {
+	line-height:1.4;
+	padding:0 15px 0 20px;
+}
+
+#contents div#mainContents div.nyukyosya div.itemBoxL dt a ,
+#contents div#mainContents div.nyukyosya div.itemBoxR dt a{
+	display:block;
+	height:18px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contents div#mainContents div.nyukyosya dl#contItem01 dt a{background:transparent url("../img/nyukyosya/tit_item01.gif") no-repeat 0 0;}
+#contents div#mainContents div.nyukyosya dl#contItem02 dt a{background:transparent url("../img/nyukyosya/tit_item02.gif") no-repeat 0 0;}
+#contents div#mainContents div.nyukyosya dl#contItem03 dt a{background:transparent url("../img/nyukyosya/tit_item03.gif") no-repeat 0 0;}
+#contents div#mainContents div.nyukyosya dl#contItem04 dt a{background:transparent url("../img/nyukyosya/tit_item04.gif") no-repeat 0 0;}
+
+#contents div#mainContents div.nyukyosya dl#contItem01 dt a:hover,
+#contents div#mainContents div.nyukyosya dl#contItem02 dt a:hover,
+#contents div#mainContents div.nyukyosya dl#contItem03 dt a:hover,
+#contents div#mainContents div.nyukyosya dl#contItem04 dt a:hover{
+	background-position:0 -18px;
+}
+#contents div#mainContents div.nyukyosya div.itemBoxL dd ,
+#contents div#mainContents div.nyukyosya div.itemBoxR dd {
+	padding-top:10px;
+	font-size:13px;
+}
+
+

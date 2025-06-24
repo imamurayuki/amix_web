@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+/* seo用*/
+
+
+
+@charset "UTF-8";
+
+#header div#description p{
+	font-size:10px;
+	display:inline;
+	margin-left:10px;
+}

@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Information =====================================
+File name: layout.css
+Description: layoutbase
+======================================================*/
+
+/*セミナー*/
+
+#seminar {
+	padding:0 0 20px 0;
+}
+
+
+#seminar h3 {
+	line-height:1.5;
+	font-size:18px;
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#seminar p {
+	margin-bottom:0px;
+	line-height:1.5;
+	font-size:16px;
+	margin-bottom:5px;
+	margin-left:19px;
+}
+
+#seminar .koushi {
+	
+	margin-left:70px;
+	margin-top:-5px;
+}
+
+
+
+
+#seminar .seminar01 p a {
+	float:right;
+	color:#0077C0;
+}
+#seminar .seminar01 p a:hover {
+	color:#00B5FF;
+}
+
+
+
+/*
+不要？
+li.mv a {
+	position:relative;
+	display:block;
+	width:100%;
+	height:144px;
+}
+li.mv a img {
+	position:absolute;
+}*/
+
+
+/*動画再生*/
+#video_bg {
+	background-color:rgba(0,0,0,0.8);
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:1;
+  display: none;
+}
+#video_bg video {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+}
+
+.moviestart video {
+	display: none;
+}
+
+@media screen and (max-width: 667px){
+
+#video_bg video {
+	width:300px;
+  height: 220px;
+}
+
+.moviestart img {
+	display: none;
+}
+	
+.moviestart video {
+	display: block;
+}
+	}

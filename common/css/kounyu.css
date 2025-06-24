@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* 土地購入注釈 */
+.kounyuText p  {
+	margin:5px 0 0 5px ;
+	line-height:1.5;
+	font-size:16px;
+}
+
+.kounyuText p span {
+	line-height:1.5;
+	font-size:12px;
+}
+
+.kounyuTextCaption02 {
+	margin-top: 10px;
+	font-size: 11px;
+}
+
+
+.kounyuTextCaption03 p span {
+	line-height:1.5;
+	font-size:12px;
+}
+
+.kounyuTextCaption03 p {
+	margin:-10px 0 40px 5px ;
+	line-height:1.5;
+	font-size:16px;
+}
+
+
+#contents div#mainContents p.mainText05{
+	line-height:1.5;
+	padding:0px 0 5px;
+	font-size:16px;
+}
+
+#kounyuOwner02 {
+	margin:50px 0 50px 0px ;
+}
+
+.kounyuOwnerVoice02 {
+	clear:both;
+	zoom:1;
+	padding:24px 0 15px 0;
+	border-bottom:1px dotted #424242

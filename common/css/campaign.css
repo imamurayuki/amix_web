@@ -1,0 +1,721 @@
+@charset "utf-8";
+
+/* ============ room_top =============== */
+
+h1#campaign_title {
+	margin:32px 0 19px 0;
+	border-bottom:none;
+	text-align:center;
+}
+
+.contest-text01 {
+	text-align:center;
+	margin:0;
+	padding:30px 0 0 0;
+	background:url("../../campaign/img/room_top_ico.gif") no-repeat top;
+}
+
+.contest-text02 {
+	text-align:center;
+	margin:15px 0 30px 0;
+	padding:0 0 30px 0;
+	background:url("../../campaign/img/room_bottom_ico.gif") no-repeat bottom;
+}
+
+
+/* ============ room box =============== */
+
+.room_box {
+	clear:both;
+	display:inline;
+	width:705px;
+	margin:0 14px 6px 0;
+	padding:0;
+	float:left;
+}
+
+.sub_room_box {
+	display:inline;
+	width:705px;
+	margin:30px 14px 6px 0;
+	padding:0;
+	float:left;
+}
+
+.room_left {
+	width:190px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+.room_left p.comment_text {
+	margin:0 18px 0 14px;
+	color:#fff;
+}
+
+.room_right {
+	width:505px;
+	margin:0;
+	padding:0;
+	float:right;
+}
+
+.room_1_border {
+	padding:0 0 15px 0;
+	background:url("../../campaign/img/room_1_border.gif") no-repeat center bottom;
+}
+
+.room_ph_ml {
+	margin:0 0 0 14px;
+}
+
+/* ============ room navi =============== */
+
+ul.room_navi {
+	margin:0 0 0 11px;
+}
+ul.sub_room_navi {
+	display:inline;
+	margin:0 0 30px 11px;
+	float:left;
+}
+ul.room_navi li, ul.sub_room_navi li {
+	margin:0 3px 0 0;
+	float:left;
+}
+ul.room_navi li.room_navi_end, ul.sub_room_navi li.room_navi_end {
+	margin:0;
+}
+
+
+/* ============ room_1.html =============== */
+
+.room_1 {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_1_bk.gif") repeat-y;
+}
+
+.room_1_bottom {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_1_bottom.gif") no-repeat bottom;
+}
+
+
+/* ============ room_2.html =============== */
+
+.room_2 {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_2_bk.gif") repeat-y;
+}
+
+.room_2_bottom {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_2_bottom.gif") no-repeat bottom;
+}
+
+.room_2_border {
+	clear:both;
+	padding:0 0 0 380px;
+	background:url("../../campaign/img/room_2_border.gif") no-repeat left;
+	text-align:right;
+}
+
+
+/* ============ room_3.html =============== */
+
+.room_3 {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_3_bk.gif") repeat-y;
+}
+
+.room_3_bottom {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_3_bottom.gif") no-repeat bottom;
+}
+
+.room_3_border {
+	clear:both;
+	padding:0 0 0 380px;
+	background:url("../../campaign/img/room_3_border.gif") no-repeat left;
+	text-align:right;
+}
+
+.room_3_details {
+	clear:both;
+	width:705px;
+	margin:0 0 20px 0;
+	padding:0 0 30px 0;
+	float:left;
+	background:url("../../campaign/img/r_3_border.gif") no-repeat right bottom;
+}
+
+/* ============ room_4.html =============== */
+
+.room_4 {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_4_bk.gif") repeat-y;
+}
+
+.room_4_bottom {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_4_bottom.gif") no-repeat bottom;
+}
+
+.room_4_border {
+	clear:both;
+	padding:0 0 0 380px;
+	background:url("../../campaign/img/room_4_border.gif") no-repeat left;
+	text-align:right;
+}
+
+.room_4_details {
+	clear:both;
+	width:705px;
+	margin:0 0 20px 0;
+	padding:0 0 30px 0;
+	float:left;
+	background:url("../../campaign/img/r_4_broder.gif") no-repeat right bottom;
+}
+
+
+/* ============ room_5.html =============== */
+
+.room_5 {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_5_bk.gif") repeat-y;
+}
+
+.room_5_bottom {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_5_bottom.gif") no-repeat bottom;
+}
+
+.room_5_border {
+	clear:both;
+	padding:0 0 0 380px;
+	background:url("../../campaign/img/room_5_border.gif") no-repeat left;
+	text-align:right;
+}
+
+
+.room_5_details {
+	clear:both;
+	width:705px;
+	margin:0 0 20px 0;
+	padding:0 0 30px 0;
+	float:left;
+	background:url("../../campaign/img/r_5_broder.gif") no-repeat right bottom;
+}
+
+
+/* ============ room_6.html =============== */
+
+.room_6 {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_6_bk.gif") repeat-y;
+}
+
+.room_6_bottom {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_6_bottom.gif") no-repeat bottom;
+}
+
+.room_6_border {
+	clear:both;
+	padding:0 0 0 380px;
+	background:url("../../campaign/img/room_6_border.gif") no-repeat left;
+	text-align:right;
+}
+
+.room_6_details {
+	clear:both;
+	width:705px;
+	margin:0 0 20px 0;
+	padding:0 0 30px 0;
+	float:left;
+	background:url("../../campaign/img/r_6_broder.gif") no-repeat right bottom;
+}
+
+
+/* ============ room_7.html =============== */
+
+.room_7 {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_7_bk.gif") repeat-y;
+}
+
+.room_7_bottom {
+	width:705px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_7_bottom.gif") no-repeat bottom;
+}
+
+.room_7_border {
+	clear:both;
+	padding:0 0 0 380px;
+	background:url("../../campaign/img/room_7_border.gif") no-repeat left;
+	text-align:right;
+}
+
+
+/* ============ room photo =============== */
+
+ul.room_photo {
+	width:505px;
+	margin:3px 0 18px 0;
+	float:left;
+}
+
+ul.room_photo p {
+	margin:0;
+}
+
+ul.room_photo p img {
+	vertical-align:top;
+}
+
+ul.room_photo p a {
+	margin:0 0 0 24px;
+}
+
+ul.room_photo p.room_1_btn {
+	background:url("../../campaign/img/room_1_btn.gif") no-repeat;
+}
+
+ul.room_photo p.room_2_btn {
+	background:url("../../campaign/img/room_2_btn.gif") no-repeat;
+}
+
+ul.room_photo p.room_3_btn {
+	background:url("../../campaign/img/room_3_btn.gif") no-repeat;
+}
+
+ul.room_photo p.room_4_btn {
+	background:url("../../campaign/img/room_4_btn.gif") no-repeat;
+}
+
+ul.room_photo p.room_5_btn {
+	background:url("../../campaign/img/room_5_btn.gif") no-repeat;
+}
+
+ul.room_photo p.room_6_btn {
+	background:url("../../campaign/img/room_6_btn.gif") no-repeat;
+}
+
+ul.room_photo p.room_7_btn {
+	background:url("../../campaign/img/room_7_btn.gif") no-repeat;
+}
+
+ul.room_photo p.room_8_btn {
+	background:url("../../campaign/img/room_8_btn.gif") no-repeat;
+}
+
+ul.room_photo li {
+	float:left;
+}
+
+li.photo_img01 {
+	display:inline;
+	margin:11px 0 13px 10px;
+}
+
+li.photo_img02 {
+	display:inline;
+	margin:0 5px 0 10px;
+}
+
+li.photo_img03 {
+	display:inline;
+	margin:0 10px 0 0;
+}
+
+li.photo_img04 {
+	display:inline;
+	margin:0 8px 0 10px;
+}
+
+li.photo_img05 {
+	display:inline;
+	margin:11px 0 0 10px;
+}
+
+li.photo_img06 {
+	display:inline;
+	margin:0 9px 0 10px;
+}
+
+li.photo_img07 {
+	display:inline;
+	margin:0 9px 0 0;
+}
+
+
+/* ============ room details main =============== */
+
+.room_details_main {
+	display:inline;
+	width:493px;
+	margin:0 0 0 12px;
+	padding:0;
+	float:left;
+}
+
+.r_details_l {
+	width:228px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+.r_details_r {
+	width:242px;
+	margin:0;
+	padding:0;
+	float:right;
+}
+
+.r_details_l_sub {
+	width:230px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+
+.r_details_r_sub {
+	width:244px;
+	margin:0;
+	padding:0;
+	float:right;
+}
+
+.r_details_r ul {
+	width:242px;
+	float:left;
+}
+
+.room_tx01 {
+	margin:0 0 15px 0;
+	text-align:left;
+}
+
+.room_tx01 span {
+	font-size:120%;
+	color:#38459c;
+}
+
+.room_tx02 {
+	margin:0 0 29px 0;
+	text-align:left;
+}
+
+.room_tx02 span {
+	font-size:120%;
+	color:#dc4600;
+}
+
+.room_tx03 {
+	margin:0;
+	text-align:left;
+}
+
+.room_tx03 span {
+	font-size:120%;
+	color:#dc4600;
+}
+
+.mb7 {
+	margin-bottom:7px;
+}
+
+.mb11 {
+	margin-bottom:11px;
+}
+
+p.review_tx {
+	margin:0 10px;
+	font-size:80%;
+	line-height:1.4;
+}
+
+
+/* ============ room 1 review =============== */
+
+.review_01 {
+	width:228px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_1_rev_bk.gif") repeat-y;
+	text-align:left;
+}
+
+.review_01_bottom {
+	width:228px;
+	margin:0;
+	padding:0 0 10px 0;
+	float:left;
+	background:url("../../campaign/img/room_1_rev_bottom.gif") no-repeat bottom;
+}
+
+
+/* ============ room 2 review =============== */
+
+.review_02 {
+	width:228px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_2_rev_bk.gif") repeat-y;
+	text-align:left;
+}
+
+.review_02_bottom {
+	width:228px;
+	margin:0;
+	padding:0 0 10px 0;
+	float:left;
+	background:url("../../campaign/img/room_2_rev_bottom.gif") no-repeat bottom;
+}
+
+
+/* ============ room 3 review =============== */
+
+.review_03 {
+	width:244px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_3_rev_bk.gif") repeat-y;
+	text-align:left;
+}
+
+.review_03_bottom {
+	width:244px;
+	margin:0;
+	padding:0 0 10px 0;
+	float:left;
+	background:url("../../campaign/img/room_3_rev_bottom.gif") no-repeat bottom;
+}
+
+
+/* ============ room 4 review =============== */
+
+.review_04 {
+	width:244px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_4_rev_bk.gif") repeat-y;
+	text-align:left;
+}
+
+.review_04_bottom {
+	width:244px;
+	margin:0;
+	padding:0 0 10px 0;
+	float:left;
+	background:url("../../campaign/img/room_4_rev_bottom.gif") no-repeat bottom;
+}
+
+
+/* ============ room 5 review =============== */
+
+.review_05 {
+	width:244px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_5_rev_bk.gif") repeat-y;
+	text-align:left;
+}
+
+.review_05_bottom {
+	width:244px;
+	margin:0;
+	padding:0 0 10px 0;
+	float:left;
+	background:url("../../campaign/img/room_5_rev_bottom.gif") no-repeat bottom;
+}
+
+
+/* ============ room 6 review =============== */
+
+.review_06 {
+	width:244px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_6_rev_bk.gif") repeat-y;
+	text-align:left;
+}
+
+.review_06_bottom {
+	width:244px;
+	margin:0;
+	padding:0 0 10px 0;
+	float:left;
+	background:url("../../campaign/img/room_6_rev_bottom.gif") no-repeat bottom;
+}
+
+
+/* ============ room 7 review =============== */
+
+.review_07 {
+	width:244px;
+	margin:0;
+	padding:0;
+	float:left;
+	background:url("../../campaign/img/room_7_rev_bk.gif") repeat-y;
+	text-align:left;
+}
+
+.review_07_bottom {
+	width:244px;
+	margin:0;
+	padding:0 0 10px 0;
+	float:left;
+	background:url("../../campaign/img/room_7_rev_bottom.gif") no-repeat bottom;
+}
+
+
+/* ============ room review photo =============== */
+
+.rev_l {
+	width:118px;
+	float:left;
+}
+
+.rev_r {
+	width:118px;
+	float:right;
+}
+
+.rev_clear {
+	clear:both;
+}
+
+.review-photo {
+	width:495px;
+	margin:0 0 18px 10px;
+	padding:0;
+	float:left;
+	display:inline;
+}
+
+.w331 {
+	width:331px;
+	float:left;
+}
+
+.w154 {
+	width:154px;
+	float:right;
+}
+
+.w189 {
+	width:189px;
+	float:left;
+}
+
+.w296 {
+	width:296px;
+	float:right;
+}
+
+.w142-l {
+	width:142px;
+	float:left;
+}
+
+.w142-r {
+	width:142px;
+	float:right;
+}
+
+/* ============ room_8 =============== */
+
+.outline-tx {
+	width:475px;
+	margin:0 115px 20px 115px;
+	padding:10px 0;
+	border-top:solid 2px #db2d2e;
+	border-bottom:solid 2px #db2d2e;
+}
+
+.outline-tx span {
+	color:#db2d2e;
+	font-size:160%;
+}
+
+.ml115 {
+	margin-left:115px;
+}
+
+.outline-box {
+	display:inline;
+	width:475px;
+	margin:0 115px;
+	padding:0;
+	float:left;
+}
+
+.color_theme01 {
+	color:#1b79d9;
+}
+
+.outline-box ul {
+	width:475px;
+	text-align:center;
+	float:left;
+}
+
+.outline-box li {
+	float:left;
+}
+
+.outline-details {
+	clear:both;
+	border-bottom:solid 1px #1b79d9;
+}

@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* アパート建築 - 長屋建て */
+#zyuusouText02 p {
+	margin:0 0 30px;
+	line-height:1.5;
+	font-size:16px;
+}
+#zyuusouText02 dl {
+	width:352px;
+	margin:0 auto;
+	padding:20px 0 30px;
+}
+
+#zyuusouText02 dt {
+text-align:center;	
+
+}
+
+#zyuusouText02 dd {
+	line-height:1.4;
+	padding-top:5px;
+	color:#666666;
+}
+
+#zyuusouText03 dl {
+	width:352px;
+	margin:0 auto;
+	padding:5px 0 10px;
+}
+
+
+#zyuusouText04 dl {
+	width:352px;
+	margin:0 auto;
+	padding:0 0 10px;
+
+}
+
+
+	
+#zyuusouText05 p {
+	margin:0 0 0px;
+	line-height:1.5;
+	font-size:16px;
+}
+
+#zyuusouText05 .photo {
+	margin:30 0 30px;
+text-align:center;
+	}
+
+#zyuusouText05 dl {
+	width:367px;
+	margin:20px auto;
+
+}
+
+
+#zyuusouText05 dl dt {
+	
+	padding:20 0 0px;
+
+}	

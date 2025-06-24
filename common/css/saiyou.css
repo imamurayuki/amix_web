@@ -1,0 +1,377 @@
+.sp-only {
+  display: none;
+}
+#top div#wrapper {
+  width: 100%;
+}
+#top div.inner {
+  width: 960px;
+  margin: 0 auto;
+}
+#top div#contents {
+  overflow: visible;
+  width: 100%;
+  margin-bottom: 0;
+}
+#mainContents_1col_saiyou {
+  float: none !important;
+}
+h2.subTitle_saiyou01 span {
+  font-weight: bold;
+  font-size: 35px !important;
+  position: relative;
+  display: inline-block;
+  background: none;
+  z-index: 0;
+}
+h2.subTitle_saiyou01 span:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  background: #2DB7EC7B;
+  z-index: -1;
+  transform: skew(-20deg);
+  height: 12px;
+}
+.mv {
+  margin-bottom: 105px;
+}
+.mv .mainText {
+  margin-bottom: 45px;
+}
+.photoCenter_saiyou_top {
+  margin: 0 calc(50% - 50vw) !important;
+	width: 100vw;
+  text-align: center;
+}
+.photoCenter_saiyou_top img {
+  width: 70% !important;
+}
+.grayback {
+  background-color: #F8F9FA;
+}
+.interview.grayback {
+  padding-top: 110px;
+  padding-bottom: 90px;
+}
+.movie {
+  padding-bottom: 160px;
+}
+.message.grayback {
+  padding-top: 180px;
+}
+.freedom {
+  padding-bottom: 180px;
+  margin-bottom: 110px;
+}
+.freedom .subTitle_saiyou02 {
+  margin-top: 0 !important;
+}
+#new-graduate {
+  margin-bottom: 75px;
+}
+#mid-career {
+  margin-bottom: 110px;
+}
+.flow h3 {
+  margin-top: 0 !important;
+}
+.bottomTopicPath {
+    background-color: #F8F9FA;
+    margin: 0 !important;
+}
+.sumlist_1col_saiyou ul {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#contents ul.saiyou_2col li {
+  float: none !important;
+  width: 49%;
+  margin: 0;
+}
+#SaiyouInterview .SaiyouInterviewVoice img {
+	margin-bottom: 95px;
+}
+.btns {
+  text-align: center;
+}
+.blue-btn {
+  width: 280px;
+  height: 67px;
+  background: #2db7ec;
+  color: #fff;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 22px;
+  font-size: 20px;
+  line-height: 67px;
+  font-weight: bold;
+  text-align: center;
+}
+.blue-btn:hover {
+  color: #FFF;
+}
+.entry-btn {
+  width: 351px;
+  height: 54px;
+  font-size: 25px;
+  line-height: 54px;
+  border-radius: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.btns .blue-btn:first-child {
+  margin-right: 22px;
+}
+.btns .blue-btn:last-child {
+  margin-left: 22px;
+}
+.jump {
+  height: 91px;
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 145px;
+}
+.jump ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.jump li p span {
+  font-size: 17px;
+  padding: 0 21px 11px 21px;
+　border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.jump li p a:hover span {
+    border-bottom: 4px solid #0077C0;
+    width: 100%;
+    padding: 0 21px 11px 21px;
+    display: block;
+	margin-top: 0px;
+}
+.outline {
+  margin-bottom: 60px;
+}
+.schedule {
+  width: 60%;
+  margin: 0 auto;
+}
+.schedule .flex {
+  display: flex;
+  align-items: center;
+}
+.schedule .border {
+  width: 3px;
+  height: 63px;
+  background-color: #000;
+  margin-left: 55px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.schedule .time {
+  width: 118px;
+  height: 114px;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-radius: 114px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 115px;
+  margin-right: 20px;
+}
+.schedule .time + div {
+  width: calc(100% - 118px);
+}
+.schedule .task {
+  font-size: 18px;
+  font-weight: bold;
+}
+#interview .bottomTopicPath {
+  background-color: #FFF;
+}
+#interview .faqMain_saiyou + .btns {
+  margin-bottom: 170px;
+}
+
+@media screen and (max-width: 959px){
+  #top div.inner {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #top .wrapInner {
+    margin: 0;
+  }
+  .interview.grayback {
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  .message.grayback {
+    padding-top: 100px;
+  }
+}
+@media screen and (max-width:667px) {
+  .pc-only {
+    display: none;
+  }
+  .sp-only {
+    display: block;
+  }
+  .points h3,
+  .movie h3,
+  #new-graduate h3,
+  .qa h3,
+  .message h3 {
+    margin-top: 0 !important;
+  }
+  h2.subTitle_saiyou01 span:before {
+    height: 10px;
+  }
+  #SaiyouInterview {
+    margin-bottom: 95px;
+  }
+  #SaiyouInterview .SaiyouInterviewVoice img {
+  	margin-bottom: 30px;
+  }
+  #new-graduate, #mid-career {
+    margin-bottom: 0;
+  }
+  .sumlist_1col_saiyou ul {
+    display: block;
+  }
+  #contents ul.saiyou_2col li {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 60px;
+  }
+  #contents ul.saiyou_2col li p {
+    margin-bottom: 0;
+  }
+  #contents ul.saiyou_2col li p.tytle {
+    margin-top: 0;
+  }
+  .freedom {
+    padding-bottom: 0;
+    padding-bottom: 70px;
+  }
+  .flow, .qa, .mv {
+    padding-bottom: 0;
+  }
+  .message.grayback {
+    padding-top: 50px;
+  }
+  .faqMain_saiyou {
+    margin-bottom: 0 !important;
+  }
+  #contentsFaq .faqMain_saiyou dl:last-child dd {
+    /* margin-bottom: 0; */
+  }
+  #contents ul.saiyou_2col li p.mr135 {
+    margin-bottom: 50px;
+  }
+  h2.subTitle_saiyou01 span {
+    font-size: 24px !important;
+  }
+  .photoCenter_saiyou_top {
+    overflow: hidden;
+  }
+  .photoCenter_saiyou_top img {
+    width: 500px !important;
+    margin-left: -10%;
+  }
+  .jump {
+    width: 100%;
+    height: 140px;
+    margin-bottom: 80px;
+  }
+  .jump ul {
+    padding: 0 15px;
+  }
+  .jump li p span {
+    text-align: center;
+}
+  .jump li p span {
+    font-size: 12px;
+    padding-left: 3px;
+    padding-right: 3px;
+    letter-spacing: -0.5px;
+  }
+  #contents div#mainContents_1col_saiyou .flow .photoCenter_saiyou {
+    overflow: hidden;
+  }
+  #contents div#mainContents_1col_saiyou .photoCenter_saiyou img.flow-img {
+    width: 138%;
+    margin-left: -18%;
+  }
+  .blue-btn {
+    width: 250px;
+    height: 55px;
+    border-radius: 18px;
+    font-size: 18px;
+    line-height: 55px;
+  }
+  .center {
+    text-align: center;
+  }
+  .entry-btn {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 5px 20px;
+    display: inline-block;
+  }
+  .btns .blue-btn:first-child {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .btns .blue-btn:last-child {
+    margin-left: 0;
+  }
+  .movie {
+    padding-bottom: 70px;
+  }
+  .schedule {
+    width: 100%;
+  }
+  .schedule .border {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 42px;
+  }
+  .schedule .time + div {
+    width: calc(100% - 86px);
+  }
+  .schedule .task {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .schedule .time {
+    width: 86px;
+    height: 81px;
+    border-radius: 86px;
+    font-size: 17px;
+    line-height: 79px;
+    margin-right: 20px;
+  }
+  #footerNavi {
+    padding-top: 0 !important;
+  }
+}
+@media screen and (max-width:400px) {
+  .photoCenter_saiyou_top {
+    overflow: hidden;
+  }
+  .photoCenter_saiyou_top img {
+    width: 460px !important;
+    margin-left: -10%;
+  }
+}

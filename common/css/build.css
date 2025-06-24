@@ -1,0 +1,448 @@
+@charset "utf-8";
+
+/* ============ build =============== */
+#contents #main div.main_inner h2{
+	margin:0 0 20px 0;
+}
+
+
+#contents #main div.main_inner p.img_align{
+	width:690px;
+}
+
+#contents #main div.main_inner p.img_align img{
+	padding:0 1px 0 0;
+}
+
+/* ============ goods =============== */
+
+#contents #main div.main_inner div.goods{
+	position:relative;
+	float:left;
+	width:225px;
+	padding:0 0 6px 0;
+	background:transparent url(../../build/img/bg_goos-box-btm.gif) no-repeat left bottom;
+}
+#contents #main div.main_inner div.coloras,
+#contents #main div.main_inner div.classic{
+	margin-right:5px;
+}
+
+#contents #main div.main_inner div.goods div.goods_inner{
+	min-height:320px;
+	_height:320px;
+	background:transparent url(../../build/img/bg_goos-box.gif) repeat-y left top;
+}
+
+#contents #main div.main_inner div.goods h2{
+	margin:0;
+	padding:0;
+	background:none;
+}
+#contents #main div.main_inner div.goods p{
+	margin:0;
+}
+#contents #main div.main_inner div.goods p.goods_img img{
+	margin:0 0 0 2px;
+	border-top:1px solid #BBBBBB;
+	border-bottom:1px solid #BBBBBB;
+}
+
+#contents #main div.main_inner div.goods p.note{
+	padding:10px 10px 20px 10px;
+}
+
+#contents #main div.main_inner div.goods p.detail_link{
+	position:absolute;
+	left:0;
+	bottom:16px;
+	width:225px;
+	text-align:center;
+}
+
+/* ============ color as =============== */
+
+div#main p.goods{
+	border-bottom:5px double #7A7A7A;
+	padding:5px 0pt 9px 16px;
+}
+#contents #main div#coloras h1,
+#contents #main div#classic h1,
+#contents #main div#renace h1{
+	margin:0;
+	padding:0;
+	border:none;
+}
+#contents #main div#coloras h2 {
+	margin:0 0 0 0;
+}
+#contents #main div#coloras h3 {
+	margin:0 0 7px 0;
+	border-bottom:3px double #996633;
+}
+#contents #main p.catch {
+	font-weight:bold;
+	color:#996633;
+	margin:15px 0 15px 0;
+}
+#contents #main div.color_catch {
+	margin:18px 0 16px 0;
+	text-align:center;
+	border-bottom:2px solid #996633;
+}
+#contents #main p.color_ttl {
+	font-weight:bold;
+}
+#contents #main p.color_ttl span {
+	color:#990000;
+}
+#contents #main div.color_catch p {
+	margin:0 0 16px 0;
+}
+#contents #main div.color_question_box {
+	float:left;
+	width:335px;
+}
+#contents #main div.color_question_box p {
+	margin:0 0 20px 0;
+}
+#contents #main p.comparing {
+	float:right;
+	width:329px;
+	margin:22px 0 0 0;
+}
+#contents #main div.coloras_box_btm {
+	width:689px;
+	margin:0 0 30px 0;
+	padding:0 0 23px 0;
+	background:url(../../build/img/bg_color-as-box-btm.gif) no-repeat left bottom;
+}
+#contents #main div.coloras_box {
+	width:649px;
+	padding:18px 17px 0 17px;
+	border-right:3px solid #ADD0ED;
+	border-left:3px solid #ADD0ED;
+}
+#contents #main div.coloras_box div.concept_txt {
+	float:left;
+	width:475px;
+}
+#contents #main div.coloras_box div.concept_txt p {
+	padding:0 0 0 3px;
+}
+#contents #main div.coloras_box div.concept_pic {
+	float:right;
+	width:155px;
+	margin:14px 0 0 0;
+}
+#contents #main div.coloras_box div.concept_pic p {
+	margin:0 0 1px 0;
+}
+#contents #main div.coloras_box div.quality_box {
+float:left;
+width:139px;
+padding:0 10px 0 12px;
+}
+#contents #main div.coloras_box div.quality_box p.catch {
+margin:5px 0 5px 0;
+}
+#contents #main div.after_service_btm {
+	width:689px;
+	margin:0 0 30px 0;
+	padding:0 0 23px 0;
+	background:url(../../build/img/bg_after-service-btm.gif) no-repeat left bottom;
+}
+#contents #main div.after_service {
+	width:666px;
+	padding:0 17px 0 0;
+	border-right:3px solid #B7B7B7;
+	border-left:3px solid #B7B7B7;
+}
+#contents #main div.after_service .as_lft {
+	float:left;
+	width:316px;
+	padding:0 0 0 17px;
+}
+#contents #main div.after_service .as_lft.cl {
+	clear:both;
+}
+#contents #main div.after_service p.catch {
+	padding:15px 0 5px 0;
+}
+#contents #main div.after_service p.catch sup {
+padding:0 0 0 0;
+}
+
+#contents #main div.after_service p {
+	margin:0 0 0 0;
+}
+#contents #main div.inquiry{
+	padding:23px 0 0 0;
+	background:url(../../build/img/bg_catalog-top.gif) no-repeat left top;
+}
+
+#contents #main div.inquiry_btm{
+	padding:0 0 23px 0;
+	background:url(../../build/img/bg_catalog-btm.gif) no-repeat left bottom;
+	text-align:center;
+	font-weight:bold;
+}
+#contents #main div.inquiry_inner {
+	margin:0;
+	background:url(../../build/img/bg_catalog-middle.gif) repeat-y left top;
+}
+#contents #main div.inquiry_inner p {
+margin:0 0 0 0;
+}
+#contents #main div.inquiry_inner p.rc_pic {
+	float:left;
+	width:237px;
+	padding:0 0 0 20px;
+}
+#contents #main div.inquiry_inner p.rc_pic img {
+	padding:0 1px 0 0;
+}
+#contents #main div.inquiry_inner .rc_txt {
+	float:left;
+	width:385px;
+	padding:0 0 0 20px;
+	font-weight:normal;
+	text-align:left;
+}
+#contents #main div.inquiry_inner .rc_txt p.btn_rc {
+	margin:10px 0 0 0;
+	text-align:center;
+}
+#contents #main div.color_series_l {
+	float:left;
+	width:285px;
+	padding:40px 0 0 20px;
+}
+#contents #main div.color_series_r {
+	float:right;
+	width:285px;
+	padding:40px 20px 0 0;
+}
+#contents #main div.annotation {
+	width:690px;
+	border:1px solid #BBBBBB;
+}
+#contents #main div.annotation ul {
+margin:16px 20px 10px 56px;
+}
+#contents #main div.annotation ul li {
+padding:0 0 5px 0;
+text-indent:-36px;
+}
+
+#contents #main div.annotation span {
+	padding:0 12px 0 0;
+}
+#contents #main div.annotation p {
+margin:0 20px 16px 20px;
+}
+
+/* ============ classic =============== */
+#contents #main div#classic h2.title{
+	clear:both;
+	background:none;
+	color:#996633;
+	font-weight:bold;
+	margin:0;
+	padding:20px 0 20px 10px;
+	line-height:1.6;
+}
+#contents #main div#classic div.img_left,
+#contents #main div#classic div.img_right{
+	clear:both;
+}
+
+#contents #main div#classic div.img_left p.img{
+	float:left;
+	width:346px;
+}
+#contents #main div#classic div.monitor p.img{
+	width:190px;
+}
+
+#contents #main div#classic div.img_left p.text{
+	float:right;
+	width:328px;
+}
+#contents #main div#classic div.monitor p.text{
+	width:490px;
+}
+#contents #main div#classic div.img_right p.img{
+	float:right;
+	width:346px;
+}
+#contents #main div#coloras div.img_right p.text{
+	float:left;
+	width:342px;
+}
+#contents #main div#classic div.img_right p.text{
+	float:left;
+	width:320px;
+}
+/* ============ renace =============== */
+#contents #main div#renace h3 {
+	padding:0 0 1px 0;
+	margin:0 0 10px 0;
+	border-bottom:2px solid #996633;
+}
+#contents #main div#renace div.img_right p.text {
+	float:left;
+	width:400px;
+}
+#contents #main div#renace div.img_right p.img {
+	float:right;
+	width:285px;
+}
+#contents #main div#renace div.img_right p.storage {
+	width:179px;
+	padding:0 45px 0 0;
+}
+#contents #main div#renace div.sound_i p.text {
+	float:left;
+	width:330px;
+}
+#contents #main div#renace div.sound_i p.img {
+	float:right;
+	width:340px;
+}
+#contents #main div#renace div.usability_text {
+	float:left;
+	width:390px;
+}
+#contents #main div#renace p.usability_img {
+	float:right;
+	width:277px;
+}
+#contents #main div#renace p.usability_img img {
+	padding:0 1px 10px 0;
+}
+#contents #main div#renace p.usability_img img.u_img_rgt {
+	padding:0 0 10px 17px;
+}
+
+#contents #main div#renace div.variability_box p.text {
+	float:left;
+	width:400px;
+}
+#contents #main div#renace div.variability_img {
+	float:right;
+	width:250px;
+}
+
+variability_img
+
+/* ============ quality =============== */
+#contents #main div#quality p.catch {
+	margin:0 0 15px 0;
+	font-weight:bold;
+	color:#996633;
+}
+#contents #main div#quality div.quality_txt {
+	float:left;
+	width:515px;
+}
+#contents #main div#quality div.quality_txt p {
+	margin:0 0 20px 0;
+}
+#contents #main div#quality div.quality_txt p span {
+	padding:0 0 0 10px;
+	font-weight:bold;
+}
+#contents #main div#quality div.quality_pic {
+	float:right;
+	width:162px;
+}
+#contents #main div#quality div.quality_pic p {
+	margin:0 0 1px 0;
+}
+#contents #main div#quality div.quality_pic img {
+	display:block;
+}
+#contents #main div#quality p.quality_thum {
+	width:690px;
+	margin:0 0 35px 0;
+}
+#contents #main div#quality p.quality_thum img {
+	padding:0 1px 0 0;
+}
+#contents #main div#quality h3 {
+	padding:0 0 3px 0;
+	margin:0 0 10px 0;
+	border-bottom:2px solid #996633;
+}
+
+/* ============ skill =============== */
+#contents #main div#skill h2 {
+	margin:30px 0 0 0;
+}
+#contents #main div#skill div.skill_box_btm {
+	width:689px;
+	padding:0 0 23px 0;
+	background:url(../../build/img/bg_skill-box-btm.gif) no-repeat left bottom;
+}
+#contents #main div#skill div.skill_box {
+	padding:15px 10px 0 15px;
+	border-left:3px solid #CDB79F;
+	border-right:3px solid #CDB79F;
+}
+#contents #main div#skill div.skill_box div.skill_txt {
+	float:left;
+	width:470px;
+}
+#contents #main div#skill div.skill_box div.skill_txt p {
+	padding:0 0 15px 0;
+}
+#contents #main div#skill div.skill_box div.skill_txt p.txt_last {
+	padding:0 0 0 0;
+}
+#contents #main div#skill div.skill_box div.skill_pic {
+	float:right;
+	width:171px;
+}
+/* ============ c_result =============== */
+#contents #main div#c_result p.b_result_lft {
+	float:left;
+	width:345px;
+}
+#contents #main div#c_result ul.b_result_pic {
+	float:left;
+	width:344px;
+}
+#contents #main div#c_result ul.b_result_pic li {
+	float:left;
+	width:171px;
+	padding:0 0 1px 1px;
+}
+#contents #main div#c_result ul.b_result_pic li img {
+	display:block;
+}
+#contents #main div#c_result p.royal {
+	color:#996633;
+}
+#contents #main div#c_result p.royal span {
+	font-weight:bold;
+}
+#contents #main ul.object_box {
+	width:690px;
+	margin:20px 0 30px 0;
+}
+#contents #main ul.object_box li {
+	float:left;
+	width:137px;
+	height:100px;
+	padding:0 0 1px 1px;
+}
+#contents #main ul.object_box li img {
+	display:block;
+}
+#contents #main p.result_date {
+	text-align:right;
+}
+
+
+

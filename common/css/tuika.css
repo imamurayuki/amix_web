@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Information =====================================
+File name: layout.css
+Description: layoutbase
+======================================================*/
+
+.section .box2 h4 span {
+	font-size:10px;
+	font-weight:normal;
+	
+}

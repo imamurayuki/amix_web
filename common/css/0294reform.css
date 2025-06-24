@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+
+.read {
+	margin-top:30px;
+	margin-bottom:10px !important;
+	padding-bottom:0px !important;
+}
+#contents div.itemBoxL dt a,
+#contents div.itemBoxR dt a{
+	display:block;
+	height:15px !important;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#contents div dd .next {
+	margin-left:180px;
+}
+#contents div dd .next a {
+	display:block;
+	height:16px !important;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#contents div dl#bt1 dt a
+{
+	background:transparent url("../img/reform/bt1.gif") no-repeat 0 0;
+}
+#contents div dl#bt2 dt a
+{
+	background:transparent url("../img/reform/bt2.gif") no-repeat 0 0;
+}
+#contents div dl#bt3 dt a
+{
+	background:transparent url("../img/reform/bt3.gif") no-repeat 0 0;
+}
+#contents div dl#bt4 dt a
+{
+	background:transparent url("../img/reform/bt4.gif") no-repeat 0 0;
+}
+#contents div dl#bt5 dt a
+{
+	background:transparent url("../img/reform/bt5.gif") no-repeat 0 0;
+}
+#contents div dl#bt6 dt a
+{
+	background:transparent url("../img/reform/bt6.gif") no-repeat 0 0;
+}
+#contents div dl dd .next a
+{
+	background:transparent url("../img/reform/more.gif") no-repeat 0 0;
+}
+
+#contents div dl#bt1 dt a:hover,
+#contents div dl#bt2 dt a:hover,
+#contents div dl#bt3 dt a:hover,
+#contents div dl#bt4 dt a:hover,
+#contents div dl#bt5 dt a:hover,
+#contents div dl#bt6 dt a:hover
+{
+	background-position:0 -15px;
+}
+
+#contents div dl dd .next a:hover
+{
+	background-position:0 -16px;
+}
+#contents .seko
+{
+	margin-bottom:40px;
+}
+#contents div.conts
+{
+	text-align:center;	
+}
+.mb80 {
+	margin-bottom:80px;
+}
+#contents div.conts li {
+	margin-bottom:25px;
+}
+#contents div.conts ul {
+	margin-bottom: 50px;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 30px;
+	
+}
+#mainContents .tab {
+	margin-top:50px;
+	border-bottom: 1px solid #CCC;
+}
+
+#mainContents .tab .navi li {
+	float: left;
+	height: 25px;
+	width: 130px;
+	border-top: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	line-height:27px;
+	margin-right:6px;
+}
+
+#mainContents .tab .navi li a {
+	height: 25px;
+	width: 130px;
+	display:block;
+}
+
+.tab .navi li a:hover, .tab .navi li.on a {
+	color:#000 !important;
+	background-color:#CCC;
+}
+
+
+.tabarea {
+	display:none;
+}

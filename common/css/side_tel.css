@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Information =====================================
+File name: layout.css
+Description: layoutbase
+======================================================*/
+
+
+/* サイド下ボタン */
+
+
+
+
+
+
+#contents div#sideContents div#sideBtn02{
+	height:110px;
+	margin-bottom:30px;
+}
+#contents div#sideContents div#sideBtn02 p#contact01{
+	
+	top:0;
+}
+

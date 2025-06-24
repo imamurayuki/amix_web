@@ -1,0 +1,4851 @@
+@charset "UTF-8";
+/* CSS Information =====================================
+File name: layout.css
+Description: layoutbase
+======================================================*/
+body{
+	background:#FFFFFF;
+	color:#333333;
+	margin:0 auto;
+	border-top:4px solid #0B4CAA;
+	font-size:12px;
+}
+
+.clear{
+	clear:both;
+}
+
+a{
+	color:#333333;
+	text-decoration:none;
+  outline:none;
+}
+
+a:hover{
+	color:#0B4BAA;
+	text-decoration:none;
+}
+
+/* wrapper
+======================================================*/
+div#wrapper{
+  margin:0 auto;
+  padding:0;
+  position:relative;
+  text-align:left;
+  width:950px;
+}
+
+.iconNew {
+	padding:0 0 4px 5px;
+}
+/* ヘッダー
+======================================================*/
+#header {
+	position:relative;
+	padding:20px 0 0 0;
+	zoom:1;
+}
+
+#header div#description {
+	position:absolute;
+	top:25px;
+	left:210px;
+	margin:0 200px 0 0;
+}
+
+#header div#description h1{
+	font-size:10px;
+	display:inline;
+	margin-left:10px;
+}
+
+#header ul#headerNavi {
+	position:absolute;
+	top:30px;
+	left:741px;
+	width:208px;
+}
+
+#header ul#headerNavi li{
+	float:left;
+	display:inline;
+}
+
+#header ul#headerNavi li a{
+	display:block;
+	height:10px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#header ul#headerNavi li#hnavi01 a{
+	background:transparent url("../img/h_navi01.jpg") no-repeat scroll left top;
+	width:49px;
+}
+
+#header ul#headerNavi li#hnavi02 a{
+	background:transparent url("../img/h_navi02.jpg") no-repeat scroll left top;
+	width:72px;
+}
+
+#header ul#headerNavi li#hnavi03 a{
+	background:transparent url("../img/h_navi03.jpg") no-repeat scroll left top;
+	width:87px;
+}
+
+#header ul#headerNavi li#hnavi01 a:hover,
+#header ul#headerNavi li#hnavi02 a:hover,
+#header ul#headerNavi li#hnavi03 a:hover
+{
+	background-position:0 -10px;
+}
+#header ul#headerNavi li#hnavi01_f a{
+	background:transparent url("../img/h_navi01.jpg") no-repeat scroll left top;
+	background-position:0 -10px;
+	width:49px;
+}
+#header ul#headerNavi li#hnavi02_f a{
+	background:transparent url("../img/h_navi02.jpg") no-repeat scroll left top;
+	background-position:0 -10px;
+	width:72px;
+}
+#header ul#headerNavi li#hnavi03_f a{
+	background:transparent url("../img/h_navi03.jpg") no-repeat scroll left top;
+	background-position:0 -10px;
+	width:87px;
+}
+
+#header ul#globalNavi {
+	position:absolute;
+	top:50px;
+	left:210px;
+	zoom:1;
+}
+
+#header ul#globalNavi:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#header ul#globalNavi li{
+	float:left;
+	display:inline;
+}
+
+#header ul#globalNavi a{
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	height:26px;
+}
+
+#header ul#globalNavi li#item01 a{
+	background:transparent url("../img/gnavi01.jpg") no-repeat scroll left top;
+	width:51px;
+}
+
+#header ul#globalNavi li#item02 a{
+	background:transparent url("../img/gnavi02.jpg") no-repeat scroll left top;
+	width:66px;
+}
+
+#header ul#globalNavi li#item03 a{
+	background:transparent url("../img/gnavi03.jpg") no-repeat scroll left top;
+	width:85px;
+}
+
+#header ul#globalNavi li#item04 a{
+	background:transparent url("../img/gnavi04.jpg") no-repeat scroll left top;
+	width:95px;
+}
+
+#header ul#globalNavi li#item05 a{
+	background:transparent url("../img/gnavi05.jpg") no-repeat scroll left top;
+	width:99px;
+}
+
+#header ul#globalNavi li#item06 a{
+	background:transparent url("../img/gnavi06.jpg") no-repeat scroll left top;
+	width:97px;
+}
+
+#header ul#globalNavi li#item07 a{
+	background:transparent url("../img/gnavi07.jpg") no-repeat scroll left top;
+	width:94px;
+}
+
+#header ul#globalNavi li#item08 a{
+	background:transparent url("../img/gnavi08.jpg") no-repeat scroll left top;
+	width:88px;
+}
+
+#header ul#globalNavi li#item09 a{
+	background:transparent url("../img/gnavi09.jpg") no-repeat scroll left top;
+	width:65px;
+}
+
+#header ul#globalNavi li#item01 a:hover,
+#header ul#globalNavi li#item02 a:hover,
+#header ul#globalNavi li#item03 a:hover,
+#header ul#globalNavi li#item04 a:hover,
+#header ul#globalNavi li#item05 a:hover,
+#header ul#globalNavi li#item06 a:hover,
+#header ul#globalNavi li#item07 a:hover,
+#header ul#globalNavi li#item08 a:hover,
+#header ul#globalNavi li#item09 a:hover {
+	background-position:0 -26px;
+}
+
+#header ul#globalNavi li#item01_f a{
+	background:transparent url("../img/gnavi01.jpg") no-repeat scroll left top;
+	background-position:0 -26px;
+	width:51px;
+}
+
+#header ul#globalNavi li#item02_f a{
+	background:transparent url("../img/gnavi02.jpg") no-repeat scroll left top;
+	background-position:0 -26px;
+	width:66px;
+}
+
+#header ul#globalNavi li#item03_f a{
+	background:transparent url("../img/gnavi03.jpg") no-repeat scroll left top;
+	background-position:0 -26px;
+	width:85px;
+}
+
+#header ul#globalNavi li#item04_f a{
+	background:transparent url("../img/gnavi04.jpg") no-repeat scroll left top;
+	background-position:0 -26px;
+	width:95px;
+}
+
+#header ul#globalNavi li#item05_f a{
+	background:transparent url("../img/gnavi05.jpg") no-repeat scroll left top;
+	background-position:0 -26px;
+	width:99px;
+}
+
+#header ul#globalNavi li#item06_f a{
+	background:transparent url("../img/gnavi06.jpg") no-repeat scroll left top;
+	background-position:0 -26px;
+	width:97px;
+}
+
+#header ul#globalNavi li#item07_f a{
+	background:transparent url("../img/gnavi07.jpg") no-repeat scroll left top;
+	background-position:0 -26px;
+	width:94px;
+}
+
+#header ul#globalNavi li#item08_f a{
+	background:transparent url("../img/gnavi08.jpg") no-repeat scroll left top;
+	background-position:0 -26px;
+	width:88px;
+}
+
+#header ul#globalNavi li#item09_f a{
+	background:transparent url("../img/gnavi09.jpg") no-repeat scroll left top;
+	background-position:0 -26px;
+	width:65px;
+}
+
+/* メインビジュアル
+======================================================*/
+#mainVisual {
+	margin:35px 0 0 0;
+	width:100%;
+	zoom:1;
+	height:auto;
+}
+
+#mainVisual:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#mainVisual ul#localNavi{
+	float:left;
+	display:inline;
+	width:272px;
+	list-style-position:outside;
+	font-size:0;
+}
+
+#mainVisual img#mainVisualImg {
+	float:right;
+	display:inline;
+	width:672px;
+}
+#mainVisual h2#mainVisualImg {
+	clear:none;
+	float:right;
+	display:inline;
+	width:672px;
+}
+
+#mainVisual ul#localNavi li#localNavi01 a{
+	background:transparent url("../img/local_navi01.jpg") no-repeat scroll left top;
+	width:272px;
+	height:72px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#mainVisual ul#localNavi li#localNavi02 a{
+	background:transparent url("../img/local_navi02.jpg") no-repeat scroll left top;
+	width:272px;
+	height:72px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#mainVisual ul#localNavi li#localNavi03 a{
+	background:transparent url("../img/local_navi03.jpg") no-repeat scroll left top;
+	width:272px;
+	height:72px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#mainVisual ul#localNavi li#localNavi01 a:hover,
+#mainVisual ul#localNavi li#localNavi02 a:hover,
+#mainVisual ul#localNavi li#localNavi03 a:hover {
+	background-position:0 -72px;
+}
+
+#mainVisual ul#localNavi li#localNavi01_f a{
+	background:transparent url("../img/local_navi01.jpg") no-repeat scroll left top;
+	width:272px;
+	height:72px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-position:0 -72px;
+}
+
+#mainVisual ul#localNavi li#localNavi02_f a{
+	background:transparent url("../img/local_navi02.jpg") no-repeat scroll left top;
+	width:272px;
+	height:72px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-position:0 -72px;
+}
+
+#mainVisual ul#localNavi li#localNavi03_f a{
+	background:transparent url("../img/local_navi03.jpg") no-repeat scroll left top;
+	width:272px;
+	height:72px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-position:0 -72px;
+}
+
+
+/*20110301 ADD*/
+/*iphone/ipad用の表示*/
+#mainVisual #noFlash ul#localNavi li#localNavi01 a{
+	background:transparent url("../img/nf_local_navi01.jpg") no-repeat scroll left top;
+	width:272px;
+	height:80px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#mainVisual #noFlash ul#localNavi li#localNavi02 a{
+	background:transparent url("../img/nf_local_navi02.jpg") no-repeat scroll left top;
+	width:272px;
+	height:80px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#mainVisual #noFlash ul#localNavi li#localNavi03 a{
+	background:transparent url("../img/nf_local_navi03.jpg") no-repeat scroll left top;
+	width:272px;
+	height:80px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#mainVisual #noFlash ul#localNavi li#localNavi01 a:hover,
+#mainVisual #noFlash ul#localNavi li#localNavi02 a:hover,
+#mainVisual #noFlash ul#localNavi li#localNavi03 a:hover {
+	background-position:0 -80px;
+}
+
+#mainVisual #noFlash ul#localNavi li#localNavi01_f a{
+	background:transparent url("../img/nf_local_navi01.jpg") no-repeat scroll left top;
+	width:272px;
+	height:80px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-position:0 -80px;
+}
+
+#mainVisual #noFlash ul#localNavi li#localNavi02_f a{
+	background:transparent url("../img/nf_local_navi02.jpg") no-repeat scroll left top;
+	width:272px;
+	height:80px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-position:0 -80px;
+}
+
+#mainVisual #noFlash ul#localNavi li#localNavi03_f a{
+	background:transparent url("../img/nf_local_navi03.jpg") no-repeat scroll left top;
+	width:272px;
+	height:80px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-position:0 -80px;
+}
+#mainVisual #noFlash ul#localNavi li#localNavi04 {
+  margin-top:5px;
+}
+#mainVisual #noFlash ul#localNavi li#localNavi04 a{
+	background:transparent url("../img/nf_local_navi04.jpg") no-repeat scroll left top;
+	width:272px;
+	height:60px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#mainVisual #noFlash ul#localNavi li#localNavi04 a:hover {
+	background-position:0 -60px;
+}
+#mainVisual #noFlash ul#localNavi li#localNavi04_f a{
+	background:transparent url("../img/nf_local_navi04.jpg") no-repeat scroll left top;
+	width:272px;
+	height:60px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-position:0 -72px;
+}
+
+h2.notFound img {
+  padding-left:5px;
+}
+
+/* Not Foundページ
+======================================================*/
+div#contentsNotFound{
+	width:950px;
+	margin-top:45px;
+	/*margin-bottom:90px;*/
+	margin-bottom:60px;
+	overflow:hidden;
+	position:relative;
+	zoom:1;
+	background:url("../img/not_found/bg_notfound.gif") repeat-y 0 0;
+}
+div#contentsNotFound p{
+  font-size:15px;
+  text-align:center;
+  padding:5px 0;
+  line-height:1.6;
+}
+/*20110301 ADD END*/
+/*20110425 ADD*/
+/* お問合わせ完了ページ
+======================================================*/
+div#contentsContactThanks{
+	width:950px;
+	margin-top:45px;
+	/*margin-bottom:90px;*/
+	margin-bottom:60px;
+	overflow:hidden;
+	position:relative;
+	zoom:1;
+	background:url("../img/not_found/bg_notfound.gif") repeat-y 0 0;
+}
+div#contentsContactThanks p{
+  font-size:15px;
+  text-align:center;
+  padding:5px 0 60px 0;
+  line-height:1.6;
+}
+
+/*20110425 ADD END*/
+
+/* パンくずリスト
+======================================================*/
+ul.topicPath {
+	padding:10px 0;
+	zoom:1;
+}
+
+ul.topicPath:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+ul.topicPath li {
+	background:transparent url("../img/path_mark.gif") no-repeat scroll right 50%;
+	display:inline;
+	margin-bottom:0;
+	padding-left:5px;
+	padding-right:15px;
+	white-space:nowrap;
+	font-size:11px;
+}
+
+ul.topicPath li.pathStart {
+	padding-left:0;
+	padding-right:15px;
+}
+
+ul.topicPath li.this {
+	background:none;
+}
+
+ul.topicPath li a{
+	color:#333333;
+}
+
+ul.topicPath li.this a{
+	color:#0B4BAA;
+	font-weight:bold;
+}
+
+ul.topicPath li a:hover,
+ul.topicPath li.this a:hover {
+	text-decoration:underline;
+}
+
+ul.bottomTopicPath {
+	margin-top:40px;
+}
+
+/* コンテンツ
+======================================================*/
+
+/* トップページコンテンツ*/
+#contentsTop {
+	width:950px;
+	margin-top:45px;
+	height:auto;
+	zoom:1;
+}
+
+#contentsTop:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contentsTop div#sideContents{
+	float:left;
+	display:inline;
+	width:163px;
+	height:auto;
+}
+
+#contentsTop div#sideContents p{
+	margin-bottom:15px;
+}
+#contentsTop div#sideContents02{
+	float:left;
+	display:inline;
+	width:163px;
+	height:auto;
+}
+
+#contentsTop div#sideContents02 p{
+	margin-bottom:12px;
+}
+#contentsTop div#sideContents03{
+	float:left;
+	display:inline;
+	width:163px;
+	height:auto;
+}
+
+#contentsTop div#sideContents03 p{
+	margin-bottom:3px;
+}
+#contentsTop div#sideContents p#contact01 a{
+	background:transparent url("../img/contact01.jpg") no-repeat scroll left top;
+	width:163px;
+	height:109px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#contentsTop div#sideContents p#contact01 a:hover{
+	background-position:0 -109px;
+}
+
+#contentsTop div#sideContents p#contact02 a{
+	background:transparent url("../img/contact02.jpg") no-repeat scroll left top;
+	width:163px;
+	height:69px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contentsTop div#sideContents p#contact02 a:hover{
+	background-position:0 -69px;
+}
+
+#contentsTop div#sideContents p#question a{
+	background:transparent url("../img/question.jpg") no-repeat scroll left top;
+	width:163px;
+	height:40px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contentsTop div#sideContents p#question a:hover{
+	background-position:0 -40px;
+}
+
+#contentsTop div#sideContents p#facebook a{
+	background:transparent url("../img/facebook.gif") no-repeat scroll left top;
+	width:163px;
+	height:30px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contentsTop div#sideContents p#facebook a:hover{
+	background-position:0 -30px;
+}
+
+#contentsTop div#sideContents p#kitaayase a{
+	background:transparent url("../img/339kitaayase.gif") no-repeat scroll left top;
+	width:163px;
+	height:30px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contentsTop div#sideContents p#kitaayase a:hover{
+	background-position:0 -30px;
+}
+
+#contentsTop div#sideContents p#group1 a{
+	background:transparent url("../img/bnr_group1.gif") no-repeat scroll left top;
+	width:163px;
+	height:30px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contentsTop div#sideContents p#group1 a:hover{
+	background-position:0 -30px;
+}
+
+#contentsTop div#sideContents p#group2 a{
+	background:transparent url("../img/bnr_group2.gif") no-repeat scroll left top;
+	width:163px;
+	height:30px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contentsTop div#sideContents p#group2 a:hover{
+	background-position:0 -30px;
+}
+
+#contentsTop div#sideContents p#group3 a{
+	background:transparent url("../img/bnr_group3.gif") no-repeat scroll left top;
+	width:163px;
+	height:30px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contentsTop div#sideContents p#group3 a:hover{
+	background-position:0 -30px;
+}
+
+#contentsTop div#sideContents p#group4 a{
+	background:transparent url("../img/bnr_group4.gif") no-repeat scroll left top;
+	width:163px;
+	height:30px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contentsTop div#sideContents p#group4 a:hover{
+	background-position:0 -30px;
+}
+
+#contentsTop div#sideContents p#group5 a{
+	background:transparent url("../img/bnr_group5.gif") no-repeat scroll left top;
+	width:163px;
+	height:30px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contentsTop div#sideContents p#group5 a:hover{
+	background-position:0 -30px;
+}
+
+#contentsTop div#sideContents div#corporation{
+	border:1px solid #CCCCCC;
+	margin-bottom:15px;
+}
+
+#contentsTop div#sideContents div#corporation h2 a{
+	background:transparent url("../img/top/tit_corporation.jpg") no-repeat scroll left top;
+	width:161px;
+	height:24px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contentsTop div#sideContents div#corporation h2 a:hover{
+	background-position:0 -24px;
+}
+
+#contentsTop div#sideContents ul#corporationInner{
+	padding:10px;
+}
+
+#contentsTop div#sideContents ul#corporationInner li{
+	background:transparent url("../img/square.jpg") no-repeat scroll left top;
+	background-position:0 0.5em;
+	line-height:1.4;
+	padding-left:15px;
+}
+
+#contentsTop div#sideContents div#blog a{
+	background:transparent url("../img/blog.jpg") no-repeat scroll left top;
+	width:161px;
+	height:74px;
+	border:1px solid #CCCCCC;
+	margin-bottom:15px;
+	position:relative;
+	display:block;
+}
+#contentsTop div#sideContents div#blog1 a{
+	background:transparent url("../img/blog1.jpg") no-repeat scroll left top;
+	width:161px;
+	height:74px;
+	border:1px solid #CCCCCC;
+	margin-bottom:15px;
+	position:relative;
+	display:block;
+}
+#contentsTop div#sideContents div#blog2 a{
+	background:transparent url("../img/blog2.jpg") no-repeat scroll left top;
+	width:161px;
+	height:74px;
+	border:1px solid #CCCCCC;
+	margin-bottom:15px;
+	position:relative;
+	display:block;
+}
+
+#contentsTop div#sideContents div#blog a:hover{
+	border:1px solid #6699CC;
+}
+#contentsTop div#sideContents div#blog1 a:hover{
+	border:1px solid #6699CC;
+}
+#contentsTop div#sideContents div#blog2 a:hover{
+	border:1px solid #6699CC;
+}
+
+#contentsTop div#sideContents div#blog a span.title{
+	background:transparent url("../img/tit_blog.jpg") no-repeat scroll left top;
+	width:65px;
+	height:13px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+#contentsTop div#sideContents div#blog1 a span.title{
+	background:transparent url("../img/tit_blog1.gif") no-repeat scroll left top;
+	width:125px;
+	height:13px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+#contentsTop div#sideContents div#blog2 a span.title{
+	background:transparent url("../img/tit_blog2.gif") no-repeat scroll left top;
+	width:125px;
+	height:13px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+#contentsTop div#sideContents div#blog a:hover span.title{
+	background-position:0 -13px;
+}
+#contentsTop div#sideContents div#blog1 a:hover span.title{
+	background-position:0 -13px;
+}
+#contentsTop div#sideContents div#blog2 a:hover span.title{
+	background-position:0 -13px;
+}
+#contentsTop div#sideContents div#blog span.text{
+	position:absolute;
+	top:27px;
+	left:10px;
+	line-height:1.3;
+	color:#333333;
+}
+#contentsTop div#sideContents div#blog1 span.text{
+	position:absolute;
+	top:27px;
+	left:10px;
+	line-height:1.3;
+	color:#333333;
+}
+#contentsTop div#sideContents div#blog2 span.text{
+	position:absolute;
+	top:27px;
+	left:10px;
+	line-height:1.3;
+	color:#333333;
+}
+
+#contentsTop div#mainContents{
+	float:right;
+	display:inline;
+	height:auto;
+	zoom:1;
+	width:767px;
+}
+
+#contentsTop div#mainContents:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contentsTop div#mainContents div#centerContents{
+	float:left;
+	display:inline;
+	width:517px;
+}
+
+#contentsTop div#mainContents div#centerContents div#amixNews h2 a{
+	background:transparent url("../img/top/tit_news.jpg") no-repeat scroll left top;
+	width:517px;
+	height:27px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#contentsTop div#mainContents div#centerContents div#amixNews h2 a:hover{
+	background-position:0 -27px;
+}
+
+#contentsTop div#mainContents div#centerContents div#amixNews li{	
+	border-bottom:1px dotted #CCCCCC;
+	line-height:1.5;
+	padding-top:7px;
+	zoom:1;
+	width:100%;
+}
+
+#contentsTop div#mainContents div#centerContents div#amixNews li:after{	
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contentsTop div#mainContents div#centerContents div#amixNews span.date{	
+	padding:0 5px;
+	width:65px;
+	float:left;
+	display:inline;
+}
+
+#contentsTop div#mainContents div#centerContents div#amixNews span.title{	
+	width:430px;
+	display:block;
+	cursor:hand;
+	float:left;
+	*float:none;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList {
+	zoom:1;
+	width:100%;
+	margin-top:30px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink{
+	float:left;
+	display:inline;
+	width:251px;
+}
+
+div#leftLink div#ownerApproach a,
+div#rightLink div#ownerVoice a,
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li a,
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li a,
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding div.building a img{
+	border:1px solid #CCCCCC;
+}
+
+div#leftLink div#ownerApproach a:hover,
+div#rightLink div#ownerVoice a:hover,
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li a:hover,
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li a:hover,
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding div.building a:hover img{
+	border:1px solid #6699CC;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li,
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li{
+	margin-bottom:11px;
+}
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink div#ownerApproach a{
+	background:transparent url("../img/top/owner_approach.jpg") no-repeat scroll left top;
+	width:249px;
+	height:87px;
+	position:relative;
+	margin-bottom:16px;
+	display:block;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink div#ownerApproach a span.title{
+	background:transparent url("../img/h3_owner_approach.jpg") no-repeat scroll left top;
+	width:153px;
+	height:15px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	left:80px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink div#ownerApproach a:hover span.title{
+	background-position:0 -15px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink div#ownerApproach span.text{
+	position:absolute;
+	top:28px;
+	left:80px;
+	color:#333333;
+	line-height:1.5;
+}
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li a,
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li a{
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li#colorSeries a{
+	background:transparent url("../img/top/color_series.jpg") no-repeat scroll left top;
+	width:249px;
+	height:41px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li#ribbonSystem a{
+	background:transparent url("../img/top/ribbon_system.jpg") no-repeat scroll left top;
+	width:249px;
+	height:41px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li#otoku a{
+	background:transparent url("../img/top/otoku.jpg") no-repeat scroll left top;
+	width:249px;
+	height:41px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li#amixRooms a{
+	background:transparent url("../img/top/classic_series.jpg") no-repeat scroll left top;
+	width:249px;
+	height:41px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li#amixPic a{
+	background:transparent url("../img/top/amipic.jpg") no-repeat scroll left top;
+	width:249px;
+	height:41px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li#colorSeries a:hover,
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li#ribbonSystem a:hover,
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li#supportClub a:hover,
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li#otoku a:hover,
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li#amixRooms a:hover,
+#contentsTop div#mainContents div#centerContents div#linksList div#leftLink li#amixPic a:hover{
+	background-position:0 -41px;
+}
+
+
+
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink{
+	float:right;
+	display:inline;
+	width:251px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink div#ownerVoice a{
+	background:transparent url("../img/top/owner_voice.jpg") no-repeat scroll left top;
+	width:249px;
+	height:87px;
+	position:relative;
+	margin-bottom:16px;
+	display:block;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink div#ownerVoice a span.title{
+	background:transparent url("../img/h3_owner_voice.jpg") no-repeat scroll left top;
+	width:153px;
+	height:15px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	left:80px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink div#ownerVoice a:hover span.title{
+	background-position:0 -15px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink div#ownerVoice span#mainText{
+	position:absolute;
+	top:28px;
+	left:80px;
+	color:#333333;
+	line-height:1.5;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink div#ownerVoice span#ownerName{
+	position:absolute;
+	top:68px;
+	left:95px;
+	font-size:11px;
+	color:#333333;
+	line-height:1.5;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li#classicSeries a{
+	background:transparent url("../img/top/color_h_series.jpg") no-repeat scroll left top;
+	width:249px;
+	height:41px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li#campaign a{
+	background:transparent url("../img/top/campaign.jpg") no-repeat scroll left top;
+	width:249px;
+	height:41px;
+}
+
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li#amicomBukken a{
+	background:transparent url("../img/top/amix_rooms.jpg") no-repeat scroll left top;
+	width:249px;
+	height:41px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li#sensupo a{
+	background:transparent url("../img/top/sensupo.jpg") no-repeat scroll left top;
+	width:249px;
+	height:41px;
+}
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li#classicSeries a:hover,
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li#campaign a:hover,
+
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li#amicomBukken a:hover,
+#contentsTop div#mainContents div#centerContents div#linksList div#rightLink li#sensupo a:hover  {
+	background-position:0 -41px;
+}
+
+#contentsTop div#mainContents div#rightContents{
+	float:right;
+	display:inline;
+	width:230px;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding{
+	border:2px solid #CCCCCC;
+	padding:10px;
+	width:auto;
+	
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding h2#info a{
+	background:transparent url("../img/top/tit_info.jpg") no-repeat scroll left top;
+	width:206px;
+	height:20px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;	
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding h2#info a:hover{
+	background-position:0 -20px;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding h2#info2 a{
+	background:transparent url("../img/top/tit_info2.jpg") no-repeat scroll left top;
+	width:206px;
+	height:20px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;	
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding h2#info2 a:hover{
+	background-position:0 -20px;
+
+}
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding h2#info3 a{
+	background:transparent url("../img/top/tit_info3.jpg") no-repeat scroll left top;
+	width:206px;
+	height:20px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;	
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding h2#info3 a:hover{
+	background-position:0 -20px;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding ul#infoList li{
+	border-bottom:1px dotted #CCCCCC;
+	line-height:1.5;
+	clear:both;
+	padding-top:5px;
+	zoom:1;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding ul#infoList li:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding ul#infoList li span{
+	padding:0 5px;
+	width:75px;
+	float:left;
+	display:inline;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding h2#making a{
+	background:transparent url("../img/top/tit_making.jpg") no-repeat scroll left top;
+	width:206px;
+	height:20px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin-top:18px;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding h2#making a:hover{
+	background-position:0 -20px;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding h2#pastResults a{
+	background:transparent url("../img/top/tit_past_results.jpg") no-repeat scroll left top;
+	width:206px;
+	height:22px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin-top:18px;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding h2#pastResults a:hover{
+	background-position:0 -22px;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding div.building{
+	zoom:1;
+	margin-top:8px;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding div.building:after{
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding div.building img{
+	float:left;
+	display:inline;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding div.building div.textWrap{
+	float:right;
+	display:inline;
+	width:118px;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding div.building div.textWrap h3{
+	font-weight:bold;
+}
+
+#contentsTop div#mainContents div#rightContents div#apartmentBuilding div.building div.textWrap p{
+	font-size:11px;
+	line-height:1.5;
+}
+
+#contentsTop div#mainContents div#rightContents ul#siteLinks {
+	padding:18px 10px;
+	line-height:2;
+}
+
+#contentsTop div#mainContents div#rightContents ul#siteLinks li{
+	background:transparent url("../img/square.jpg") no-repeat scroll 0 0.8em;
+	padding-left:15px;
+}
+#contentsTop div#mainContents div#rightContents ul#siteLinks2 {
+	padding:10px 10px;
+	line-height:2;
+}
+#contentsTop div#mainContents div#rightContents ul#siteLinks2 li{
+	background:transparent url("../img/square.jpg") no-repeat scroll 0 0.8em;
+	padding-left:15px;
+}
+#contentsTop div#mainContents div#rightContents ul#siteLinks3 {
+	padding:0px 0px;
+	line-height:2;
+}
+#contentsTop div#mainContents div#rightContents ul#siteLinks3 li{
+	background:transparent url("../img/square.jpg") no-repeat scroll 0 0.8em;
+	padding-left:15px;
+}
+
+
+/* 下層ページコンテンツ（基本レイアウト）*/
+div#contents{
+	width:950px;
+	margin-top:45px;
+	margin-bottom:90px;
+	overflow:hidden;
+	position:relative;
+	zoom:1;
+}
+
+#contents:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contents div#sideContents,
+#contents div#mainContents{
+	padding-bottom:32767px;  
+	margin-bottom:-32767px;  
+	height:100%
+}
+
+#contents div#sideContents{
+	float:left;
+	display:inline;
+	width:250px;
+	padding-left:18px;
+	background:transparent url("../img/side_navi/sideContentsBorder.jpg") repeat-y scroll left top;
+}
+
+#contents div#mainContents{
+	float:right;
+	display:inline;
+	width:637px;
+	padding-left:25px;
+	padding-right:20px;
+	background:transparent url("../img/mainContentsBorder.jpg") repeat-y scroll;
+}
+/* 下層ページコンテンツ見出し・本文 */
+#contents div#mainContents .subTitle {
+	line-height:1.6;
+	padding-top:20px;
+	color:#0B4BAA;
+	font-size:18px;
+	font-weight:bold;
+}
+#contents div#mainContents p.mainText{
+	padding:0 0 45px;
+	line-height:1.5;
+	font-size:16px;
+}
+#contents div#mainContents p.mainText02{
+	line-height:1.5;
+	padding:0 0 16px;
+	font-size:16px;
+}
+#contents div#mainContents p.mainText03{
+	line-height:1.5;
+	padding:40px 0;
+	font-size:16px;
+}
+#contents div#mainContents p.mainText04{
+	line-height:1.5;
+	padding:0 0 30px;
+	font-size:16px;
+}
+
+/* 下層ページコンテンツ共通 */
+#contents div#mainContents .first {
+	border-top:1px dotted #424242;
+}
+
+#contents div#mainContents .photoCenter {
+	text-align:center;
+}
+
+#contents div#mainContents .box01 {
+	clear:both;
+	padding:20px 20px 0;
+	background-color:#F0F0EB;
+	zoom:1;
+}
+#contents div#mainContents .box01:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents div#mainContents .box01 h3 ,
+#contents div#mainContents .box01 h4 {
+	padding-bottom:5px;
+}
+#contents div#mainContents .box01 p {
+	line-height:1.5;
+	padding-bottom:25px;
+	font-size:16px;
+}
+#contents div#mainContents .box01 ul {
+	line-height:1.5;
+	padding-bottom:25px;
+	font-size:16px;
+}
+#contents div#mainContents .box01 li {
+	padding-left:15px;
+	background:url("../img/sub_lease/nyukyosya01.gif") no-repeat 0 50%;
+}
+#contents div#mainContents .box01 .photo {
+	float:right;
+	padding-left:15px;
+	padding-bottom:25px;
+}
+
+
+/* サイドナビ
+======================================================*/
+#contents div#sideContents h2 {
+	margin-bottom:10px;
+}
+#contents div#sideContents ul.sideNavi{
+	width:auto;
+}
+
+#contents div#sideContents ul.sideNavi li{
+	font-size:0;
+	line-height:0;
+	margin-bottom:5px;
+}
+#contents div#sideContents ul.sideNavi li a {
+	width:232px;
+	height:22px;
+}
+/*20120404 ADD*/
+/*#contents div#sideContents ul.sideNavi li#sideNavi02 a,
+#contents div#sideContents ul.sideNavi li#sideNavi02_f a {
+	height:36px;
+}*/
+#contents div#sideContents ul.sideNavi li.contactNavi02 a {
+	height:36px;
+}
+/*END 20120404 ADD*/
+
+#contents div#sideContents h2#aboutNaviTop a,
+#contents div#sideContents h2#aboutNaviTop_f a,
+#contents div#sideContents h2#applicationNaviTop a,
+#contents div#sideContents h2#applicationNaviTop_f a,
+#contents div#sideContents h2#apartmentNaviTop a,
+#contents div#sideContents h2#apartmentNaviTop_f a,
+#contents div#sideContents h2#subLeaseNaviTop a,
+#contents div#sideContents h2#subLeaseNaviTop_f a,
+#contents div#sideContents h2.faqNaviTop a,
+#contents div#sideContents h2.faqNaviTop_f a,
+#contents div#sideContents h2#contactNaviTop a,
+#contents div#sideContents h2#contactNaviTop_f a,
+#contents div#sideContents h2#sentoukuraNaviTop a,
+#contents div#sideContents h2#sentoukuraNaviTop_f a,
+#contents div#sideContents h2#kozinzyouNaviTop a,
+#contents div#sideContents h2#newsNaviTop a,
+#contents div#sideContents h2#pressreleaNaviTop a,
+#contents div#sideContents h2#businessNaviTop a,
+#contents div#sideContents ul.sideNavi li a{
+	display:block;
+	width:232px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+/* サイドナビ（企業情報）*/
+#contents div#sideContents h2#aboutNaviTop a{
+	background:transparent url("../img/side_navi/about/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/about/side_navi01.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi02 a{
+	background:transparent url("../img/side_navi/about/side_navi02.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#aboutNavi li#sideNavi03 a{
+	background:transparent url("../img/side_navi/about/side_navi03.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#aboutNavi li#sideNavi04 a{
+	background:transparent url("../img/side_navi/about/side_navi04.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#aboutNavi li#sideNavi05 a{
+	background:transparent url("../img/side_navi/about/side_navi05.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi06 a{
+	background:transparent url("../img/side_navi/about/side_navi06.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi07 a{
+	background:transparent url("../img/side_navi/about/side_navi07.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#aboutNavi li#sideNavi08 a{
+	background:transparent url("../img/side_navi/about/side_navi08.gif") no-repeat scroll left top;
+}
+/* サイドナビ（企業情報）：マウスオーバー:フォーカス時*/
+#contents div#sideContents h2#aboutNaviTop_f a ,
+#contents div#sideContents h2#aboutNaviTop a:hover{
+	background:transparent url("../img/side_navi/about/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi01_f a,
+#contents div#sideContents ul#aboutNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/about/side_navi01_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi02_f a,
+#contents div#sideContents ul#aboutNavi li#sideNavi02 a:hover{
+	background:transparent url("../img/side_navi/about/side_navi02_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi03_f a,
+#contents div#sideContents ul#aboutNavi li#sideNavi03 a:hover{
+	background:transparent url("../img/side_navi/about/side_navi03_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi04_f a,
+#contents div#sideContents ul#aboutNavi li#sideNavi04 a:hover{
+	background:transparent url("../img/side_navi/about/side_navi04_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi05_f a,
+#contents div#sideContents ul#aboutNavi li#sideNavi05 a:hover{
+	background:transparent url("../img/side_navi/about/side_navi05_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi06_f a,
+#contents div#sideContents ul#aboutNavi li#sideNavi06 a:hover{
+	background:transparent url("../img/side_navi/about/side_navi06_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi07_f a,
+#contents div#sideContents ul#aboutNavi li#sideNavi07 a:hover{
+	background:transparent url("../img/side_navi/about/side_navi07_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#aboutNavi li#sideNavi08_f a,
+#contents div#sideContents ul#aboutNavi li#sideNavi08 a:hover{
+	background:transparent url("../img/side_navi/about/side_navi08_f.gif") no-repeat scroll left top;
+}
+/* サイドナビ（土地活用）*/
+#contents div#sideContents h2#applicationNaviTop a{
+	background:transparent url("../img/side_navi/application/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#applicationNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/application/side_navi01.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#applicationNavi li#sideNavi02 a{
+	background:transparent url("../img/side_navi/application/side_navi02.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#applicationNavi li#sideNavi03 a{
+	background:transparent url("../img/side_navi/application/side_navi03.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#applicationNavi li#sideNavi04 a{
+	background:transparent url("../img/side_navi/application/side_navi04.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#applicationNavi li#sideNavi05 a{
+	background:transparent url("../img/side_navi/application/side_navi05.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（土地活用）：マウスオーバー:フォーカス時*/
+#contents div#sideContents h2#applicationNaviTop_f a ,
+#contents div#sideContents h2#applicationNaviTop a:hover{
+	background:transparent url("../img/side_navi/application/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#applicationNavi li#sideNavi01_f a,
+#contents div#sideContents ul#applicationNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/application/side_navi01_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#applicationNavi li#sideNavi02_f a,
+#contents div#sideContents ul#applicationNavi li#sideNavi02 a:hover{
+	background:transparent url("../img/side_navi/application/side_navi02_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#applicationNavi li#sideNavi03_f a,
+#contents div#sideContents ul#applicationNavi li#sideNavi03 a:hover{
+	background:transparent url("../img/side_navi/application/side_navi03_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#applicationNavi li#sideNavi04_f a,
+#contents div#sideContents ul#applicationNavi li#sideNavi04 a:hover{
+	background:transparent url("../img/side_navi/application/side_navi04_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#applicationNavi li#sideNavi05_f a,
+#contents div#sideContents ul#applicationNavi li#sideNavi05 a:hover{
+	background:transparent url("../img/side_navi/application/side_navi05_f.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（アパート建築）*/
+#contents div#sideContents h2#apartmentNaviTop a{
+	background:transparent url("../img/side_navi/build/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/build/side_navi01.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi02 a{
+	background:transparent url("../img/side_navi/build/side_navi02.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#apartmentNavi li#sideNavi03 a{
+	background:transparent url("../img/side_navi/build/side_navi03.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#apartmentNavi li#sideNavi04 a{
+	background:transparent url("../img/side_navi/build/side_navi04.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#apartmentNavi li#sideNavi05 a{
+	background:transparent url("../img/side_navi/build/side_navi05.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#apartmentNavi li#sideNavi06 a{
+	background:transparent url("../img/side_navi/build/side_navi06.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#apartmentNavi li#sideNavi07 a{
+	background:transparent url("../img/side_navi/build/side_navi07.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#apartmentNavi li#sideNavi08 a{
+	background:transparent url("../img/side_navi/build/side_navi08.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi09 a{
+	background:transparent url("../img/side_navi/build/side_navi09.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi10 a{
+	background:transparent url("../img/side_navi/build/side_navi10.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi11 a{
+	background:transparent url("../img/side_navi/build/side_navi11.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi12 a{
+	background:transparent url("../img/side_navi/build/side_navi12.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi13 a{
+	background:transparent url("../img/side_navi/build/side_navi13.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi14 a{
+	background:transparent url("../img/side_navi/build/side_navi14.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（アパート建築）：マウスオーバー:フォーカス時*/
+#contents div#sideContents h2#apartmentNaviTop_f a ,
+#contents div#sideContents h2#apartmentNaviTop a:hover{
+	background:transparent url("../img/side_navi/build/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi01_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi01_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi02_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi02 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi02_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi03_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi03 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi03_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi04_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi04 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi04_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi05_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi05 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi05_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi06_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi06 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi06_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi07_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi07 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi07_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi08_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi08 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi08_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi09_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi09 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi09_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi10_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi10 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi10_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi11_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi11 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi11_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi12_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi12 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi12_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi13_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi13 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi13_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#apartmentNavi li#sideNavi14_f a,
+#contents div#sideContents ul#apartmentNavi li#sideNavi14 a:hover{
+	background:transparent url("../img/side_navi/build/side_navi14_f.gif") no-repeat scroll left top;
+}
+
+
+/* サイドナビ（サブリース）*/
+#contents div#sideContents h2#subLeaseNaviTop a{
+	background:transparent url("../img/side_navi/sub_lease/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#subLeaseNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/sub_lease/side_navi01.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#subLeaseNavi li#sideNavi02 a{
+	background:transparent url("../img/side_navi/sub_lease/side_navi02.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#subLeaseNavi li#sideNavi03 a{
+	background:transparent url("../img/side_navi/sub_lease/side_navi03.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#subLeaseNavi li#sideNavi04 a{
+	background:transparent url("../img/side_navi/sub_lease/side_navi04.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#subLeaseNavi li#sideNavi05 a{
+	background:transparent url("../img/side_navi/sub_lease/side_navi05.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#subLeaseNavi li#sideNavi06 a{
+	background:transparent url("../img/side_navi/sub_lease/side_navi06.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#subLeaseNavi li#sideNavi07 a{
+	background:transparent url("../img/side_navi/sub_lease/side_navi07.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#subLeaseNavi li#sideNavi08 a{
+	background:transparent url("../img/side_navi/sub_lease/side_navi08.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（サブリース）：マウスオーバー:フォーカス時*/
+#contents div#sideContents h2#subLeaseNaviTop_f a ,
+#contents div#sideContents h2#subLeaseNaviTop a:hover{
+	background:transparent url("../img/side_navi/sub_lease/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#subLeaseNavi li#sideNavi01_f a,
+#contents div#sideContents ul#subLeaseNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/sub_lease/side_navi01_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#subLeaseNavi li#sideNavi02_f a,
+#contents div#sideContents ul#subLeaseNavi li#sideNavi02 a:hover{
+	background:transparent url("../img/side_navi/sub_lease/side_navi02_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#subLeaseNavi li#sideNavi03_f a,
+#contents div#sideContents ul#subLeaseNavi li#sideNavi03 a:hover{
+	background:transparent url("../img/side_navi/sub_lease/side_navi03_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#subLeaseNavi li#sideNavi04_f a,
+#contents div#sideContents ul#subLeaseNavi li#sideNavi04 a:hover{
+	background:transparent url("../img/side_navi/sub_lease/side_navi04_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#subLeaseNavi li#sideNavi05_f a,
+#contents div#sideContents ul#subLeaseNavi li#sideNavi05 a:hover{
+	background:transparent url("../img/side_navi/sub_lease/side_navi05_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#subLeaseNavi li#sideNavi06_f a,
+#contents div#sideContents ul#subLeaseNavi li#sideNavi06 a:hover{
+	background:transparent url("../img/side_navi/sub_lease/side_navi06_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#subLeaseNavi li#sideNavi07_f a,
+#contents div#sideContents ul#subLeaseNavi li#sideNavi07 a:hover{
+	background:transparent url("../img/side_navi/sub_lease/side_navi07_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#subLeaseNavi li#sideNavi08_f a,
+#contents div#sideContents ul#subLeaseNavi li#sideNavi08 a:hover{
+	background:transparent url("../img/side_navi/sub_lease/side_navi08_f.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（FAQ）*/
+#contentsFaq div.faqSide h2.faqNaviTop a{
+	background:transparent url("../img/side_navi/faq/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi01 a{
+	background:transparent url("../img/side_navi/faq/side_navi01.gif") no-repeat scroll left top;
+}
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi02 a{
+	background:transparent url("../img/side_navi/faq/side_navi02.gif") no-repeat scroll left top;
+}
+
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi03 a{
+	background:transparent url("../img/side_navi/faq/side_navi03.gif") no-repeat scroll left top;
+}
+
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi04 a{
+	background:transparent url("../img/side_navi/faq/side_navi04.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（FAQ）：マウスオーバー:フォーカス時*/
+#contentsFaq div.faqSide h2.faqNaviTop_f a ,
+#contentsFaq div.faqSide h2.faqNaviTop a:hover{
+	background:transparent url("../img/side_navi/faq/side_navi_f.gif") no-repeat scroll left top!important;
+	height:22px!important;
+}
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi01_f a,
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/faq/side_navi01_f.gif") no-repeat scroll left top;
+}
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi02_f a,
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi02 a:hover{
+	background:transparent url("../img/side_navi/faq/side_navi02_f.gif") no-repeat scroll left top;
+}
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi03_f a,
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi03 a:hover{
+	background:transparent url("../img/side_navi/faq/side_navi03_f.gif") no-repeat scroll left top;
+}
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi04_f a,
+#contentsFaq div.faqSide ul.faqNavi li.sideNavi04 a:hover{
+	background:transparent url("../img/side_navi/faq/side_navi04_f.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（お問い合わせ）*/
+#contents div#sideContents h2#contactNaviTop a{
+	background:transparent url("../img/side_navi/contact/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#contactNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/contact/side_navi01.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#contactNavi li#sideNavi02 a{
+	background:transparent url("../img/side_navi/contact/side_navi02.gif") no-repeat scroll left top;
+  height:36px;
+}
+
+#contents div#sideContents ul#contactNavi li#sideNavi03 a{
+	background:transparent url("../img/side_navi/contact/side_navi03.gif") no-repeat scroll left top;
+}
+
+#contents div#sideContents ul#contactNavi li#sideNavi04 a{
+	background:transparent url("../img/side_navi/contact/side_navi04.gif") no-repeat scroll left top;
+  height:36px;
+}
+
+
+/* サイドナビ（お問い合わせ）：マウスオーバー:フォーカス時*/
+#contents div#sideContents h2#contactNaviTop_f a ,
+#contents div#sideContents h2#contactNaviTop a:hover{
+	background:transparent url("../img/side_navi/contact/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#contactNavi li#sideNavi01_f a,
+#contents div#sideContents ul#contactNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/contact/side_navi01_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#contactNavi li#sideNavi02_f a,
+#contents div#sideContents ul#contactNavi li#sideNavi02 a:hover{
+	background:transparent url("../img/side_navi/contact/side_navi02_f.gif") no-repeat scroll left top;
+  height:36px;
+}
+#contents div#sideContents ul#contactNavi li#sideNavi03_f a,
+#contents div#sideContents ul#contactNavi li#sideNavi03 a:hover{
+	background:transparent url("../img/side_navi/contact/side_navi03_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#contactNavi li#sideNavi04_f a,
+#contents div#sideContents ul#contactNavi li#sideNavi04 a:hover{
+	background:transparent url("../img/side_navi/contact/side_navi04_f.gif") no-repeat scroll left top;
+  height:36px;
+}
+
+
+/* サイドナビ（個人情報について）*/
+#contents div#sideContents h2#kozinzyouNaviTop a{
+	background:transparent url("../img/side_navi/kozinzyou/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#kozinzyouNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/kozinzyou/side_navi01.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（個人情報について）：マウスオーバー:フォーカス時*/
+#contents div#sideContents h2#kozinzyouNaviTop_f a ,
+#contents div#sideContents h2#kozinzyouNaviTop a:hover{
+	background:transparent url("../img/side_navi/kozinzyou/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#kozinzyouNavi li#sideNavi01_f a,
+#contents div#sideContents ul#kozinzyouNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/kozinzyou/side_navi01_f.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（お知らせ）*/
+#contents div#sideContents h2#newsNaviTop a{
+	background:transparent url("../img/side_navi/news/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#newsNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/news/side_navi01.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（お知らせ）：マウスオーバー:フォーカス時*/
+#contents div#sideContents h2#newsNaviTop_f a ,
+#contents div#sideContents h2#newsNaviTop a:hover{
+	background:transparent url("../img/side_navi/news/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#newsNavi li#sideNavi01_f a,
+#contents div#sideContents ul#newsNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/news/side_navi01_f.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（銭湯サポートクラブ）*/
+#contents div#sideContents h2#sentoukuraNaviTop a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi01.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi02 a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi02.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（銭湯サポートクラブ）：マウスオーバー:フォーカス時*/
+#contents div#sideContents h2#sentoukuraNaviTop_f a ,
+#contents div#sideContents h2#sentoukuraNaviTop a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi01_f a,
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi01_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi02_f a,
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi02 a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi02_f.gif") no-repeat scroll left top;
+}
+/* サイドナビ（プレスリリース）*/
+#contents div#sideContents h2#pressreleaNaviTop a{
+	background:transparent url("../img/side_navi/pressrelea/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#pressreleaNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/pressrelea/side_navi01.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（プレスリリース）：マウスオーバー:フォーカス時*/
+#contents div#sideContents h2#pressreleaNaviTop_f a ,
+#contents div#sideContents h2#pressreleaNaviTop a:hover{
+	background:transparent url("../img/side_navi/pressrelea/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#pressreleaNavi li#sideNavi01_f a,
+#contents div#sideContents ul#pressreleaNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/pressrelea/side_navi01_f.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（ビジネスパートナー募集）*/
+#contents div#sideContents h2#businessNaviTop a{
+	background:transparent url("../img/side_navi/business/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#businessNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/business/side_navi01.gif") no-repeat scroll left top;
+}
+
+/* サイドナビ（ビジネスパートナー募集）：マウスオーバー:フォーカス時*/
+#contents div#sideContents h2#businessNaviTop_f a ,
+#contents div#sideContents h2#businessNaviTop a:hover{
+	background:transparent url("../img/side_navi/business/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#businessNavi li#sideNavi01_f a,
+#contents div#sideContents ul#businessNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/business/side_navi01_f.gif") no-repeat scroll left top;
+}
+
+
+
+/* インナーナビ */
+#contents div#sideContents ul.sideNavi ul.innerNavi {
+	padding-left:30px;
+}
+
+#contents div#sideContents ul.sideNavi ul.innerNavi li {
+	font-size:14px;
+	line-height:1.5;
+	font-weight:bold;
+	margin-top:5px;
+}
+
+#contents div#sideContents ul.sideNavi ul.innerNavi li a{
+	width: 202px;
+	background:none !important;
+	display:inline;
+	text-indent:1px;
+}
+
+#contents div#sideContents ul.sideNavi ul.innerNavi a:hover {
+	color:#0B4BAA;
+}
+#contents div#sideContents ul.sideNavi ul.innerNavi li.this a{
+	color:#0B4BAA;
+}
+
+
+/* サイドナビ（アパート建築） */
+#contents div#sideContents ul.sideNavi ul.innerNavi li#sideNavi14_01 a {
+	display: block;
+	background:transparent url("../img/side_navi/build/side_navi14_01.gif") no-repeat scroll left top!important;
+	text-indent: -9999px;
+}
+#contents div#sideContents ul.sideNavi ul.innerNavi li#sideNavi14_01_f a,
+#contents div#sideContents ul.sideNavi ul.innerNavi li#sideNavi14_01 a:hover{
+	display: block;
+	background:transparent url("../img/side_navi/build/side_navi14_01_f.gif") no-repeat scroll left top!important;
+	text-indent: -9999px;
+}
+
+#contents div#sideContents ul.sideNavi ul.innerNavi li#sideNavi14_02 a {
+	display: block;
+	background:transparent url("../img/side_navi/build/side_navi14_02.gif") no-repeat scroll left top!important;
+	text-indent: -9999px;
+}
+#contents div#sideContents ul.sideNavi ul.innerNavi li#sideNavi14_02_f a,
+#contents div#sideContents ul.sideNavi ul.innerNavi li#sideNavi14_02 a:hover{
+	display: block;
+	background:transparent url("../img/side_navi/build/side_navi14_02_f.gif") no-repeat scroll left top!important;
+	text-indent: -9999px!important;
+}
+
+
+/* サイド下ボタン */
+
+#contents div#sideContents div#sideBtn{
+	height:110px;
+	margin-top:100px;
+}
+#contents div#sideContents div#sideBtn p#contact01{
+	position:absolute;
+	bottom:0;
+}
+#contents div#sideContents p#contact01 a{
+	background:transparent url("../img/contact01.jpg") no-repeat scroll left top;
+	width:163px;
+	height:109px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#contents div#sideContents p#contact01 a:hover{
+	background-position:0 -109px;
+}
+
+
+
+/* 企業情報
+======================================================*/
+#contents div#mainContents .about {
+	clear:both;
+	zoom:1;
+	border-bottom:1px dotted #424242;
+}
+#contents div#mainContents .about:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contents div#mainContents div.about div.itemBoxL ,
+#contents div#mainContents div.about div.itemBoxR {
+	display:block;
+	width:318px;
+	padding:24px 0;
+	zoom:1;
+}
+#contents div#mainContents div.about div.itemBoxL{
+	float:left;
+}
+#contents div#mainContents div.about div.itemBoxR{
+	float:right;
+}
+
+#contents div#mainContents div.about div.itemBoxL dl,
+#contents div#mainContents div.about div.itemBoxR dl {
+	line-height:1.4;
+	padding:0 15px 0 20px;
+}
+
+#contents div#mainContents div.about div.itemBoxL dt a ,
+#contents div#mainContents div.about div.itemBoxR dt a{
+	display:block;
+	height:45px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contents div#mainContents div.about dl#contItem01 dt a{background:transparent url("../img/about/tit_item01.jpg") no-repeat 0 0;}
+#contents div#mainContents div.about dl#contItem02 dt a{background:transparent url("../img/about/tit_item02.jpg") no-repeat 0 0;}
+#contents div#mainContents div.about dl#contItem03 dt a{background:transparent url("../img/about/tit_item03.jpg") no-repeat 0 0;}
+#contents div#mainContents div.about dl#contItem04 dt a{background:transparent url("../img/about/tit_item04.jpg") no-repeat 0 0;}
+#contents div#mainContents div.about dl#contItem05 dt a{background:transparent url("../img/about/tit_item05.jpg") no-repeat 0 0;}
+#contents div#mainContents div.about dl#contItem06 dt a{background:transparent url("../img/about/tit_item06.jpg") no-repeat 0 0;}
+#contents div#mainContents div.about dl#contItem07 dt a{background:transparent url("../img/about/tit_item07.jpg") no-repeat 0 0;}
+#contents div#mainContents div.about dl#contItem08 dt a{background:transparent url("../img/about/tit_item08.jpg") no-repeat 0 0;}
+
+#contents div#mainContents div.about dl#contItem01 dt a:hover,
+#contents div#mainContents div.about dl#contItem02 dt a:hover,
+#contents div#mainContents div.about dl#contItem03 dt a:hover,
+#contents div#mainContents div.about dl#contItem04 dt a:hover,
+#contents div#mainContents div.about dl#contItem05 dt a:hover,
+#contents div#mainContents div.about dl#contItem06 dt a:hover,
+#contents div#mainContents div.about dl#contItem07 dt a:hover,
+#contents div#mainContents div.about dl#contItem08 dt a:hover{
+	background-position:0 -45px;
+}
+
+/* 企業情報 - 経営理念
+======================================================*/
+#policyText {
+	padding-right:187px;
+	background:url("../img/about/policy01.jpg") no-repeat 100% 20px;
+}
+#policyText p {
+	line-height:1.5;
+	padding-bottom:20px;
+	font-size:16px;
+}
+
+/* 企業情報 - 会社概要
+======================================================*/
+#outline dl {
+	margin-top:20px;
+}
+#outline dt {
+	clear: both;
+	display: inline;
+	float: left;
+	width: 9em;
+	line-height:1.7;
+	margin-right: -9em;
+	padding:16px 0;
+	border-top:1px dotted #333333;
+	font-size:16px;
+	font-weight:bold;
+}
+#outline dd {
+	line-height:1.7;
+	margin-left: 9em;
+	padding: 16px 0;
+	border-top:1px dotted #333333;
+	font-size:16px;
+}
+#outline dd img {
+	padding-top:30px;
+}
+#outline dd span.yakuin {
+	display:inline-block;
+	width:8.5em;
+}
+
+/* 企業情報 - 会社沿革
+======================================================*/
+#history dl {
+	margin-top:20px;
+	border-bottom:1px dotted #333333;
+}
+#history dt {
+	position:relative;
+	clear: both;
+	display: inline;
+	float: left;
+	width: 8em;
+	line-height:1.5;
+	margin-right: -8em;
+	padding:10px 0;
+	border-top:1px dotted #333333;
+	font-size:16px;
+}
+#history dt span.month {
+	position:absolute;
+	right:1em;
+}
+#history dd {
+	line-height:1.5;
+	margin-left: 8em;
+	padding:10px 0;
+	border-top:1px dotted #333333;
+	font-size:16px;
+}
+
+/* 企業情報 - 組織図
+======================================================*/
+#soshikizu {
+	margin-top:15px;
+	padding-top:35px;
+	border-top:1px dotted #333333;
+}
+
+/* 企業情報 - 支店・営業所
+======================================================*/
+#sitenEigyouTit {
+	padding-bottom:20px;
+}
+#contents div#mainContents .sitenEigyou {
+	clear:both;
+	zoom:1;
+	padding:20px 0 0;
+	border-top:1px dotted #424242;
+}
+
+.sitenEigyou dl {
+	zoom:1;
+	padding:0 0 20px;
+}
+.sitenEigyou dl:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+.sitenEigyou dt {
+	padding-bottom:0px;
+}
+.sitenEigyou dd {
+	line-height:1.5;
+	font-size:16px;
+}
+.sitenEigyou dd.sitenEigyouAddress {
+	display:block;
+	float:left;
+	width:280px;
+}
+.sitenEigyou dd.sitenEigyouAddress strong {
+	font-weight:bold;
+}
+.sitenEigyouAddressBody {
+	padding-left: 1em;
+}
+.sitenEigyou dd.sitenEigyouMap ,
+.sitenEigyou dd.sitenEigyouMap2 {
+	display:block;
+	float:right;
+	width:345px;
+	margin-top:-22px;
+}
+.sitenEigyou dd.sitenEigyouMap2 {
+	margin-top:-44px;
+}
+.sitenEigyou h3 {
+	padding:0 0 10px;
+}
+
+/* 企業情報 - 採用情報
+======================================================*/
+#saiyouText {
+	padding:10px 0 60px;
+}
+.saiyou {
+	clear:both;
+	margin-bottom:30px;
+	border-top:1px solid #0B4BAA;
+}
+.saiyou:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+.saiyou h3 {
+	line-height:1.5;
+	padding-top:10px;
+	color:#0B4BAA;
+	font-size:18px;
+	font-weight:bold;
+}
+.saiyou p {
+	line-height:1.5;
+	padding-top:5px;
+	padding-bottom:10px;
+	font-size:16px;
+}
+.saiyou dt {
+	clear:both;
+	display:inline;
+	float:left;
+	width:5em;
+	line-height:1.5;
+	margin-right:-5em;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-top:1px dotted #a0a0a0;
+	font-size:16px;
+	font-weight:bold;
+}
+.saiyou dd {
+	line-height:1.5;
+	margin-left:5em;
+	padding:10px 10px 10px 0;
+	border-top:1px dotted #a0a0a0;
+	font-size:16px;
+}
+
+#contents div#mainContents .saiyou .first {
+	border:none;
+}
+
+/* 企業情報 - 社会貢献
+======================================================*/
+#volunteerTit {
+	padding-bottom:20px;
+}
+.volunteer {
+	border-top:1px dotted #424242;
+}
+
+.volunteer h3 {
+	line-height:1.5;
+	padding-top:20px;
+	padding-bottom:5px;
+	color:#0B4BAA;
+	font-size:16px;
+	font-weight:bold;
+}
+.volunteer h4 {
+	line-height:1.5;
+	padding-top:20px;
+	font-size:16px;
+	font-weight:bold;
+}
+.volunteer dl.photo {
+	display:block;
+	width:290px;
+	margin:0 auto;
+	padding-top:40px;
+	padding-bottom:25px;
+}
+.volunteer dl.photo dd {
+	line-height:1.4;
+	padding-top:5px;
+	padding-bottom:25px;
+	color:#666666;
+}
+.volunteer table.jisseki {
+	margin-bottom:20px;
+}
+.volunteer table.jisseki caption {
+	line-height:1.5;
+	padding-bottom:5px;
+	color:#0B4BAA;
+	font-size:16px;
+	font-weight:bold;
+}
+.volunteer table.jisseki td {
+	line-height:1.6;
+	padding-right:25px;
+	font-size:16px;
+}
+ul.volunteerLink {
+	line-height:1.5;
+	padding-bottom:30px;
+	font-size:16px;
+}
+ul.volunteerLink li {
+	padding-left:20px;
+	background:url("../img/sub_lease/azukarikin01.gif") no-repeat 0 50%;
+}
+
+/* 土地活用
+======================================================*/
+#contents div#mainContents .application {
+	clear:both;
+	zoom:1;
+	border-bottom:1px dotted #424242;
+}
+#contents div#mainContents .application:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contents div#mainContents div.application div.itemBoxL ,
+#contents div#mainContents div.application div.itemBoxR {
+	display:block;
+	width:318px;
+	padding:24px 0;
+	zoom:1;
+}
+#contents div#mainContents div.application div.itemBoxL{
+	float:left;
+}
+#contents div#mainContents div.application div.itemBoxR{
+	float:right;
+}
+
+#contents div#mainContents div.application div.itemBoxL img ,
+#contents div#mainContents div.application div.itemBoxR img{
+	float:left;
+	display:block;
+	padding-right:10px;
+}
+
+#contents div#mainContents div.application div.itemBoxL dl,
+#contents div#mainContents div.application div.itemBoxR dl {
+	line-height:1.4;
+	padding:0 15px 0 20px;
+}
+
+#contents div#mainContents div.application div.itemBoxL dt a ,
+#contents div#mainContents div.application div.itemBoxR dt a{
+	display:block;
+	height:18px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contents div#mainContents div.application dl#contItem01 dt a{background:transparent url("../img/application/tit_item01.gif") no-repeat 0 0;}
+#contents div#mainContents div.application dl#contItem02 dt a{background:transparent url("../img/application/tit_item02.gif") no-repeat 0 0;}
+#contents div#mainContents div.application dl#contItem03 dt a{background:transparent url("../img/application/tit_item03.gif") no-repeat 0 0;}
+#contents div#mainContents div.application dl#contItem04 dt a{background:transparent url("../img/application/tit_item04.gif") no-repeat 0 0;}
+#contents div#mainContents div.application dl#contItem05 dt a{background:transparent url("../img/application/tit_item05.gif") no-repeat 0 0;}
+
+#contents div#mainContents div.application dl#contItem01 dt a:hover,
+#contents div#mainContents div.application dl#contItem02 dt a:hover,
+#contents div#mainContents div.application dl#contItem03 dt a:hover,
+#contents div#mainContents div.application dl#contItem04 dt a:hover,
+#contents div#mainContents div.application dl#contItem05 dt a:hover{
+	background-position:0 -18px;
+}
+#contents div#mainContents div.application div.itemBoxL dd ,
+#contents div#mainContents div.application div.itemBoxR dd {
+	padding-top:10px;
+	font-size:13px;
+}
+
+/* 土地活用 - オーナー様へのご提案 */
+#ownersamaheTit {
+	min-height:275px;
+	background:url("../img/application/ownersamahe01.jpg") no-repeat 0 0;
+}
+#ownersamaheTit h2 ,
+#ownersamaheTit h3 ,
+#ownersamaheTit p {
+	margin-left:280px;
+	margin-right:12px;
+}
+#ownersamaheTit h2 {
+	padding-top:15px;
+	padding-bottom:13px;
+	padding-left:12px;
+	border-top:1px solid #cfcfcf;
+	border-bottom:1px dotted #A0A0A0;
+}
+#ownersamaheTit h3 {
+	padding-top:18px;
+	padding-bottom:15px;
+	padding-left:12px;
+	border-bottom:1px solid #cfcfcf;
+}
+#ownersamaheTit p {
+	padding-top:40px;
+}
+
+#ownersamahe h3 {
+	line-height:1.5;
+	font-size:18px;
+	font-weight:bold;
+}
+#ownersamahe p {
+	line-height:1.5;
+	padding-bottom:30px;
+	font-size:16px;
+}
+#ownersamahe p.ownersamaheInfo {
+	line-height:1.6;
+	font-size:16px;
+	text-align:right;
+}
+#ownersamahe ul {
+	width:568px;
+	margin:0 auto 80px;
+	border:1px solid #d8d8d8;
+}
+#ownersamahe li {
+	display:inline;
+}
+#ownersamahe li img {
+	padding:9px 9px;
+}
+
+/* 土地活用 - コンサルティング */
+#consultingText p  {
+	margin:0 0 30px;
+	line-height:1.5;
+	font-size:16px;
+}
+#consultingText h4 {
+	line-height:1.5;
+	font-size:18px;
+	font-weight:bold;
+}
+#consultingText .consultingBox {
+	position:relative;
+	width:627px;
+	margin-bottom:40px;
+}
+#consultingText .consultingBox .photo {
+	position:absolute;
+	top:20px;
+	right:0;
+}
+#consultingText dl {
+	display:block;
+	padding:15px;
+	border:1px solid #cccccc;
+	background-color:#F0F0F0;
+}
+#consultingBox01 dl {
+	height:150px;
+}
+#consultingText dt {
+	margin-bottom:20px;
+	padding-bottom:6px;
+	border-bottom:1px dotted #424242;
+	zoom:1;
+}
+#consultingText dd {
+	padding-left:35px;
+}
+#consultingText dd li {
+	padding-bottom:5px;
+}
+
+/* 土地活用 - ネットワーク */
+#networkText p {
+	margin:0 0 30px;
+	line-height:1.5;
+	font-size:16px;
+}
+#networkText ul {
+	width:568px;
+	margin:0 auto 80px;
+	border:1px solid #d8d8d8;
+}
+#networkText li {
+	display:inline;
+}
+#networkText li img {
+	padding:9px 9px;
+}
+#networkText h4 {
+	line-height:1.5;
+	font-size:18px;
+	font-weight:bold;
+}
+
+/* サブリース管理
+======================================================*/
+#contents div#mainContents .subLease {
+	clear:both;
+	zoom:1;
+	border-bottom:1px dotted #424242;
+}
+#contents div#mainContents .subLease:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contents div#mainContents div.subLease div.itemBoxL ,
+#contents div#mainContents div.subLease div.itemBoxR {
+	display:block;
+	width:318px;
+	padding:24px 0;
+	zoom:1;
+}
+#contents div#mainContents div.subLease div.itemBoxL{
+	float:left;
+}
+#contents div#mainContents div.subLease div.itemBoxR{
+	float:right;
+}
+
+#contents div#mainContents div.subLease div.itemBoxL img ,
+#contents div#mainContents div.subLease div.itemBoxR img{
+	float:left;
+	display:block;
+	padding-right:10px;
+}
+
+#contents div#mainContents div.subLease div.itemBoxL dl,
+#contents div#mainContents div.subLease div.itemBoxR dl {
+	line-height:1.4;
+	padding:0 15px 0 20px;
+}
+
+#contents div#mainContents div.subLease div.itemBoxL dt a ,
+#contents div#mainContents div.subLease div.itemBoxR dt a{
+	display:block;
+	height:18px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contents div#mainContents div.subLease dl#contItem01 dt a{background:transparent url("../img/sub_lease/tit_item01.gif") no-repeat 0 0;}
+#contents div#mainContents div.subLease dl#contItem02 dt a{background:transparent url("../img/sub_lease/tit_item02.gif") no-repeat 0 0;}
+#contents div#mainContents div.subLease dl#contItem03 dt a{background:transparent url("../img/sub_lease/tit_item03.gif") no-repeat 0 0;}
+#contents div#mainContents div.subLease dl#contItem04 dt a{background:transparent url("../img/sub_lease/tit_item04.gif") no-repeat 0 0;}
+#contents div#mainContents div.subLease dl#contItem05 dt a{background:transparent url("../img/sub_lease/tit_item05.gif") no-repeat 0 0;}
+#contents div#mainContents div.subLease dl#contItem06 dt a{background:transparent url("../img/sub_lease/tit_item06.gif") no-repeat 0 0;}
+#contents div#mainContents div.subLease dl#contItem07 dt a{background:transparent url("../img/sub_lease/tit_item07.gif") no-repeat 0 0;}
+#contents div#mainContents div.subLease dl#contItem08 dt a{background:transparent url("../img/sub_lease/tit_item08.gif") no-repeat 0 0;}
+
+#contents div#mainContents div.subLease dl#contItem01 dt a:hover,
+#contents div#mainContents div.subLease dl#contItem02 dt a:hover,
+#contents div#mainContents div.subLease dl#contItem03 dt a:hover,
+#contents div#mainContents div.subLease dl#contItem04 dt a:hover,
+#contents div#mainContents div.subLease dl#contItem05 dt a:hover,
+#contents div#mainContents div.subLease dl#contItem06 dt a:hover,
+#contents div#mainContents div.subLease dl#contItem07 dt a:hover,
+#contents div#mainContents div.subLease dl#contItem08 dt a:hover{
+	background-position:0 -18px;
+}
+#contents div#mainContents div.subLease div.itemBoxL dd ,
+#contents div#mainContents div.subLease div.itemBoxR dd {
+	padding-top:10px;
+	font-size:13px;
+}
+
+/* サブリース管理 - メリット */
+#subLeaseMerit {
+	padding:65px 0 0;
+}
+#subLeaseMerit h3 {
+	line-height:1.5;
+	font-size:18px;
+	font-weight:bold;
+}
+#subLeaseMerit p {
+	margin-bottom:25px;
+	line-height:1.5;
+	font-size:16px;
+}
+#subLeaseMerit table {
+	margin:65px 0 0;
+	border:1px solid #B3B3B3;
+	border-collapse:collapse;
+}
+#subLeaseMerit table caption {
+	height:26px;
+	background:url("../img/sub_lease/merit02.gif") no-repeat 0 0;
+	text-indent:-9999px;
+}
+#subLeaseMerit table th {
+	padding:10px;
+	border:1px solid #B3B3B3;
+	background-color:#808080;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+}
+#subLeaseMerit table td {
+	line-height:1.9;
+	padding:2px 10px;
+	border-right:1px solid #B3B3B3;
+	border-left:1px solid #B3B3B3;
+	color:#000000;
+	font-size:14px;
+	vertical-align:middle;
+}
+#subLeaseMerit table tr.even td {
+	background-color:#F0F0EB;
+}
+#subLeaseMerit table td.tdSubLease ,
+#subLeaseMerit table td.tdItakukanri {
+	text-align:center;
+}
+#subLeaseMerit table td.naiyou {
+	width:300px;
+}
+
+/* サブリース管理 - アミックス*/
+#contents div#mainContents .subLeaseAmix {
+	clear:both;
+	zoom:1;
+	padding:20px 0 20px 115px;
+	border-bottom:1px dotted #424242;
+}
+#contents div#mainContents .subLeaseAmix h3 {
+	line-height:1.5;
+	color:#0B4BAA;
+	font-size:18px;
+	font-weight:bold;
+}
+#contents div#mainContents .subLeaseAmix h3 img {
+	display:none;
+}
+#contents div#mainContents .subLeaseAmix p {
+	line-height:1.5;
+	font-size:16px;
+}
+#subLeaseAmix01 {background: url("../img/sub_lease/amixsubleaseai02.gif") no-repeat 0 50%;}
+#subLeaseAmix02 {background: url("../img/sub_lease/amixsubleaseai03.gif") no-repeat 0 50%;}
+#subLeaseAmix03 {background: url("../img/sub_lease/amixsubleaseai04.gif") no-repeat 0 50%;}
+#subLeaseAmix04 {background: url("../img/sub_lease/amixsubleaseai05.gif") no-repeat 0 50%;}
+#subLeaseAmix05 {background: url("../img/sub_lease/amixsubleaseai06.gif") no-repeat 0 50%;}
+
+#subLeaseAmixBox p span {
+	font-size:12px;
+}
+
+/* サブリース管理 - 入居者 */
+.subLeaseNyukyosya {
+	margin-bottom:35px;
+}
+
+/* サブリース管理 - リボンシステム */
+.reborn {
+	margin-bottom:20px;
+}
+#amixRebornSystemText p {
+	margin:0 0 30px;
+	line-height:1.5;
+	font-size:16px;
+}
+#amixRebornSystemText p span {
+	line-height:2;
+	font-size:12px;
+}
+#amixRebornSystem h3 {
+	padding: 60px 0 40px;
+}
+#amixRebornSystem ul {
+	width:527px;
+	margin:0 auto;
+}
+
+/* サブリース管理 - オーナー様サポート */
+.subLeaseOwnersupport {
+	margin-bottom:35px;
+}
+
+/* サブリース管理 - 預り金保証制度 */
+#azukarikinText {
+	padding-bottom:160px;
+}
+#azukarikinText p {
+	margin:0 0 30px;
+	line-height:1.5;
+	font-size:16px;
+}
+#azukarikinText ul {
+	line-height:1.5;
+	padding-bottom:25px;
+	font-size:16px;
+}
+#azukarikinText li {
+	padding-left:15px;
+	background:url("../img/sub_lease/azukarikin01.gif") no-repeat 0 50%;
+}
+
+/* オーナー様の声
+======================================================*/
+#contents div#mainContents .ownerVoice {
+	clear:both;
+	zoom:1;
+	padding:24px 0 15px 0;
+	border-bottom:1px dotted #424242;
+}
+#contents div#mainContents .ownerVoice:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents div#mainContents .ownerVoice img.ownerImg {
+	float:left;
+	display:inline;
+}
+#contents div#mainContents .ownerVoice div.textBox {
+	float:right;
+	display:inline;
+	width:450px;
+}
+#contents div#mainContents .ownerVoice div.textBox h3{
+	padding-bottom:15px;
+}
+#contents div#mainContents .ownerVoice div.textBox p{
+	border-top:1px solid #CCCCCC;
+	padding:15px 0 10px 0;
+	line-height:1.5;
+	font-size:16px;
+}
+#contents div#mainContents .ownerVoice div.textBox span.ownerName{
+	display:block;
+	padding-top:25px;
+	font-size:16px;
+	font-weight:bold;
+}
+#contents div#mainContents .ownerVoice div.textBox span.ownerName span {
+	font-size:13px;
+	font-weight:normal;
+}
+
+#contents div#mainContents #ownerVoiceBox {
+	position:relative;
+	width:589px;
+	margin-bottom:30px;
+	padding:15px 20px 20px;
+	background:#F6FAED url("../img/owner_voice/owner_box02.gif") no-repeat 0 100%;
+}
+#contents div#mainContents #ownerVoiceBox:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents div#mainContents #ownerVoiceBox h3 {
+	padding-bottom:20px;
+}
+#contents div#mainContents #ownerVoiceBox div.textBox {
+	position: absolute;
+	right:20px;
+	bottom:12px;
+	width:410px;
+}
+#contents div#mainContents #ownerVoiceBox div.textBox h3{
+	line-height:1.4;
+	display:block;
+	padding-top:25px;
+	padding-bottom:10px;
+	font-size:16px;
+	font-weight:bold;
+}
+#contents div#mainContents #ownerVoiceBox div.textBox h3 span {
+	line-height:1.6;
+	display:block;
+	font-size:13px;
+}
+#contents div#mainContents #ownerVoiceBox div.textBox p{
+	border-top:1px solid #CCCCCC;
+	padding:15px 0 10px 0;
+	line-height:1.5;
+	font-size:13px;
+}
+
+#contents div#mainContents #voiceDetail h3 {
+	line-height:1.5;
+	color:#0B4BAA;
+	font-size:18px;
+	font-weight:bold;
+}
+#contents div#mainContents #voiceDetail p.text {
+	line-height:1.5;
+	padding-bottom:30px;	
+	font-size:16px;
+}
+#contents div#mainContents #voiceDetail dl.photo {
+	display:block;
+	width:345px;
+	margin:0 auto;
+	padding-bottom:50px;
+}
+#contents div#mainContents #voiceDetail dl.photo dd {
+	line-height:1.4;
+	padding-top:5px;
+	color:#666666;
+}
+#contents div#mainContents #voiceDetail #voiceDetailBox {
+	clear:both;
+	border:4px solid #9ACD6E;
+}
+#contents div#mainContents #voiceDetail #voiceDetailBox h3 {
+	padding-left:20px;
+	background-color:#9ACD6E;
+	color:#ffffff;
+}
+#contents div#mainContents #voiceDetailBoxInner {
+	padding:25px 20px;
+	zoom:1;	
+}
+#contents div#mainContents #voiceDetailBoxInner:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+/* オーナー様の声 - 鴨下様 */
+#contents div#mainContents #voiceDetail dl#ownerKamosita01 {
+	width:425px;
+}
+
+/* オーナー様の声 - 清水様 */
+#contents div#mainContents #voiceDetail dl#ownerSimizu01 {
+	width:542px;
+	padding-bottom:0;
+}
+#contents div#mainContents #voiceDetail dl#ownerSimizu01 dt {
+	padding-top:30px;
+}
+#contents div#mainContents #voiceDetail dl#ownerSimizu01 dt.first {
+	padding-top:0;
+	border:none;
+}
+
+/* オーナー様の声 - 京徳様 */
+#contents div#mainContents #voiceDetail dl#ownerKyoutoku01 {
+	width:215px;
+}
+#contents div#mainContents #voiceDetail #ownerKyoutoku02 {
+	width:400px;
+	margin:0 auto;
+}
+#contents div#mainContents #voiceDetail #ownerKyoutoku02:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents div#mainContents #voiceDetail #ownerKyoutoku02 dl.photo {
+	display:block;
+	float:left;
+	width:180px;
+	padding:0 10px;
+	padding-bottom:50px;
+}
+#contents div#mainContents #voiceDetail #ownerKyoutoku03 {
+	float:left;
+	width:390px;
+}
+#contents div#mainContents #voiceDetail #ownerKyoutoku03 h4 {
+	line-height:1.5;
+	font-size:16px;
+	font-weight:bold;
+}
+#contents div#mainContents #voiceDetail #ownerKyoutoku03 p {
+	line-height:1.5;
+	padding-top:20px;	
+	font-size:16px;
+}
+#contents div#mainContents #voiceDetail dl#ownerKyoutoku04 {
+	float:right;
+	width:163px;
+	margin:0;
+	padding-bottom:0;
+}
+/* オーナー様の声 - BM様 */
+#contents div#mainContents #voiceDetail #ownerBm01 {
+	width:440px;
+	margin:0 auto;
+}
+#contents div#mainContents #voiceDetail #ownerBm01:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents div#mainContents #voiceDetail #ownerBm01 dl.photo {
+	display:block;
+	float:left;
+	width:200px;
+	padding:0 10px;
+	padding-bottom:50px;
+}
+/* オーナー様の声 - 清水様2 */
+#contents div#mainContents #voiceDetail dl#ownerSimizu201 {
+	width:434px;
+}
+#contents div#mainContents #voiceDetail dl#ownerSimizu202 {
+	width:311px;
+}
+/* オーナー様の声 - 磯部様 */
+#contents div#mainContents #voiceDetail #ownerIsobe01 {
+	width:540px;
+	margin:0 auto;
+}
+#contents div#mainContents #voiceDetail #ownerIsobe01:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents div#mainContents #voiceDetail #ownerIsobe01 dl.photo {
+	display:block;
+	float:left;
+	width:250px;
+	padding:0 10px;
+	padding-bottom:50px;
+}
+/* オーナー様の声 - 滋田様 */
+#contents div#mainContents #voiceDetail dl#ownerSigeta01 {
+	width:437px;
+}
+#contents div#mainContents #voiceDetail dl#ownerSigeta02 {
+	width:445px;
+}
+
+/* オーナー様の声 - 河田様 */
+#contents div#mainContents #voiceDetail #ownerKawada01 {
+	width:400px;
+	margin:0 auto;
+}
+#contents div#mainContents #voiceDetail #ownerKawada01:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents div#mainContents #voiceDetail #ownerKawada01 dl.photo {
+	display:block;
+	float:left;
+	width:180px;
+	padding:0 10px;
+	padding-bottom:50px;
+}
+#contents div#mainContents #voiceDetail #ownerKawada02 {
+	float:left;
+	width:415px;
+}
+#contents div#mainContents #voiceDetail #ownerKawada02 h4 {
+	line-height:1.5;
+	font-size:16px;
+	font-weight:bold;
+}
+#contents div#mainContents #voiceDetail #ownerKawada02 li {
+	line-height:1.4;
+	font-size:16px;
+}
+#contents div#mainContents #voiceDetail #ownerKawada03 {
+	float:right;
+	width:145px;
+	margin:0;
+	padding-bottom:0;
+}
+
+/* アパート建築
+======================================================*/
+#contents div#mainContents .kenchiku {
+	clear:both;
+	zoom:1;
+	border-bottom:1px dotted #424242;
+}
+#contents div#mainContents .kenchiku:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contents div#mainContents div.kenchiku div#itemBox01 ,
+#contents div#mainContents div.kenchiku div#itemBox02 {
+	display:block;
+	zoom:1;
+}
+#contents div#mainContents div.kenchiku div#itemBox01:after ,
+#contents div#mainContents div.kenchiku div#itemBox02:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents div#mainContents div.kenchiku div#itemBox01 dl ,
+#contents div#mainContents div.kenchiku div#itemBox02 dl {
+	display:block;
+	float:left;
+}
+#contents div#mainContents div.kenchiku div#itemBox01 dl {
+	width:212px;
+	padding:14px 0 24px;
+}
+#contents div#mainContents div.kenchiku div#itemBox02 dl {
+	width:159px;
+	padding:24px 0;
+}
+#contents div#mainContents div.kenchiku div#itemBox01 dl dt ,
+#contents div#mainContents div.kenchiku div#itemBox02 dl dt {
+	padding-left:16px;
+}
+#contents div#mainContents div.kenchiku div#itemBox01 dl dt a ,
+#contents div#mainContents div.kenchiku div#itemBox02 dl dt a {
+	display:block;
+	height:40px;
+	text-indent:-9999px;
+}
+#contents div#mainContents div.kenchiku div#itemBox01 dl dd ,
+#contents div#mainContents div.kenchiku div#itemBox02 dl dd {
+	line-height:1.4;
+	padding-top:5px;
+	padding-left:16px;
+	font-size:13px;
+}
+#contents div#mainContents div.kenchiku div#itemBox01 dl dd {
+	width:180px;
+}
+#contents div#mainContents div.kenchiku div#itemBox02 dl dd {
+	width:130px;
+}
+#contents div#mainContents div.kenchiku div#itemBox01 dl dd img ,
+#contents div#mainContents div.kenchiku div#itemBox02 dl dd img  {
+	display:block;
+	padding-bottom:10px;
+}
+
+#contents div#mainContents div.kenchiku div.itemBoxL ,
+#contents div#mainContents div.kenchiku div.itemBoxR {
+	display:block;
+	width:318px;
+	padding:24px 0;
+	zoom:1;
+}
+#contents div#mainContents div.kenchiku div.itemBoxL{
+	float:left;
+}
+#contents div#mainContents div.kenchiku div.itemBoxR{
+	float:right;
+}
+
+#contents div#mainContents div.kenchiku div.itemBoxL img ,
+#contents div#mainContents div.kenchiku div.itemBoxR img{
+	float:left;
+	display:block;
+	width:75px;
+	height:75px;
+	padding-right:10px;
+	padding-left:16px;
+}
+
+#contents div#mainContents div.kenchiku div.itemBoxL dl,
+#contents div#mainContents div.kenchiku div.itemBoxR dl {
+	line-height:1.4;
+	margin:0 15px 0 20px;
+}
+
+#contents div#mainContents div.kenchiku div.itemBoxL dt a ,
+#contents div#mainContents div.kenchiku div.itemBoxR dt a{
+	display:block;
+	height:18px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contents div#mainContents div.kenchiku dl#contItem01 dt a{background:transparent url("../img/build/tit_item01.gif") no-repeat 0 0;}
+#contents div#mainContents div.kenchiku dl#contItem02 dt a{background:transparent url("../img/build/tit_item02.gif") no-repeat 0 0;}
+#contents div#mainContents div.kenchiku dl#contItem03 dt a{background:transparent url("../img/build/tit_item03.gif") no-repeat 0 0;}
+#contents div#mainContents div.kenchiku dl#contItem04 dt a{background:transparent url("../img/build/tit_item04.gif") no-repeat 0 0;}
+#contents div#mainContents div.kenchiku dl#contItem05 dt a{background:transparent url("../img/build/tit_item05.gif") no-repeat 0 0;}
+#contents div#mainContents div.kenchiku dl#contItem06 dt a{background:transparent url("../img/build/tit_item06.gif") no-repeat 0 0;}
+#contents div#mainContents div.kenchiku dl#contItem07 dt a{background:transparent url("../img/build/tit_item07.gif") no-repeat 0 0;}
+#contents div#mainContents div.kenchiku dl#contItem08 dt a{background:transparent url("../img/build/tit_item08.gif") no-repeat 0 0;}
+#contents div#mainContents div.kenchiku dl#contItem09 dt a{background:transparent url("../img/build/tit_item09.gif") no-repeat 0 0;}
+#contents div#mainContents div.kenchiku dl#contItem10 dt a{background:transparent url("../img/build/tit_item10.gif") no-repeat 0 0;}
+#contents div#mainContents div.kenchiku dl#contItem11 dt a{background:transparent url("../img/build/tit_item11.gif") no-repeat 0 0;}
+#contents div#mainContents div.kenchiku dl#contItem12 dt a{background:transparent url("../img/build/tit_item12.gif") no-repeat 0 0;}
+
+#contents div#mainContents div.kenchiku dl#contItem01 dt a:hover,
+#contents div#mainContents div.kenchiku dl#contItem02 dt a:hover,
+#contents div#mainContents div.kenchiku dl#contItem03 dt a:hover,
+#contents div#mainContents div.kenchiku dl#contItem04 dt a:hover,
+#contents div#mainContents div.kenchiku dl#contItem05 dt a:hover,
+#contents div#mainContents div.kenchiku dl#contItem06 dt a:hover,
+#contents div#mainContents div.kenchiku dl#contItem07 dt a:hover{
+	background-position:0 -40px;
+}
+#contents div#mainContents div.kenchiku dl#contItem08 dt a:hover,
+#contents div#mainContents div.kenchiku dl#contItem09 dt a:hover,
+#contents div#mainContents div.kenchiku dl#contItem10 dt a:hover,
+#contents div#mainContents div.kenchiku dl#contItem11 dt a:hover,
+#contents div#mainContents div.kenchiku dl#contItem12 dt a:hover{
+	background-position:0 -18px;
+}
+
+#contents div#mainContents div.kenchiku div.itemBoxL dd ,
+#contents div#mainContents div.kenchiku div.itemBoxR dd {
+	padding-top:5px;
+	font-size:13px;
+}
+
+
+#contents div#mainContents .box02 {
+	width:550px;
+	margin:0 auto 35px;
+	padding:15px;
+	border:1px solid #CCCCCC;
+	background-color:#F0F0F0;
+}
+#contents div#mainContents .box02 h4 {
+	clear:both;
+	border-bottom:1px dotted #424242;
+}
+#contents div#mainContents .box02 p.text {
+	line-height:1.5;
+	padding-top:10px;
+	font-size:16px;
+}
+#contents div#mainContents .box02 p.attention {
+	clear:both;
+	line-height:1.4;
+	padding-top:20px;
+	font-size:12px;
+}
+
+#contents div#mainContents .box02 ul.column3 ,
+#contents div#mainContents .box02 ul.column2 {
+	clear:both;
+}
+#contents div#mainContents .box02 ul.column3 {
+	padding-top:15px;
+}
+#contents div#mainContents .box02 ul.column2 {
+	padding-top:40px;
+	zoom:1;
+}
+#contents div#mainContents .box02 ul.column3:after ,
+#contents div#mainContents .box02 ul.column2:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents div#mainContents .box02 ul.column3 li ,
+#contents div#mainContents .box02 ul.column2 li {
+	display:block;
+	float:left;
+	line-height:1.3;
+	padding-top:15px;
+	font-size:12px
+}
+#contents div#mainContents .box02 ul.column3 li {
+	width:183px;
+}
+#contents div#mainContents .box02 ul.column2 li {
+	width:275px;
+}
+#contents div#mainContents .box02 ul.column3 li.height {
+	height:200px;
+}
+#contents div#mainContents .box02 ul.column3 li img ,
+#contents div#mainContents .box02 ul.column2 li img {
+	display:block;
+	padding-bottom:5px;
+}
+
+#contents div#mainContents .box03 {
+	padding-top:50px;
+}
+#contents div#mainContents .box03 h3 {
+	padding-bottom:15px;
+}
+#contents div#mainContents .box03 h4 {
+	padding-bottom:10px;
+	padding-left:25px;
+}
+#contents div#mainContents .box03 ul {
+	clear:both;
+	padding-bottom:45px;
+	padding-left:25px;
+	zoom:1;
+}
+#contents div#mainContents .box03 ul:after ,
+#contents div#mainContents .box03 li:after  {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents div#mainContents .box03 li {
+	display:block;
+	float:left;
+	width:306px;
+	padding-bottom:15px;
+}
+
+
+/* アパート建築 - カラーアズS/Hシリーズ */
+.color_sText p ,
+.color_hText p {
+	margin:0 0 30px;
+	line-height:1.5;
+	font-size:16px;
+}
+.color_sText p span {
+	line-height:1.5;
+	font-size:12px;
+}
+.color_sText dl ,
+.color_hText dl {
+	width:420px;
+	margin:0 auto;
+	padding:30px 0;
+}
+.color_sText dd ,
+.color_hText dd {
+	line-height:1.4;
+	padding-top:5px;
+	color:#666666;
+}
+.color_sText ul ,
+.color_hText ul {
+	line-height:1.5;
+	padding-bottom:25px;
+	font-size:16px;
+}
+.color_sText li ,
+.color_hText li {
+	padding-left:20px;
+	background:url("../img/sub_lease/azukarikin01.gif") no-repeat 0 50%;
+}
+/* アパート建築 - クラシックシリーズ */
+.classicText p {
+	margin:0 0 30px;
+	line-height:1.5;
+	font-size:16px;
+}
+.classicText dl {
+	width:420px;
+	margin:0 auto;
+	padding:30px 0;
+}
+.classicText dd {
+	line-height:1.4;
+	padding-top:5px;
+	color:#666666;
+}
+.classicText ul {
+	line-height:1.5;
+	padding-bottom:25px;
+	font-size:16px;
+}
+.classicText li {
+	padding-left:20px;
+	background:url("../img/sub_lease/azukarikin01.gif") no-repeat 0 50%;
+}
+
+/* アパート建築 - 木造３階建て */
+#mokuzouText p {
+	margin:0 0 30px;
+	line-height:1.5;
+	font-size:16px;
+}
+#mokuzouText dl {
+	width:420px;
+	margin:0 auto;
+	padding:30px 0;
+}
+#mokuzouText dd {
+	line-height:1.4;
+	padding-top:5px;
+	color:#666666;
+}
+#mokuzouPhoto {
+	padding-top:30px;
+	padding-left:45px;
+	zoom:1;
+}
+#mokuzouPhoto dl {
+	display:block;
+	float:left;
+	width:278px;
+}
+#mokuzouPhoto dd {
+	line-height:1.3;
+	padding-top:5px;
+	padding-bottom:25px;
+	color:#666666;
+	font-size:12px;
+	zoom:1;
+}
+
+/* アパート建築 - 長屋建て */
+#zyuusouText p {
+	margin:0 0 30px;
+	line-height:1.5;
+	font-size:16px;
+}
+#zyuusouText dl {
+	width:307px;
+	margin:0 auto;
+	padding:20px 0 30px;
+}
+#zyuusouText dd {
+	line-height:1.4;
+	padding-top:5px;
+	color:#666666;
+}
+
+/* アパート建築 - ２×４工法 */
+#twobai4Text p {
+	margin:0 0 30px;
+	line-height:1.5;
+	font-size:16px;
+}
+#twobai4Text dl {
+	width:345px;
+	margin:0 auto;
+	padding:20px 0 30px;
+}
+#twobai4Text dd {
+	line-height:1.4;
+	padding-top:5px;
+	color:#666666;
+}
+
+/* アパート建築 - マンション・事業用物件 */
+.zigyouyou {
+	margin-bottom:35px;
+}
+
+/* アパート建築 - オプション */
+#optionText p ,
+#optionText ul {
+	margin:0 0 30px;
+	line-height:1.5;
+	font-size:16px;
+}
+#optionText p span {
+	font-size:12px;
+}
+
+#optionText li {
+	line-height:1.5;
+	font-size:16px;
+}
+#optionText dl {
+	width:367px;
+	margin:0 auto;
+	padding:20px 0 30px;
+}
+#optionText dd {
+	line-height:1.4;
+	padding-top:5px;
+	color:#666666;
+}
+
+/* アパート建築 - クオリティ */
+.quality {
+	margin-bottom:35px;
+}
+/* アパート建築 - 職人の技 */
+.shokuninBox {
+	width:631px;
+	margin-bottom:30px;
+	padding-bottom:30px;
+	background-color:#FFFDEC;
+	background:#FFFDEC url("../img/build/shokunin04.gif") no-repeat 0 100%;
+}
+.shokuninBox h4 {
+	padding-top:20px;
+	padding-left:27px;
+	background:url("../img/build/shokunin02.gif") no-repeat 0 0;
+}
+.shokuninBoxInner {
+	padding:10px 27px 0;
+	border-right:1px solid #C7B299;
+	border-left:1px solid #C7B299;
+}
+.shokuninBoxInner p {
+	line-height:1.5;
+	padding-top:30px;
+	font-size:16px;
+}
+/* アパート建築 - 内覧会のご案内 */
+.nairankaiBox {
+	margin-bottom:35px;
+	padding:15px 20px;
+	background-color:#F8F6E7;
+}
+.nairankaiBox h3 {
+	line-height:1.5;
+	padding-bottom:10px;
+	color:#0B4BAA;
+	font-size:18px;
+	font-weight:bold;
+}
+.nairankaiBox p ,
+.nairankaiBox dt ,
+.nairankaiBox dd {
+	line-height:1.5;
+	font-size:16px;
+}
+.nairankaiBox p img {
+	padding-right:5px;
+	padding-bottom:25px;
+}
+.nairankaiBox dl {
+	margin-top:15px;
+	padding-top:15px;
+	border-top:1px dotted #9F9FA0;
+}
+.nairankaiBox dt {
+	clear: both;
+	display: inline;
+	float: left;
+	width: 3.5em;
+	margin-right: -3.5em;
+}
+.nairankaiBox dd {
+	margin-left: 3.5em;
+}
+
+.nairankaiTextBold {
+	font-weight:bold;
+}
+
+
+/* 土地を購入してアパート建築
+======================================================*/
+/*.LandBox {
+	margin-bottom:35px;
+	padding:15px 20px;
+	background-color:#F8F6E7;
+}
+.LandBox h3 {
+	line-height:1.5;
+	padding-bottom:0px;
+	color:#0B4BAA;
+	font-size:20px;
+	font-weight:bold;
+}
+.LandBox p ,
+.LandBox dt ,
+.LandBox dd {
+	line-height:1;
+	font-size:16px;
+}
+.LandBox p img {
+	padding-right:10px;
+	padding-bottom:25px;
+}
+.LandBox dl {
+	margin-top:10px;
+	border-bottom:1px dotted #333333;
+	margin-left: 3px;
+}
+.LandBox dt {
+	position:relative;
+	clear: both;
+	display: inline;
+	float: left;
+	width: 8em;
+	line-height:1;
+	margin-right: -8em;
+	padding:10px 0;
+	border-top:1px dotted #333333;
+	font-size:16px;
+}
+.LandBox dd {
+	line-height:1;
+	margin-left: 8em;
+	padding:10px 0;
+	border-top:1px dotted #333333;
+	font-size:16px;
+	font-weight:bold;
+
+}
+
+.LandBox {
+	font-weight:;
+}*/
+
+.kounyu {
+	margin-bottom: 10px;
+}
+.kounyu h3 {
+	position: relative;
+	height: 30px;
+	line-height: 48px;
+	padding-left: 20px;
+	background: url(../img/build/kentikucyu_shousai_bg01.gif) no-repeat 0 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+.kounyu h3 img {
+	padding-right: 0.5em;
+	vertical-align: middle;
+}
+.kounyu h3 span {
+	position: absolute;
+	line-height: 1;
+	top: 6px;
+	right: 0;
+	padding: 0 0.5em;
+	border-right: 1px solid #00a4ff;
+	border-left: 1px solid #00a4ff;
+	font-size: 12px;
+	font-weight: normal;
+}
+.kounyuInner {
+	padding: 30px 20px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: #f0f0f0;
+	font-size: 15px;
+}
+
+.kounyuText {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	background: url(../img/build/kentikucyu_shousai_bg02.gif) no-repeat 0 100%;
+}
+.kounyuText:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.kounyuText {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .kounyuText {height: 1%;}
+.kounyuText {display: block;}
+/* End hide from IE-mac */
+
+.kounyuTextL {
+	float: left;
+	width: 120px;
+}
+.kounyuTextR {
+	float: right;
+	width: 416px;
+	line-height: 1.5;
+	padding: 5px 15px;
+	border-top: 1px solid #00a4ff;
+	border-left: 1px solid #00a4ff;
+	background: #fff;
+	font-size: 15px;
+}
+.kounyuTextCaption {
+	margin-top: 10px;
+	font-size: 11px;
+}
+
+.kounyuTochiBox {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	background: url(../img/build/kentikucyu_shousai_bg02.gif) no-repeat 0 100%;
+}
+.kounyuTochiBox:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.kounyuTochiBox {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .kounyuTochiBox {height: 1%;}
+.kounyuTochiBox {display: block;}
+/* End hide from IE-mac */
+
+.kounyuTochiBox h4 {
+	float: left;
+}
+.kounyuTochiBox table {
+	float: right;
+	width: 447px;
+}
+.kounyuTochiBox th {
+	width: 52px;
+	padding: 0.25em 0;
+}
+.kounyuTochiBox td {
+	vertical-align: middle;
+}
+
+.kounyuShisanBox h4 {
+	float: left;
+}
+.kounyuShisanBox:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.kounyuShisanBox {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .kounyuShisanBox {height: 1%;}
+.kounyuShisanBox {display: block;}
+/* End hide from IE-mac */
+
+
+#kounyuSeiyaku {
+}
+#kounyuSeiyakuText {
+	line-height: 1.5;
+	padding: 20px 10px;
+	background: url(../img/build/kentikucyu_ichiran_bg02.jpg) repeat-x 0 0;
+	font-size: 15px;
+}
+
+#kounyuOwner {
+	margin-top: 100px;
+}
+#kounyuOwnerText {
+	line-height: 1.5;
+	padding: 20px 10px;
+	background: url(../img/build/kentikucyu_ichiran_bg03.jpg) repeat-x 0 0;
+	font-size: 15px;
+}
+
+.kounyuOwnerVoice {
+	clear:both;
+	zoom:1;
+	padding:24px 0 15px 0;
+	border-bottom:1px dotted #424242;
+}
+.kounyuOwnerVoice:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+.kounyuOwnerVoice img.ownerImg {
+	float:left;
+	display:inline;
+}
+.kounyuOwnerVoice div.textBox {
+	float:right;
+	display:inline;
+	width:450px;
+}
+.kounyuOwnerVoice div.textBox h4{
+	line-height: 1.4;
+	padding-bottom:10px;
+	font-size: 17px;
+	font-weight: bold;
+}
+.kounyuOwnerVoice div.textBox p{
+	border-top:1px solid #CCCCCC;
+	padding:15px 0 10px 0;
+	line-height:1.5;
+	font-size:15px;
+}
+.kounyuOwnerVoice div.textBox span.ownerName{
+	display:block;
+	padding-top:20px;
+	font-size:15px;
+	font-weight:bold;
+}
+.kounyuOwnerVoice div.textBox span.ownerName span {
+	font-size:13px;
+	font-weight:normal;
+}
+
+.kounyuTitle {
+	padding-left: 12px;
+	background: url(../img/build/kounyu_bg02.gif) no-repeat 0 50%;
+	color: #0b489d;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 0.5em;
+}
+
+
+/* ご成約物件一覧
+======================================================*/
+.kentikucyuIchiran {
+	position: relative;
+	margin-bottom: 30px;
+	padding: 5px 10px 5px 5px;
+	border: 1px solid #ccc;
+	background: #f0f0f0;
+}
+.kentikucyuIchiran:hover {
+	border: 1px solid #0b489d;
+	cursor: pointer;
+}
+.kentikucyuIchiran:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.kentikucyuIchiran {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .kentikucyuIchiran {height: 1%;}
+.kentikucyuIchiran {display: block;}
+/* End hide from IE-mac */
+
+.kentikucyuIchiranL {
+	float: left;
+	width: 177px;
+}
+.kentikucyuIchiranR {
+	float: right;
+	width: 430px;
+}
+.kentikucyuIchiran h3 {
+	position: relative;
+	line-height: 2;
+	margin-bottom: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.kentikucyuIchiran h3 img {
+	padding-right: 0.5em;
+	vertical-align: middle;
+}
+.kentikucyuIchiran h3 span {
+	position: absolute;
+	line-height: 1;
+	top: 6px;
+	right: 0;
+	color: #666;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.kentikucyuIchiran dl {
+	line-height: 1.4;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+.kentikucyuIchiran dt {
+    clear: both;
+    display: inline;
+    float: left;
+    width: 6em;
+    margin-right: -6em;
+}
+.kentikucyuIchiran dd {
+    margin-left: 6em;
+    padding: 0;
+}
+
+.kentikucyuIchiranText {
+	line-height: 1.4;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+
+.kentikucyuIchiranMore {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	padding-left: 12px;
+	background: url(../img/build/kentikucyu_ichiran_bg01.gif) no-repeat 0 50%;
+	font-weight: bold;
+}
+
+
+/* ご成約物件の詳細
+======================================================*/
+#kentikucyuShousai h3 {
+	position: relative;
+	height: 30px;
+	line-height: 48px;
+	padding-left: 40px;
+	background: url(../img/build/kentikucyu_shousai_bg01.gif) no-repeat 0 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+#kentikucyuShousai h3 img {
+	padding-right: 0.5em;
+	vertical-align: middle;
+}
+#kentikucyuShousai h3 span {
+	position: absolute;
+	line-height: 1;
+	top: 6px;
+	right: 0;
+	padding: 0 0.5em;
+	border-right: 1px solid #00a4ff;
+	border-left: 1px solid #00a4ff;
+	font-size: 12px;
+	font-weight: normal;
+}
+#kentikucyuShousaiInner {
+	padding: 30px 40px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	background: #f0f0f0;
+	font-size: 15px;
+}
+
+#kentikucyuShousaiText {
+	line-height: 1.6;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	background: url(../img/build/kentikucyu_shousai_bg02.gif) no-repeat 0 100%;
+	font-size: 17px;
+}
+#kentikucyuShousaiImg {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	background: url(../img/build/kentikucyu_shousai_bg02.gif) no-repeat 0 100%;
+	text-align: center;
+}
+#kentikucyuShousaiImg img {
+}
+#kentikucyuShousaiImg span {
+	display: inline-block;
+	line-height: 38px;
+	margin-top: 10px;
+	padding-left: 38px;
+	background: url(../img/build/kentikucyu_shousai_bg03.jpg) no-repeat 0 0;
+	font-size: 14px;
+}
+
+#kentikucyuShousaiGaiyou {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	background: url(../img/build/kentikucyu_shousai_bg02.gif) no-repeat 0 100%;
+}
+#kentikucyuShousaiGaiyou:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#kentikucyuShousaiGaiyou {display: inline-block;}
+/* Hides from IE-mac \*/
+* html #kentikucyuShousaiGaiyou {height: 1%;}
+#kentikucyuShousaiGaiyou {display: block;}
+/* End hide from IE-mac */
+
+#kentikucyuShousaiGaiyou h4 {
+	float: left;
+}
+#kentikucyuShousaiGaiyou table.kounyuGaiyou th {
+	width: 130px;
+}
+
+#kentikucyuShousaiShisan:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#kentikucyuShousaiShisan {display: inline-block;}
+/* Hides from IE-mac \*/
+* html #kentikucyuShousaiShisan {height: 1%;}
+#kentikucyuShousaiShisan {display: block;}
+/* End hide from IE-mac */
+
+#kentikucyuShousaiShisan h4 {
+	float: left;
+}
+
+table.kounyuGaiyou {
+	float: right;
+	width: 447px;
+	line-height: 1.2;
+	border-top: 1px solid #a0a0a0;
+	border-bottom: 1px solid #a0a0a0;
+}
+table.kounyuGaiyou th ,
+table.kounyuGaiyou td {
+	padding: 0.5em 1em;
+	border-bottom: 1px dotted #a0a0a0;
+}
+table.kounyuGaiyou th {
+	background: #DCDDDD;
+}
+table.kounyuGaiyou tr.kounyugaiyouLine td {
+	background: #fff;
+	font-weight: bold;
+}
+table.kounyuGaiyou tr.kounyugaiyouLine td span {
+	font-weight: normal;
+}
+
+table.kounyuShisan {
+	float: right;
+	width: 447px;
+	border-top: 1px solid #a0a0a0;
+	border-bottom: 1px solid #a0a0a0;
+}
+table.kounyuShisan th {
+	padding: 0.5em 1em;
+	border-bottom: 1px dotted #a0a0a0;
+}
+table.kounyuShisan td {
+	padding: 0.5em 1em;
+	border-bottom: 1px dotted #a0a0a0;
+	text-align: right;
+}
+table.kounyuShisan tr.kounyuShisanLine th ,
+table.kounyuShisan tr.kounyuShisanLine td {
+	color: #0B489D;
+	font-weight: bold;
+	background: #fff;
+}
+
+/* FAQ
+======================================================*/
+#contentsFaq div.faqSide h2 {
+	margin-bottom:10px;
+}
+#contentsFaq div.faqSide ul.sideNavi{
+	width:auto;
+}
+
+#contentsFaq div.faqSide ul.sideNavi li{
+	font-size:0;
+	line-height:0;
+	margin-bottom:5px;
+}
+#contentsFaq div.faqSide ul.sideNavi li a {
+	display:block;
+	width:232px;
+	height:22px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contentsFaq div.faqSide h2.faqNaviTop a,
+#contentsFaq div.faqSide h2.faqNaviTop_f a{
+	display:block;
+	width:232px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+
+
+div#contentsFaq{
+	width:950px;
+	margin-top:45px;
+	margin-bottom:90px;
+	overflow:hidden;
+	position:relative;
+	zoom:1;
+	background:url("../img/faq/contents_faq01.gif") repeat-y 0 0;
+}
+.faqBox {
+	clear:both;
+	position:relative;
+	margin:145px 0 0 0;
+	zoom:1;
+}
+.faqBox:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+div#contentsFaq .first {
+	margin:0;
+}
+
+.faqSide {
+	float:left;
+	display:inline;
+	width:250px;
+	padding-left:18px;
+}
+.faqMain {
+	float:right;
+	display:inline;
+	width:637px;
+	padding-left:25px;
+	padding-right:20px;
+	background:url("../img/faq/contents_faq02.gif") repeat-y 0 0;
+}
+
+
+/* FAQ - #faqList */
+#faqList h2.faqListTit {
+	margin-bottom:15px;
+	border-bottom:1px dotted #CCCCCC;
+}
+#faqList ol {
+	padding:0 35px;
+}
+#faqList ol li {
+	line-height:1.9;
+	font-weight:bold;
+	font-size:16px;
+}
+#faqList ol li a {
+	color:#0B4BAA;
+}
+#faqList ol li a:hover {
+	text-decoration:underline;
+}
+/* FAQ - #faqAnswer */
+#faqAnswer h2.faqAnswerTit {
+	padding-bottom:12px;
+}
+#faqAnswer dt {
+	clear:both;
+	line-height:1.3;
+	padding:15px;
+	border:6px solid #E6E6E6;
+	background-color:#F2F2F2;
+	color:#0B4BAA;
+	font-size:18px;
+	font-weight:bold;
+}
+#faqAnswer dd {
+	line-height:1.5;
+	padding:15px 12px 25px 55px;
+	font-size:16px;
+}
+#faqAnswer dd span {
+	display:block;
+	float:left;
+	font-size:17px;
+	font-weight:bold;
+	text-indent:-34px;
+}
+* html #faqAnswer dd span {
+	display:inline;
+	float:none;
+}
+
+/* FAQ - サイド下ボタン */
+#contentsFaq div.faqSide div.sideBtn{
+	height:110px;
+}
+#contentsFaq div.faqSide div.sideBtn p.contact01{
+	position:absolute;
+	bottom:0;
+}
+#contentsFaq div.faqSide p.contact01 a{
+	background:transparent url("../img/contact01.jpg") no-repeat scroll left top;
+	width:163px;
+	height:109px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#contentsFaq div.faqSide p.contact01 a:hover{
+	background-position:0 -109px;
+}
+
+
+/* お問い合わせ
+======================================================*/
+#contactTop h2 {
+	padding-bottom:10px;
+}
+#contactTopBoxL {
+	width:317px;
+	float:left;
+	/*padding-bottom:10px;*/
+	border-right:1px solid #CCCCCC;
+	text-align:center;
+}
+#contactTopBoxR {
+	width:315px;
+	float:right;
+	/*padding-bottom:10px;*/
+	text-align:center;
+}
+#contactTopBoxL #innerBoxL {
+  width:300px;
+	border:4px solid #C6C7C8;
+  padding:0 0 10px 0;
+  /margin-right:7px;
+}
+#contactTopBoxR #innerBoxR {
+  width:300px;
+	border:4px solid #C6C7C8;
+  padding:0 0 10px 0;
+  margin-left:5px;
+}
+#contactTop h3 {
+	border-bottom:1px dotted #424242;
+}
+#contactTopBoxR h4 {
+	line-height:1.5;
+	margin:14px 0 0;
+	font-size:16px;
+}
+#contactTop .itemBox {
+	/*width:276px;*/
+	width:261px;
+	/*margin:35px auto 0;*/
+	margin:20px auto 0;
+	padding:0 10px 10px;
+	background-color:#F0F0EB;
+}
+#contactTop p {
+	line-height:1.5;
+	font-size:13px;
+}
+#contactTop .textBox{
+	font-size:16px;
+}
+#contactTop .textBox strong {
+	font-size:17px;
+	font-weight:bold;
+}
+#contactTop .contactNavi {
+	padding:20px 0 20px 15px;
+}
+#contactTop .contactNavi li a {
+	display:block;
+	height:25px;
+	text-indent:-9999px;
+	text-align:left;
+}
+#contactTop .contactNavi li#contactNavi01 a {
+	height:48px;
+	margin-bottom:20px;
+	background:url("../img/contact/contact_navi01_f.gif") no-repeat 0 0;
+}
+#contactTop .contactNavi li#contactNavi02 a {background:url("../img/contact/contact_navi02_f.gif") no-repeat 0 0;}
+#contactTop .contactNavi li#contactNavi03 a {background:url("../img/contact/contact_navi03_f.gif") no-repeat 0 0;}
+#contactTop .contactNavi li#contactNavi01 a:hover {background:url("../img/contact/contact_navi01_f.gif") no-repeat 0 0;}
+#contactTop .contactNavi li#contactNavi02 a:hover {background:url("../img/contact/contact_navi02_f.gif") no-repeat 0 0;}
+#contactTop .contactNavi li#contactNavi03 a:hover {background:url("../img/contact/contact_navi03_f.gif") no-repeat 0 0;}
+
+/* お問い合わせ - フォーム */
+#contactForm {
+}
+#contactForm table {
+	width:637px;
+}
+#contactForm th ,
+#contactForm td {
+	line-height:1.5;
+	padding:15px 0;
+	/*border-top:1px solid #C0AD9E;*/
+	border-top:1px solid #CCCCCC;
+	font-size:16px;
+}
+#contactForm th {
+	padding-left:10px;
+}
+#contactForm td {
+	padding-left:10px;
+}
+#contactForm th span {
+	color:#0042AC;
+}
+#contactForm .contactFormBtn {
+	padding-top:30px;
+	text-align:center;
+}
+#mainContents .formExample {
+	padding-left:10px;
+	color:#999999;
+}
+#mainContents .formRequired {
+	color:#ED1E79;
+}
+
+
+
+/* サイトマップ
+======================================================*/
+div#contentsSitemap{
+	width:952px;
+	margin-top:45px;
+	margin-bottom:90px;
+	overflow:hidden;
+	position:relative;
+	zoom:1;
+	background:url("../img/sitemap/contents_sitemap01.gif") repeat-y 0 0;
+}
+div#contentsSitemap .sitemap {
+	clear:both;
+	background:url("../img/sitemap/contents_sitemap02.gif") no-repeat 0 0;
+	zoom:1;
+}
+#contentsSitemap:after ,
+div#contentsSitemap .sitemap:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+div#contentsSitemap .first {
+	background:none;
+}
+
+div#contentsSitemap .sitemapBox {
+	display:block;
+	float:left;
+	width:290px;
+	padding:0 0 20px 27px;
+}
+div#contentsSitemap h3 {
+	line-height:1.6;
+	padding-top:20px;
+	font-size:16px;
+	font-weight:bold;
+}
+div#contentsSitemap h3 a {
+	padding-left:12px;
+	background:url("../img/sitemap/contents_sitemap03.gif") no-repeat 0 50%;
+	color:#0B4BAA;
+}
+div#contentsSitemap h3 a:hover {
+	text-decoration:underline;
+}
+div#contentsSitemap .sitemapBox ul {
+	line-height:1.6;
+	padding-left:14px;
+	font-size:16px;
+}
+div#contentsSitemap .sitemapBox ul li {
+	padding-left:12px;
+	background:url("../img/sitemap/contents_sitemap03.gif") no-repeat 0 7px;
+}
+div#contentsSitemap .sitemapBox ul li a {
+	
+}
+div#contentsSitemap .sitemapBox ul.lastLinks {
+	padding-top:15px;
+	margin-left: -14px;
+	font-weight:bold;
+}
+div#contentsSitemap .sitemapBox ul.lastLinks li a {
+	color:#0B4BAA;
+}
+div#contentsSitemap .sitemapBox ul.lastLinks li a:hover {
+	text-decoration:underline;
+}
+div#contentsSitemap #ownerVoice {
+	margin-top:20px;
+}
+div#contentsSitemap .border {
+	margin-top:19px;
+	border-top:1px solid #E2E8F0;
+}
+
+div#contentsSitemap #sitemapFooter {
+	clear:both;
+	margin:0 2px;
+	padding-top:230px;
+	background:#ffffff url("../img/sitemap/contents_sitemap04.gif") no-repeat 0 30px;
+}
+div#contentsSitemap #sitemapFooter ul.btn li {
+	position:relative;
+	line-height:1;
+	float:right;
+	margin-top:10px;
+	margin-right:27px;
+	font-size:12px;
+}
+div#contentsSitemap #sitemapFooter  ul.btn li a {
+	border:1px solid #CCCCCC;
+	display:block;
+	background:#E6E6E6 url("../img/btn_mark.jpg") no-repeat scroll left top;
+	color:#333333;
+}
+div#contentsSitemap #sitemapFooter  ul.btn li a:hover {
+	border:1px solid #6699CC;
+	color:#0B4BAA;
+	text-decoration:none;
+}
+div#contentsSitemap #sitemapFooter  ul.btn li a span{
+	font-weight:bold;
+	display:block;
+	padding:1px;
+	position:absolute;
+	top:6px;
+	left:21px;
+}
+div#contentsSitemap #sitemapFooter  #pageNavi ul.btn {
+	position:absolute;
+	right:0;
+	bottom:0;
+	display:block;
+}
+div#contentsSitemap #sitemapFooter  #pageNavi ul.btn li {
+	float:none;
+}
+
+div#contentsSitemap #sitemapFooter .btn01 a{
+	width:150px;
+	height:24px;
+}
+
+
+div#contentsSitemap #sitemapFooter div#sideBtn p#contact01{
+	position:absolute;
+	bottom:0;
+	left:27px;
+}
+div#contentsSitemap #sitemapFooter p#contact01 a{
+	background:transparent url("../img/contact01.jpg") no-repeat scroll left top;
+	width:163px;
+	height:109px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+div#contentsSitemap #sitemapFooter p#contact01 a:hover{
+	background-position:0 -109px;
+}
+
+
+
+/* 個人情報について
+======================================================*/
+#kozinzyou {
+	padding:10px 0 0 10px;
+}
+#kozinzyou h3 {
+	line-height:1.7;
+	margin: 0 0 5px 18px;
+	font-size:18px;
+	font-weight:bold;
+	text-indent:-18px;
+}
+#kozinzyou p ,
+#kozinzyou li {
+	line-height:1.5;
+	font-size:16px;
+}
+#kozinzyou p {
+	padding-left:18px;
+	margin-bottom:25px;
+}
+#kozinzyou ul {
+	margin-bottom:25px;
+}
+#kozinzyou li {
+	padding-left:42px;
+	text-indent:-24px;
+}
+
+/* お知らせ
+======================================================*/
+#oshirase dl {
+	border-bottom:1px dotted #333333;
+}
+#oshirase dt {
+	clear: both;
+	display: inline;
+	float: left;
+	width: 108px;
+	line-height:1.5;
+	margin-right: -108px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top:1px dotted #333333;
+	font-size:16px;
+	text-indent: 10px;
+}
+#oshirase dd {
+	line-height:1.5;
+	margin-left: 108px;
+	padding: 10px 10px 10px 1em;
+	border-top:1px dotted #333333;
+	font-size:16px;
+}
+
+/* プレスリリース
+======================================================*/
+#pressrelea dl {
+	border-bottom:1px dotted #333333;
+}
+#pressrelea dt {
+	clear: both;
+	display: inline;
+	float: left;
+	width: 108px;
+	line-height:1.5;
+	margin-right: -108px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top:1px dotted #333333;
+	font-size:16px;
+	text-indent: 10px;
+}
+#pressrelea dd {
+	line-height:1.5;
+	margin-left: 108px;
+	padding: 10px 10px 10px 1em;
+	border-top:1px dotted #333333;
+	font-size:16px;
+}
+
+#pressrel01 h3 {
+	line-height:1.2;
+	padding-bottom:45px;
+	color:#0B4BAA;
+	font-size:20px;
+	font-weight:bold;
+}
+#pressrel01 h4 ,
+#pressrel01 p {
+	line-height:1.5;
+	padding-bottom:30px;
+	font-size:16px;
+}
+#pressrel01 a#tokusyu {
+	display:block;
+	padding:20px 0 50px;
+	color:#0B4BAA;
+	font-weight:bold;
+}
+#pressrel01 a#tokusyu:hover {
+	text-decoration:underline;
+}
+
+/* メインコンテンツ内ボタン
+======================================================*/
+#contents #pageNavi ,
+#contentsFaq #pageNavi {
+	clear:both;
+	width:100%;
+	display:block;
+	position:relative;
+	padding-top:100px;
+}
+#contentsFaq #pageNavi {
+	clear:both;
+	width:100%;
+	display:block;
+	position:relative;
+	padding-top:100px;
+}
+* html #contents #pageNavi ,
+* html #contentsFaq #pageNavi {
+	margin-top:100px;
+}
+
+/* ページングボタン */
+#contents #pageNavi ul.paging {
+	position:absolute;
+	bottom:0;
+	zoom:1;
+	display:block;
+}
+#contents #pageNavi ul.paging:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents #pageNavi ul.paging li {
+	float:left;
+	margin-right:7px;
+	position:relative;
+}
+#contents #pageNavi ul.paging li a{
+	border:1px solid #CCCCCC;
+	display:block;
+	cursor: pointer;
+}
+#contents #pageNavi ul.paging li a:hover{
+	border:1px solid #6699CC;
+}
+
+/* ページングボタン - ページNOボタン */
+#contents ul.paging li.pageNo {
+	width:15px;
+	height:24px;
+}
+#contents ul.paging li.pageNo a{
+	background-color:#E6E6E6;
+	width:15px;
+	height:22px;
+}
+#contents ul.paging li.pageNo span,
+#contents ul.paging li.pageNo a span{
+	font-weight:bold;
+	display:block;
+	line-height:22px;
+	text-align:center;
+}
+#contents ul.paging li.pageNo2 {
+	width:23px;
+	height:24px;
+}
+#contents ul.paging li.pageNo2 a{
+	background-color:#E6E6E6;
+	width:23px;
+	height:22px;
+	cursor: pointer;
+}
+#contents ul.paging li.pageNo2 span,
+#contents ul.paging li.pageNo2 a span{
+	font-weight:bold;
+	display:block;
+	line-height:22px;
+	text-align:center;
+}
+#contents ul.paging li.this {
+	color:#FFFFFF;
+	background-color:#0B4BAA;
+	height:22px;
+	padding:1px;
+	line-height:22px;
+}
+/* ページングボタン - 前へボタン*/
+#contents ul.paging li.prev {
+	background:#E6E6E6 url("../img/btn_mark03.jpg") no-repeat scroll right 1px;
+}
+#contents ul.paging li.prev a {
+	width:44px;
+	height:22px;
+}
+#contents ul.paging li.prev a span{
+	font-weight:bold;
+	display:block;
+	line-height:22px;
+	position:absolute;
+	right:15px;
+}
+
+#contents ul.paging li.prev_none {
+	width:44px;
+	height:22px;
+	border:1px solid #E6E6E6;
+	background:#F2F2F2 url("../img/btn_mark04.jpg") no-repeat scroll right 1px;
+	color:#cccccc;
+}
+#contents ul.paging li.prev_none span{
+	font-weight:bold;
+	display:block;
+	line-height:22px;
+	position:absolute;
+	right:15px;
+}
+
+/* ページングボタン - 次へボタン*/
+#contents ul.paging li.next {
+	background:#E6E6E6 url("../img/btn_mark02.jpg") no-repeat scroll left 1px;
+}
+#contents ul.paging li.next a {
+	width:44px;
+	height:22px;
+}
+#contents ul.paging li.next a span{
+	font-weight:bold;
+	display:block;
+	position:absolute;
+	line-height:22px;
+	left:15px;
+}
+#contents ul.paging li.next_none {
+	width:44px;
+	height:22px;
+	border:1px solid #E6E6E6;
+	background:#F2F2F2 url("../img/btn_mark05.jpg") no-repeat scroll left -1px;
+	color:#cccccc;
+}
+#contents ul.paging li.next_none span{
+	font-weight:bold;
+	display:block;
+	position:absolute;
+	line-height:22px;
+	left:15px;
+}
+
+/* このページのトップへ */
+#contents .saiyou ul.btn {
+	padding-top:20px;
+}
+#contentsFaq ul.btn li {
+	padding-top:100px;
+}
+
+#contents ul.btn li ,
+#contentsFaq ul.btn li {
+	position:relative;
+	line-height:1;
+	float:right;
+	margin-top:10px;
+	font-size:12px;
+}
+#contents ul.btn li a ,
+#contentsFaq ul.btn li a {
+	border:1px solid #CCCCCC;
+	display:block;
+	background:#E6E6E6 url("../img/btn_mark.jpg") no-repeat scroll left top;
+	color:#333333;
+	cursor: pointer;
+}
+#contents ul.btn li a:hover ,
+#contentsFaq ul.btn li a:hover {
+	border:1px solid #6699CC;
+	color:#0B4BAA;
+	text-decoration:none;
+}
+#contents ul.btn li a span ,
+#contentsFaq ul.btn li a span{
+	font-weight:bold;
+	display:block;
+	padding:1px;
+	position:absolute;
+	left:21px;
+	line-height:22px;
+}
+
+#contents #pageNavi ul.btn ,
+#contentsFaq #pageNavi ul.btn {
+	position:absolute;
+	right:0;
+	bottom:0;
+	display:block;
+}
+#contents #pageNavi ul.btn li ,
+#contentsFaq #pageNavi ul.btn li {
+	float:none;
+}
+
+
+/*ボタン（btn01:大）*/
+.btn01 a {
+	width:150px;
+	height:24px;
+}
+/*ボタン（btn03:大）オーナー様の声一覧へ */
+.btn03 a {
+	background:#E6E6E6 url("../img/btn_mark02.jpg") no-repeat scroll 4px top!important;
+}
+.btn03 a {
+	width:150px;
+	height:24px;
+}
+
+/*ボタン（btn02:中）オーナー様の声:つづきを読む */
+.btn02 a {
+	background:#E6E6E6 url("../img/btn_mark02.jpg") no-repeat scroll 4px top!important;
+}
+.btn02 a{
+	width:102px;
+	height:24px;
+}
+
+/*ボタン（btn04）一覧を見る*/
+.btn04 a {
+	width:100px;
+	height:24px;
+}
+
+
+/* フッター
+======================================================*/
+#footerNavi {
+	border:1px solid #CCCCCC;
+	padding:28px 28px 0;
+	zoom:1;
+}
+
+#footerNavi:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#footerNavi dl {
+	font-size:11px;
+}
+#footerNavi dl dt,
+#footerNavi dl dd{
+	line-height:1.8;
+}
+#footerNavi dl dt a {
+	color:#666666;
+	font-weight:bold;
+}
+#footerNavi dl dt a:hover {
+	text-decoration:underline;
+}
+#footerNavi dl dd {
+	text-indent:1em;
+}
+#footerNavi dl dd a{
+	color:#9D9D9D;
+	font-weight:bold;
+}
+#footerNavi dl dd a:hover{
+	text-decoration:underline;
+}
+
+#footerNavi div.naviBox {
+	float:left;
+	width:170px;
+	display:block;
+	margin-left:10px;
+}
+#footerNavi div.start {
+	margin-left:0;
+}
+
+#footerNavi div.naviBox dl {
+	margin-top:10px;	
+	margin-bottom:28px;
+}
+#footerNavi div.naviBox ul li {
+	list-style:none;
+	text-indent:2em;
+}
+
+#footerNavi div.naviBox dl.lastLinks{
+	margin:0;
+}
+
+#footer {
+	clear:both;
+	margin:0 0 20px 0;
+	text-align:left;
+}
+
+#footer p#copyright {
+	color:#666666;
+}
+
+.footerTop {
+	margin-top:20px;
+	border-top:1px solid #CCCCCC;
+}
+#footer p{
+	padding-top:10px;
+}

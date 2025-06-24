@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+#main .ap_box {
+	border-bottom:5px double #7A7A7A;
+}
+#main .ap_box h1 {
+	float:left;
+	width:300px;
+	border:none;
+}
+#main .ap_box p {
+	float:right;
+	padding:11px 15px 0 0;
+}
+#main p.amb_c {
+	color:#996633;
+	font-weight:bold;
+}
+#main p.application_image {
+	padding:10px 0 20px 0;
+	text-align:center;
+}
+#main h3,
+#main .planning h2 {
+	margin:0 0 15px 0;
+}
+#main h4,
+#main .planning h3 {
+	margin:15px 0 15px 0;
+	padding:0 0 2px 0;
+	border-bottom:3px double #8ABED0;
+}
+
+/* consulting.html */
+#main .consulting .consulting_box {
+	margin:15px 0 0 0;
+}
+#main .consulting .consulting_box p {
+	float:left;
+	width:278px;
+}
+#main .consulting .consulting_box ul {
+	float:right;
+	width:385px;
+	padding:20px 0 0 0;
+	color:#996633;
+}
+#main .consulting .consulting_box ul li {
+	padding:0 0 10px 0;
+}
+#main .consulting .survey_content ul {
+	float:left;
+	width:360px;
+}
+#main .survey_content ul li {
+	padding:0 0 5px 3px;
+}
+#main .consulting .survey_content ul li span {
+	color:#3A91AF;
+}
+#main .consulting .survey_content p {
+	float:right;
+	width:200px;
+	padding:0 20px 0 0;
+}
+#main .consulting .account ul li {
+	padding:0 0 25px 10px;
+}
+#main .consulting .account ul li span {
+	padding:0 8px 0 0;
+	color:#946511;
+	font-weight:bold;
+}
+#main .consulting .account img {
+	margin:0 86px 0 0;
+}
+#main .consulting .account img.mb_0 {
+	margin:0 0 0 0;
+}
+/* planning.html */
+#main .planning .planner_voice {
+	float:left;
+	width:530px;
+	padding:0 0 0 5px;
+}
+#main .planning p.ttl_pv {
+	color:#946511;
+	font-weight:bold;
+	margin:0 0 10px 5px;
+}
+#main .planning p.pv_image {
+	float:right;
+	width:136px;
+}
+/* network.html */
+#main .network p.txt_backup {
+	margin:0 0 20px 0;
+	font-weight:bold;
+}
+#main .network h2 {
+	margin:0 0 10px 0;
+}
+#main .network p {
+	padding:0 10px 0 5px;
+}
+

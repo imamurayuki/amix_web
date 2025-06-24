@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* ===================== text style ===================== */
+
+/* ----- font-color ----- */
+
+body{
+color:#444444;
+}
+
+a {
+color:#0066FF;
+}
+a:hover {
+text-decoration:underline;
+}
+
+/* ----- font-size ----- */
+
+div.main_inner p span.fs_xl {
+font-size:144%;
+}
+
+ {
+font-size:123.1%;
+}
+
+div.main_inner h3.solidline,
+div.main_inner ul.owner_voice_index li dl dd h2 {
+font-size:114%;
+}
+
+#contents #main p.color_ttl,
+#main div#quality div.quality_txt p span,
+#main div#c_result p.royal span,
+#main p.txt_backup,
+#main .planning p.ttl_pv,
+div.main_inner p.inquiry,
+div.main_inner div.privacy_policy ul li ul,
+#main table.company_box tr td table {
+font-size:107%;
+}
+
+ {
+font-size:100%;
+}
+
+#main div.consulting ul,
+div.main_inner div.question_box h2,
+div.main_inner h2.sm_home,
+div.main_inner div.sitemap,
+p,table,
+#main .main_inner .question ul {
+font-size:92%;
+}
+
+div.main_inner div.campaign_box div.bdt_b,
+div.main_inner div.heyacon_box div.bdt_b,
+#footer ul li a,
+p.ti-1em,
+div.main_inner .owner_voice_top dl dd p.txt,
+div.main_inner div.owner_voice_r dl dd,
+div.main_inner div.owner_voice_r table td p,
+div.main_inner div.ones_voice dl dd {
+font-size:85%;
+}
+
+#main div.annotation ul,
+#main p.reference,
+#main p.bread-crumb {
+font-size:77%;
+}
+
+
+/* ----- line-height ----- */
+
+p {
+line-height:22px;
+}
+
+div.main_inner div.campaign_box div.bdt_b p,
+div.main_inner div.campaign_box div.bdt_b ul,
+div.main_inner div.heyacon_box div.bdt_b p {
+line-height:18px;
+}

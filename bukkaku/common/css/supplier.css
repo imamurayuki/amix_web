@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+div#contents {
+	margin-top: 15px!important;
+}
+
+div#contentsSupplier h2 {
+	display: block;
+	width: 950px;
+	line-height: 1.5;
+	margin: 0 auto 30px;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div#contentsSupplierInner{
+	padding: 0 48px;
+	border-right: 2px solid #a0a0a0;
+	border-left: 2px solid #a0a0a0;
+	zoom: 1;
+}
+
+#supplierStep {
+	clear: both;
+	margin-bottom: 40px;
+}
+#supplierStep li {
+	position: relative;
+	display: block;
+	float: left;
+	width: 141px;
+}
+#supplierStep:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#supplierStep {display: inline-block;}
+/* Hides from IE-mac \*/
+* html #supplierStep {height: 1%;}
+#supplierStep {display: block;}
+/* End hide from IE-mac */
+
+#supplierStep li span {
+	position: absolute;
+	top: 210px;
+	left: 18px;
+	line-height: 1.3;
+}
+
+
+#supplierLogin {
+	float: left;
+	width: 425px;
+	line-height: 1.5;
+	margin-bottom: 45px;
+	font-size: 15px;
+}
+#supplierLoginInner {
+	width: 380px;
+}
+
+
+#supplierEntry {
+	float: right;
+	width: 421px;
+	line-height: 1.5;
+	margin-bottom: 45px;
+	border-left: 4px solid #ccc;
+	font-size: 15px;
+}
+#supplierEntryInner {
+	float: right;
+	width: 380px;
+}
+#supplierEntryInner div {
+	line-height: 1.4;
+	margin-top: 10px;
+	padding: 5px 10px;
+	background: #F0F0EB;
+	font-size: 13px;
+}
+#supplierEntryInner div strong {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+#supplierLoginBtn ,
+#supplierEntryBtn {
+	display: block;
+	width: 380px;
+	height: 78px;
+	margin-bottom: 15px;
+	text-indent: -9999px;
+}
+#supplierLoginBtn {
+	background: url(../img/supplier/supplier_btn01.jpg) no-repeat 0 0;
+}
+#supplierEntryBtn {
+	background: url(../img/supplier/supplier_btn02.jpg) no-repeat 0 0;
+}
+#supplierLoginBtn:hover {
+	background: url(../img/supplier/supplier_btn01_f.jpg) no-repeat 0 0;
+}
+#supplierEntryBtn:hover {
+	background: url(../img/supplier/supplier_btn02_f.jpg) no-repeat 0 0;
+}
+
+
+#supplierContact {
+	text-align: center;
+}
+

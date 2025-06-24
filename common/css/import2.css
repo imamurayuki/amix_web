@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Information =====================================
+File name: import.css
+Description: import
+======================================================*/
+
+@import url(reset.css);/*リセットスタイル*/
+@import url(layout2.css);/*共通・レイアウト*/
+@import url(smp.css);/*共通・レイアウト*/

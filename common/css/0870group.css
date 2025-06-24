@@ -1,0 +1,19 @@
+@charset "utf-8";
+#grouplist {
+	margin-bottom:50px;
+	padding-top:30px;
+}
+#grouplist p {
+	height:31px;
+	line-height:31px;
+	font-size:13px;
+	margin-bottom:10px;
+}
+#grouplist p img {
+	margin-right:10px;
+	margin-left:6px;
+}
+#grouplist p span {
+	font-weight:bold;
+	font-size:15px;
+}

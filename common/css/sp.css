@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body{
+	font-size:large !important;
+}
+
+
+
+#header_n #subnavi li {
+	font-size:23px !important;
+}
+
+#header_n #globalNavi1 li {
+	font-size:22px !important;
+}
+
+
+#header_n #globalNavi2 li {
+	font-size:22px !important;
+}
+
+
+.contstop li span.icon, .pickup li span.icon {
+	font-size:20px !important;
+}
+
+.contstop li span.read, .pickup li span.read {
+	font-size:20px !important;
+}
+
+
+.pickup h2, .list h2 {
+	font-size:22px !important;
+}
+
+.list table td span {
+	font-size:20px !important;
+}
+.list .date {
+	width:140px !important;
+}
+
+div.more, div.close {
+	font-size:22px !important;
+}
+
+
+.linklist li span {
+	font-size:16px !important;
+}
+
+#footer_n li {
+	font-size:18px !important;
+}
+
+#footer_n .copy {
+	font-size:18px !important;
+}
+
+#contents_n {
+	padding:10px !important;
+}
+
+

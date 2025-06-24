@@ -1,0 +1,422 @@
+@charset "utf-8";
+
+
+/* サイドナビ（銭湯サポートクラブ）*/
+#contents div#sideContents h2#sentoukuraNaviTop a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi01 a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi01.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi02 a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi02.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi03 a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi03.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi04 a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi04.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi05 a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi05.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi06 a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi06.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi07 a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi07.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi08 a{
+	background:transparent url("../img/side_navi/sentoukura/side_navi08.gif") no-repeat scroll left top;
+}
+
+
+/* サイドナビ（銭湯サポートクラブ）：マウスオーバー:フォーカス時*/
+#contents div#sideContents h2#sentoukuraNaviTop_f a ,
+#contents div#sideContents h2#sentoukuraNaviTop a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi01_f a,
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi01_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi02_f a,
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi02 a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi02_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi03_f a,
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi03 a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi03_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi04_f a,
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi04 a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi04_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi05_f a,
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi05 a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi05_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi06_f a,
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi06 a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi06_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi07_f a,
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi07 a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi07_f.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi08_f a,
+#contents div#sideContents ul#sentoukuraNavi li#sideNavi08 a:hover{
+	background:transparent url("../img/side_navi/sentoukura/side_navi08_f.gif") no-repeat scroll left top;
+}
+
+
+/* 銭湯サポート倶楽部
+======================================================*/
+#contents div#mainContents .sentoukura {
+	clear:both;
+	zoom:1;
+	border-bottom:1px dotted #424242;
+}
+#contents div#mainContents .sentoukura:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+
+#contents div#mainContents div.sentoukura ul#contItem {
+	width: 600px;
+	margin: 0 auto;
+	padding: 45px 0 15px;
+}
+#contents div#mainContents div.sentoukura ul#contItem:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#contents div#mainContents div.sentoukura ul#contItem {display: inline-block;}
+/* Hides from IE-mac \*/
+* html #contents div#mainContents div.sentoukura ul#contItem {height: 1%;}
+#contents div#mainContents div.sentoukura ul#contItem {display: block;}
+/* End hide from IE-mac */
+
+#contents div#mainContents div.sentoukura ul#contItem li {
+	display: block;
+	float: left;
+	width: 200px;
+	height: 56px;
+	padding-bottom: 30px;
+}
+#contents div#mainContents div.sentoukura ul#contItem li a {
+	display: block;
+	width: 200px;
+	height: 56px;
+	text-indent: -9999px;
+}
+#contents div#mainContents div.sentoukura li#contItem01 a{background:transparent url("../img/sentoukura/tit_item01.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura li#contItem02 a{background:transparent url("../img/sentoukura/tit_item02.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura li#contItem03 a{background:transparent url("../img/sentoukura/tit_item03.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura li#contItem04 a{background:transparent url("../img/sentoukura/tit_item04.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura li#contItem05 a{background:transparent url("../img/sentoukura/tit_item05.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura li#contItem06 a{background:transparent url("../img/sentoukura/tit_item06.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura li#contItem07 a{background:transparent url("../img/sentoukura/tit_item07.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura li#contItem08 a{width:210px!important;background:transparent url("../img/sentoukura/tit_item08.jpg") no-repeat 0 0;}
+
+#contents div#mainContents div.sentoukura li#contItem01 a:hover,
+#contents div#mainContents div.sentoukura li#contItem02 a:hover,
+#contents div#mainContents div.sentoukura li#contItem03 a:hover,
+#contents div#mainContents div.sentoukura li#contItem04 a:hover,
+#contents div#mainContents div.sentoukura li#contItem05 a:hover,
+#contents div#mainContents div.sentoukura li#contItem06 a:hover,
+#contents div#mainContents div.sentoukura li#contItem07 a:hover,
+#contents div#mainContents div.sentoukura li#contItem08 a:hover{
+	background-position:0 -56px;
+}
+
+/*アイコン変更後のCSS　20120619 ADD*/
+
+#contents div#mainContents div.sentoukura ul.contItem2 {
+	/*width: 600px;
+	margin: 0 auto;
+	padding: 45px 0 15px;*/
+  padding:22px 0 22px 22px;
+  border-bottom: 1px dotted #424242;
+}
+#contents div#mainContents div.sentoukura ul.contItem2_last {
+  border-bottom:none;
+}
+#contents div#mainContents div.sentoukura ul.contItem2:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#contents div#mainContents div.sentoukura ul.contItem2 {display: inline-block;}
+/* Hides from IE-mac \*/
+* html #contents div#mainContents div.sentoukura ul.contItem2 {height: 1%;}
+#contents div#mainContents div.sentoukura ul.contItem2 {display: block;}
+/* End hide from IE-mac */
+
+#contents div#mainContents div.sentoukura ul.contItem2 li {
+	display: block;
+	float: left;
+	/*width: 200px;*/
+	width: 215px;
+	height: 50px;
+	/*padding-bottom: 30px;*/
+}
+#contents div#mainContents div.sentoukura ul.contItem2 li a {
+	display: block;
+	width: 215px;
+	height: 50px;
+	text-indent: -9999px;
+}
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem02,
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem04,
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem06,
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem08 {
+  padding-left:120px;
+}
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem01 a{background:transparent url("../img/sentoukura/tit_item2_01.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem02 a{background:transparent url("../img/sentoukura/tit_item2_02.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem03 a{background:transparent url("../img/sentoukura/tit_item2_03.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem04 a{background:transparent url("../img/sentoukura/tit_item2_04.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem05 a{background:transparent url("../img/sentoukura/tit_item2_05.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem06 a{background:transparent url("../img/sentoukura/tit_item2_06.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem07 a{background:transparent url("../img/sentoukura/tit_item2_07.jpg") no-repeat 0 0;}
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem08 a{width:250px!important;background:transparent url("../img/sentoukura/tit_item2_08.jpg") no-repeat 0 0;}
+
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem01 a:hover,
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem02 a:hover,
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem03 a:hover,
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem04 a:hover,
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem05 a:hover,
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem06 a:hover,
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem07 a:hover,
+#contents div#mainContents div.sentoukura ul.contItem2 li#contItem08 a:hover{
+	background-position:0 -50px;
+}
+
+/*END*/
+
+#contents div#mainContents p.sentouText01 {
+	line-height:1.5;
+	padding:30px 0 ;
+	font-size:16px;
+}
+
+#sentoukuraTabNavi {
+	margin-bottom: 50px;
+	padding: 0 10px;
+	border-bottom: 2px solid #0b4baa;
+}
+#sentoukuraTabNavi:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#sentoukuraTabNavi {display: inline-block;}
+/* Hides from IE-mac \*/
+* html #sentoukuraTabNavi {height: 1%;}
+#sentoukuraTabNavi {display: block;}
+/* End hide from IE-mac */
+
+#sentoukuraTabNavi li {
+	display: block;
+	float: left;
+	/*width: 80px;*/
+	width: 102px;
+	height: 24px;
+	margin-right: 10px;
+}
+#sentoukuraTabNavi li a {
+	display: block;
+	/*width: 80px;*/
+	width: 102px;
+	height: 24px;
+	text-indent: -9999px;
+}
+#sentoukuraTabNavi li#sentoukuraTabNavi01 a {background: url(../img/sentoukura/sentoukuraTabNavi01.gif) no-repeat 0 0;}
+#sentoukuraTabNavi li#sentoukuraTabNavi02 a {background: url(../img/sentoukura/sentoukuraTabNavi02.gif) no-repeat 0 0;}
+#sentoukuraTabNavi li#sentoukuraTabNavi03 a {background: url(../img/sentoukura/sentoukuraTabNavi03.gif) no-repeat 0 0;}
+#sentoukuraTabNavi li#sentoukuraTabNavi04 a {background: url(../img/sentoukura/sentoukuraTabNavi04.gif) no-repeat 0 0;}
+#sentoukuraTabNavi li#sentoukuraTabNavi05 a {background: url(../img/sentoukura/sentoukuraTabNavi05.gif) no-repeat 0 0;}
+
+#sentoukuraTabNavi li#sentoukuraTabNavi01_f a ,
+#sentoukuraTabNavi li#sentoukuraTabNavi01 a:hover {
+	background: url(../img/sentoukura/sentoukuraTabNavi01_f.gif) no-repeat 0 0;
+}
+#sentoukuraTabNavi li#sentoukuraTabNavi02_f a ,
+#sentoukuraTabNavi li#sentoukuraTabNavi02 a:hover {
+	background: url(../img/sentoukura/sentoukuraTabNavi02_f.gif) no-repeat 0 0;
+}
+#sentoukuraTabNavi li#sentoukuraTabNavi03_f a ,
+#sentoukuraTabNavi li#sentoukuraTabNavi03 a:hover {
+	background: url(../img/sentoukura/sentoukuraTabNavi03_f.gif) no-repeat 0 0;
+}
+#sentoukuraTabNavi li#sentoukuraTabNavi04_f a ,
+#sentoukuraTabNavi li#sentoukuraTabNavi04 a:hover {
+	background: url(../img/sentoukura/sentoukuraTabNavi04_f.gif) no-repeat 0 0;
+}
+#sentoukuraTabNavi li#sentoukuraTabNavi05_f a ,
+#sentoukuraTabNavi li#sentoukuraTabNavi05 a:hover {
+	/*width: 102px;*/
+	background: url(../img/sentoukura/sentoukuraTabNavi05_f.gif) no-repeat 0 0;
+}
+
+
+.sentoukuraTabBox {
+	margin: 0 10px 35px 10px;
+	background: #f8f6e7;
+}
+.sentoukuraTabBox:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.sentoukuraTabBox {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .sentoukuraTabBox {height: 1%;}
+.sentoukuraTabBox {display: block;}
+/* End hide from IE-mac */
+
+.sentoukuraTabBoxL {
+	float: left;
+	width: 170px;
+}
+.sentoukuraTabBoxR {
+	float: right;
+	width: 407px;
+	line-height: 1.4;
+	padding: 20px 20px 0 0;
+}
+.sentoukuraTabBoxR h3 {
+	color: #0b4baa;
+	font-size: 15px;
+	font-weight: bold;
+}
+.sentoukuraTabBoxR h4 {
+	margin-bottom: 0.5em;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+.sentokuraMember {
+	line-height: 1.6;
+	margin: 20px 0;
+}
+.sentokuraMember:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.sentokuraMember {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .sentokuraMember {height: 1%;}
+.sentokuraMember {display: block;}
+/* End hide from IE-mac */
+.sentokuraMember li {
+	display: block;
+	float: left;
+	width: 185px;
+	margin: 0 13px;
+}
+* html .sentokuraMember li {
+	margin: 0 10px;
+}
+
+.sentokuraMember li dl {
+	margin-top: 5px;
+	padding: 5px;
+	background: #f6f2ed;
+}
+.sentokuraMember li dd {
+	margin-top: 10px;
+}
+
+
+#sentokuraYokuzyodayori {
+	overflow: hidden;
+	margin: 30px 0;
+}
+#sentokuraYokuzyodayori ul {
+	width: 556px;
+	margin: -1px auto 0;
+	background: url(../../sentoukura/img/yokuzyodayori_bg.gif) repeat-y 0 0;
+}
+#sentokuraYokuzyodayori ul:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#sentokuraYokuzyodayori ul {display: inline-block;}
+/* Hides from IE-mac \*/
+* html #sentokuraYokuzyodayori ul {height: 1%;}
+#sentokuraYokuzyodayori ul {display: block;}
+/* End hide from IE-mac */
+
+#sentokuraYokuzyodayori li {
+	display: block;
+	float: left;
+	width: 139px;
+	height: 57px;
+	margin: 24px 0;
+	background: url(../../sentoukura/img/yokuzyodayori_icon_pdf.gif) no-repeat 0 0;
+	font-size: 13px;
+}
+#sentokuraYokuzyodayori li a {
+	display: block;
+	padding-top: 20px;
+	padding-left: 55px;
+}
+#sentokuraYokuzyodayori li a span {
+	display: block;
+	margin-top: 6px;
+	padding-left: 10px;
+	background: url(../../sentoukura/img/yokuzyodayori_icon_arrow.gif) no-repeat 0 2px;
+	font-size: 16px;
+}
+
+
+#sentoukuraEnkaku {
+	line-height: 1.5;
+	margin: 30px 0 90px;
+	padding: 30px  0 30px 110px;
+	border-top:1px dotted #424242;
+	border-bottom:1px dotted #424242;
+	font-size: 15px;
+}
+#sentoukuraEnkaku h3 {
+	font-weight: bold;
+}
+
+
+#contactSentoukura a{
+	background:transparent url(../img/sentoukura/sentoukura03.jpg) no-repeat scroll left top;
+	width:420px;
+	height:84px;
+	display:block;
+	margin: 30px auto;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#contactSentoukura a:hover{
+	background-position:0 -84px;
+}

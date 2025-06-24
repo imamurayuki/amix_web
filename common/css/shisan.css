@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+#contents div#mainContents {
+	padding-left: 34px;
+	width: 628px;
+}
+
+#mainContents h2 {
+	line-height: 1.1;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#mainContents p {
+	margin: 0 0 20px;
+	line-height: 1.4;
+	font-size: 15px;
+}
+
+#mainContents p strong {
+	font-weight: bold;
+}
+
+#mainContents ul.contList {
+	line-height: 1.4;
+	padding-bottom: 20px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#sideContents .modExample {
+	padding: 15px 0 40px;
+	+padding-top: 6px;
+}
+
+#sideContents .modExample h2 {
+	font-size: 18px;
+	color: #0B4BAA;
+}
+
+#sideContents .modExample dt {
+	font-size: 13px;
+	padding-left: 7px;
+	background: url(../img/shisan/icon.gif) no-repeat 6px 2px;
+}
+
+#sideContents .modExample dd {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 0 20px 14px;
+	line-height: 1.2;
+}
+
+#sideContents .modPamphlet {
+	margin: 0 0 8px -8px;
+}
+
+#sideContents .modPamphlet img {
+	margin-bottom: 0 !important;
+}
+
+#sideContents .modPamphlet span {
+	display: block;
+	margin-left: 8px;
+	padding: 10px 20px 10px 9px;
+	width: 197px;
+	background: url(../img/shisan/bg.jpg) repeat 0 0;
+	font-size: 14px;
+	line-height: 1.4;
+}
+
+#sideContents .modConsultBtn a {
+	display: block;
+	margin-bottom: 12px;
+	background: url(../img/shisan/consult_hover.jpg) no-repeat 0 0;
+}
+
+#sideContents .modConsultBtn a:hover img {
+	visibility: hidden;
+}
+
+#sideContents .modConsultBtn p {
+	font-size: 13px;
+	width: 226px;
+	text-align: justify;
+	line-height: 1.4;
+}
+
+.photoCenter.image01 {
+	padding: 10px 0 70px;
+}
+
+.photoCenter.image02 {
+	padding: 10px 0 26px;;
+}
+
+.photoCenter.image03 {
+	padding: 30px 0 70px;
+}
+
+.photoCenter.image04 {
+	padding: 25px 0 21px;
+}
+
+.photoCenter.image05 {
+	padding-top: 30px;
+}
+
+#contents #pageNavi ul.btn {
+	+bottom: -5px;
+}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* トップサイドナビ */
+
+#contentsTop div#sideContents div#blog6 a{
+	background:transparent url("../img/blog6.jpg") no-repeat scroll left top;
+	width:161px;
+	height:74px;
+	border:1px solid #CCCCCC;
+	margin-bottom:7px;
+	position:relative;
+	display:block;
+}
+
+
+#contentsTop div#sideContents div#blog6 a:hover{
+	border:1px solid #6699CC;
+}
+
+
+
+#contentsTop div#sideContents div#blog6 a span.title{
+	background:transparent url("../img/tit_blog6.jpg") no-repeat scroll left top;
+	width:73px;
+	height:13px;
+	display:block;
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+#contentsTop div#sideContents div#blog6 a:hover span.title{
+	background-position:0 -13px;
+}
+
+
+#contentsTop div#sideContents div#blog6 span.text{
+	position:absolute;
+	top:27px;
+	left:10px;
+	line-height:1.3;
+	color:#333333;
+}

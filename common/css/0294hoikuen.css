@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+
+
+#hoikuen div {
+	float:left;
+	width:256px;
+	margin-bottom:30px;
+	font-size:13px;
+	line-height:150%;
+}
+#hoikuen div img {
+	margin-bottom:8px;
+}
+#hoikuen p {
+	margin-bottom:0px !important;
+}
+#hoikuen div.mr {
+	margin-right:42px !important;
+}
+
+.box01 {
+	padding: 30px !important;
+	padding-top:15px !important;
+	padding-bottom:15px !important;
+}
+
+.box01 h4 {
+	font-weight:bold;
+	font-size:17px;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+#contents div#mainContents .section .box01 {
+	background-color:#ECF2F2;
+}

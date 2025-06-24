@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+
+#contents div#mainContents  dl#ownerKyoutoku01 {
+	width:215px;
+}
+#contents div#mainContents #ownerKyoutoku02 {
+	width:490px;
+	margin:0 auto;
+}
+#contents div#mainContentsl #ownerKyoutoku02:after {
+	content:".";
+	display:block;
+	clear:both;
+	height:0;
+	visibility:hidden;
+	font-size:0;
+}
+#contents div#mainContents #ownerKyoutoku02 dl.photo {
+	display:block;
+	float:left;
+	width:240px;
+	padding:0 5px;
+	padding-bottom:50px;
+}

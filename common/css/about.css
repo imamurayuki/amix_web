@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* ========== about =============== */
+#contents #main .about_text_l {
+float:left;
+width:360px;
+}
+#contents #main p.about_pic_r {
+float:right;
+width:298px;
+}
+#contents #main p.about_pic_l {
+float:left;
+width:298px;
+}
+#contents #main .about_text_r {
+float:right;
+width:360px;
+}
+/* ========== company =============== */
+#contents #main table.company_box {
+width:689px;
+margin:0 0 20px 0;
+border-top:1px solid #C1AE9B;
+line-height:20px;
+}
+#contents #main table.company_box tr th {
+width:165px;
+padding:12px 0 0 9px;
+border-bottom:1px solid #C1AE9B;
+font-weight:bold;
+vertical-align:top;
+}
+#contents #main table.company_box tr th span {
+color:#CD9154;
+}
+#contents #main table.company_box tr td {
+padding:12px 0 12px 9px;
+border-bottom:1px solid #C1AE9B;
+}
+#contents #main table.company_box tr td table tr td {
+width:115px;
+padding:0 0 0 0;
+border:none;
+}
+/* ========== history =============== */
+#contents #main table.history_box {
+width:689px;
+margin:0 0 20px 0;
+line-height:20px;
+background:url(../img/bg_dotted.gif) repeat-x left top;
+}
+#contents #main table.history_box tr td {
+background:url(../img/bg_dotted.gif) repeat-x left bottom;
+}
+#contents #main table.history_box tr td.h_year {
+width:55px;
+padding:11px 0 0 9px;
+color:#777777;
+vertical-align:top;
+}
+#contents #main table.history_box tr td.h_month {
+width:33px;
+padding:11px 43px 0 0;
+color:#777777;
+vertical-align:top;
+text-align:right;
+}
+#contents #main table.history_box tr td {
+padding:11px 0 11px 9px;
+background:url(../img/bg_dotted.gif) repeat-x left bottom;
+}
+/* ========== chart =============== */
+#contents #main p.chart_image {
+text-align:center;
+}
+/* ========== branch =============== */
+#contents #main p.b_contact {
+padding:10px 0 25px 5px;
+}
+#contents #main p.b_contact_l {
+float:left;
+width:200px;
+padding:10px 0 0 5px;
+}
+#contents #main p.b_map {
+float:right;
+width:344px;
+padding:10px 0 0 0;
+}
+#contents #main .beruf_box {
+float:left;
+width:335px;
+padding:15px 19px 0 0;
+}
+#contents #main .amicom_box {
+float:left;
+width:335px;
+padding:15px 0 0 0;
+}
+#contents #main .beruf_box p,
+#contents #main .amicom_box p {
+padding:10px 0 0 5px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/*
+Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.5.1
+*/
+body {
+font:13px/1.231 arial,helvetica,clean,sans-serif;
+*font-size:small;
+*font:x-small;
+}
+table {
+font-size:inherit;
+font:100%;
+}
+pre,
+code,
+kbd,
+samp,
+tt {
+font-family:monospace;
+*font-size:108%;
+line-height:100%;
+}
+
+
+
+/* =====================================================
+
+If you want this size in pixels(px), Declare this percent(%)
+
+10px ----- 77%
+11px ----- 85%
+12px ----- 93%
+13px ----- 100%
+14px ----- 108%
+15px ----- 116%
+16px ----- 123.1%
+17px ----- 131%
+18px ----- 136%
+19px ----- 144%
+20px ----- 152%
+21px ----- 159%
+22px ----- 167%
+23px ----- 174%
+24px ----- 182%
+25px ----- 189%
+26px ----- 197%
+
+===================================================== */
+
+
