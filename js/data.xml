@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<impressions>
+
+	<!--<entry>
+    <styleClasses>bass-position-A01 bass-color-B01 bass-style-C01</styleClasses>
+    <title> </title>
+    <imageUrl>img/top/main5.jpg</imageUrl>
+
+    <description>
+
+	</description>
+
+    <linkUrl>syuueki/0900ichiran01.html</linkUrl>
+    <linkText><![CDATA[新築一棟売りアパート<br>
+11,500万円<br>利回り7.02%<span><span class="slideicon">»</span>フォレノワールはこちら</span>]]></linkText>
+  </entry>-->
+	
+  <entry>
+    <styleClasses>bass-position-A01 bass-color-B01 bass-style-C01</styleClasses>
+    <title> </title>
+    <imageUrl>img/top/main4.jpg</imageUrl>
+
+    <description>
+
+	</description>
+
+    <linkUrl>build/0296tekkotsu.html</linkUrl>
+    <linkText><![CDATA[広い空間や高い階層に対応<br>
+耐震性にも優れた鉄骨造<span><span class="slideicon">»</span>鉄骨造はこちら</span>]]></linkText>
+  </entry>
+
+  <entry>
+    <styleClasses>bass-position-A01 bass-color-B01 bass-style-C01</styleClasses>
+    <title> </title>
+    <imageUrl>img/top/main1.jpg</imageUrl>
+
+    <description>
+
+	</description>
+
+    <linkUrl>build/0200kenchiku.html</linkUrl>
+    <linkText><![CDATA[RC造を思わせる重厚な外観機能的で充実した設備<br />カラーアズHシリーズ<span><span class="slideicon">» </span>アパート建築はこちら</span>]]></linkText>
+  </entry>
+
+  <entry>
+    <styleClasses>bass-position-A01 bass-color-B01 bass-style-C01</styleClasses>
+    <title> </title>
+    <imageUrl>img/top/main2.jpg</imageUrl>
+
+    <description>
+
+	</description>
+
+    <linkUrl>build/0200kenchiku.html</linkUrl>
+	  <linkText><![CDATA[1室440万円<small>（税込）</small>からの<br />ローコストアパート<br />カラーアズSシリーズ<span><span class="slideicon">» </span>アパート建築はこちら</span>]]></linkText>
+  </entry>
+
+  <entry>
+    <styleClasses>bass-position-A01 bass-color-B01 bass-style-C01</styleClasses>
+    <title> </title>
+    <imageUrl>img/top/main3.jpg</imageUrl>
+
+    <description>
+
+	</description>
+
+    <linkUrl>build/0200kenchiku.html</linkUrl>
+    <linkText><![CDATA[街並みと調和する<br />シックで気品のある外観<br />クラシックシリーズ<span><span class="slideicon">» </span>アパート建築はこちら</span>]]></linkText>
+  </entry>
+
+
+</impressions>
