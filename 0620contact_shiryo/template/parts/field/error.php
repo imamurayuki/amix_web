@@ -1,0 +1,1 @@
+<p class="error"><?= htmlspecialchars($data['errors'][$name]) ?></p>
