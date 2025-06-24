@@ -1,0 +1,1 @@
+<p class="recruitForm__error"><?= htmlspecialchars($data['errors'][$name]) ?></p>
