@@ -1,0 +1,331 @@
+@charset "utf-8";
+
+/* 個別無料相談
+======================================================*/
+div#contents {
+	margin-top: 60px!important;
+}
+
+div#contentsKobetsu {
+	border-right: 2px solid #a0a0a0;
+	border-left: 2px solid #a0a0a0;
+}
+div#contentsKobetsuInner {
+	position: relative;
+	padding: 0 30px;
+}
+
+/*  #kobetsu01 */
+#kobetsu01 {
+	width: 583px;
+	margin-bottom: 50px;
+}
+#kobetsu01 h3 {
+	margin-bottom: 20px;
+}
+#kobetsu01 h4 {
+	line-height: 1.1;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	color: #6a3906;
+	font-size: 19px;
+}
+#kobetsu01 p {
+	line-height: 1.6;
+	margin-bottom: 15px;		
+	margin-left: 20px;
+	font-size: 16px;
+}
+#kobetsu01 #kobetsu01_01 {
+	float: right;
+	margin-left: 5px;
+}
+#kobetsu01 #kobetsu01_02 {
+	text-align: right;
+}
+#kobetsu01 #kobetsu01_03 {
+	text-align: center;
+}
+
+/* #kobetsu02 */
+#kobetsu02 {
+	margin-bottom: 50px;
+}
+#kobetsu02 h3 {
+	margin-bottom: 10px;
+}
+#kobetsu02 ul {
+	margin-left: 10px;
+}
+#kobetsu02 ul:before,
+#kobetsu02 ul:after {
+    content:"";
+    display:table;
+}
+#kobetsu02 ul:after {
+    clear:both;
+}
+#kobetsu02 ul {
+    zoom:1;
+}
+#kobetsu02 li {
+	float: left;
+	width: 285px;
+	height: 248px;
+	line-height: 1.5;
+	font-size: 14px;
+}
+#kobetsu02 li a {
+	display: block;
+	width: 285px;
+	height: 248px;
+	color: #333;
+}
+#kobetsu02 li a span {
+	display: block;
+	width: 235px;
+	margin: 0 auto;
+	padding-top: 75px;
+}
+#kobetsu02 li a span img {
+	float: left;
+	margin-right: 15px;
+}
+#kobetsu02_01 a {
+	background: url(../img/kobetsu/kobetsu_img04.png) no-repeat 0 0;
+}
+#kobetsu02_01 a:hover {
+	background: url(../img/kobetsu/kobetsu_img04_f.png) no-repeat 0 0;
+}
+#kobetsu02_02 a {
+	background: url(../img/kobetsu/kobetsu_img05.png) no-repeat 0 0;
+}
+#kobetsu02_02 a:hover {
+	background: url(../img/kobetsu/kobetsu_img05_f.png) no-repeat 0 0;
+}
+#kobetsu02_03 a {
+	background: url(../img/kobetsu/kobetsu_img06.png) no-repeat 0 0;
+}
+#kobetsu02_03 a:hover {
+	background: url(../img/kobetsu/kobetsu_img06_f.png) no-repeat 0 0;
+}
+
+/* #kobetsu03 */
+#kobetsu03 h3 {
+	margin-bottom: 20px;
+}
+#kobetsu03 ol {
+	width: 852px;
+	height: 169px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+	background: url(../img/kobetsu/kobetsu_img10.png) no-repeat 0 0;
+}
+#kobetsu03 ol:before,
+#kobetsu03 ol:after {
+    content:"";
+    display:table;
+}
+#kobetsu03 ol:after {
+    clear:both;
+}
+#kobetsu03 ol {
+    zoom:1;
+}
+#kobetsu03 li {
+	display: block;
+	float: left;
+	line-height: 1.5;
+	padding: 80px 22px 0;
+	color: #fff;
+	font-size: 15px;
+}
+#kobetsu03_01 {
+	width: 155px;
+}
+#kobetsu03_02 {
+	width: 177px;
+}
+#kobetsu03_03 {
+	width: 187px;
+}
+#kobetsu03_04 {
+	width: 160px;
+	padding-right: 0!important;
+}
+#kobetsu03_05 {
+	text-align: center;
+}
+* html #kobetsu03_05 {
+	margin-bottom: 100px;/*IE6*/
+}
+
+/* #kobetsu04 */
+#kobetsu04 {
+	position: absolute;
+	top: 32px;
+	right: 0;
+	overflow: hidden;
+	width: 292px;
+	height: 596px;
+	background: url(../img/kobetsu/kobetsu_img12.jpg) no-repeat 0 0;
+	color: #231815;
+}
+#kobetsu04_prof {
+	width: 250px;
+	height: 180px;
+	margin: 0 auto;
+}
+	#kobetsu04_01 {
+		margin: 15px 0 10px;
+		font-size: 19px;
+	}
+	#kobetsu04_01 span {
+		font-size: 11px;
+	}
+	#kobetsu04_02 {
+		line-height: 1.5;
+		margin-bottom: 10px;
+		font-size: 13px;
+	}
+	#kobetsu04_03 {
+		line-height: 1.4;
+		font-size: 12px;
+	}
+#kobetsu04_book {
+	width: 250px;
+	height: 410px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+	#kobetsu04_book ul {
+		margin: 0 0 10px 1.5em;
+	}
+	#kobetsu04_book li {
+		list-style: disc;
+		line-height: 1.5;
+		font-size: 13px;
+	}
+	#kobetsu04_04 {
+		padding-top: 10px;
+		/padding-top: 25px;
+	}
+	#kobetsu04_05 {
+		margin-bottom: 10px;
+	}
+	#kobetsu04_06 {
+		line-height: 1.6;
+		font-size: 12px;
+		text-align: right;
+	}
+	
+/* #kobetsu_btn01 */
+#kobetsu_btn01 {
+	margin-top: 20px;
+}
+#kobetsu_btn01 a {
+	display: block;
+	width: 491px;
+	height: 49px;
+	margin: 0 auto;
+	background: url(../img/kobetsu/kobetsu_btn01.png) no-repeat 0 0;
+	text-indent: -9999px;
+}
+#kobetsu_btn01 a:hover {
+	background: url(../img/kobetsu/kobetsu_btn01_f.png) no-repeat 0 0;
+}
+
+/* #kobetsu_btn02 */
+#kobetsu_btn02 a {
+	display: block;
+	width: 477px;
+	height: 67px;
+	margin: 0 auto;
+	background: url(../img/kobetsu/kobetsu_btn02.png) no-repeat 0 0;
+	text-indent: -9999px;
+}
+#kobetsu_btn02 a:hover {
+	background: url(../img/kobetsu/kobetsu_btn02_f.png) no-repeat 0 0;
+}
+
+
+/* お申込みフォーム
+======================================================*/
+#contactForm {
+}
+#contactForm table {
+	width:637px;
+}
+#contactForm th ,
+#contactForm td {
+	line-height:1.5;
+	padding:15px 0;
+	/*border-top:1px solid #C0AD9E;*/
+	border-top:1px solid #CCCCCC;
+	font-size:16px;
+}
+#contactForm th {
+	padding-left:10px;
+}
+#contactForm td {
+	padding-left:10px;
+}
+#contactForm th span {
+	color:#0042AC;
+}
+#contactForm .contactFormBtn {
+	padding-top:30px;
+	text-align:center;
+}
+#mainContents .formExample {
+	padding-left:10px;
+	color:#999;
+}
+#mainContents .formRequired {
+	color:#ED1E79;
+}
+
+input#nenrei {
+	width: 40px;
+}
+input#nensyuu ,
+input#jikoshikin ,
+input#sonota {
+	width: 120px;
+}
+
+#syokugyou {
+	width: 435px;
+}
+#syokugyou li {
+	float: left;
+	width: 145px;
+}
+#syokugyou li#syokugyou_ishi {
+	width: 290px;
+}
+
+/* #kobetsuNavi */
+#contents div#sideContents h2#kobetsuNaviTop a {
+	display:block;
+	width:232px;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+#contents div#sideContents h2#kobetsuNaviTop a{
+	background:transparent url("../img/kobetsu/kobetsu_form_side_navi.gif") no-repeat scroll left top;
+	height:22px;
+}
+#contents div#sideContents h2#kobetsuNaviTop_f a ,
+#contents div#sideContents h2#kobetsuNaviTop a:hover{
+	background:transparent url("../img/kobetsu/kobetsu_form_side_navi_f.gif") no-repeat scroll left top;
+	height:22px;
+}
+
+#contents div#sideContents ul#kobetsuNavi li#sideNavi01 a{
+	background:transparent url("../img/kobetsu/kobetsu_form_side_navi01.gif") no-repeat scroll left top;
+}
+#contents div#sideContents ul#kobetsuNavi li#sideNavi01_f a,
+#contents div#sideContents ul#kobetsuNavi li#sideNavi01 a:hover{
+	background:transparent url("../img/kobetsu/kobetsu_form_side_navi01_f.gif") no-repeat scroll left top;
+}

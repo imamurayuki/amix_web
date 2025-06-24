@@ -1,0 +1,12 @@
+#BASIC認証
+#AuthUserFile /var/www/html/b0201reform/.htpasswd
+#AuthGroupFile /dev/null
+#AuthName "please input user infomation"
+#AuthType Basic
+#require valid-user
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>

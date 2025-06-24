@@ -1,0 +1,259 @@
+/* -----------------------------
+スマホ最適化（幅480px以下から）
+----------------------------- */
+@media only screen and (max-width: 480px){
+	#main {
+		font-size: 110% !important;
+	}
+	body {
+		overflow: hidden !important;
+		font-size:95% !important;
+	}
+	.site {
+		width: auto !important;
+		box-shadow: none !important;
+    	-moz-box-shadow: none !important;
+    	-webkit-box-shadow: none !important;
+	}
+	.entry-content {
+		width: auto !important;
+	}
+	.site {
+		padding: 0 !important;
+	}
+	.head-image {
+		background-size: cover !important;
+	}
+
+	p {
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+
+	.alignleft {
+		float: none !important;
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+	.alignright {
+		float: none !important;
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+
+	img {
+		width: auto !important;
+	}
+	img.size-full {
+		max-width: 90% !important;
+	}
+	img.wide {
+		margin: 0 -10px !important;
+		width: 100% !important;
+		position: absolute !important;
+	}
+
+
+	
+	.submit {
+		width: auto !important;
+	}
+
+
+	.submit form input {
+		width: 90% !important;
+		margin: 0 13px !important;
+		font-size: 80% !important;
+
+	}
+
+
+	.submit form dl{
+		margin-left: 10px;
+	}
+
+	.submit form dd input {/* フォームの入力欄装飾用 */
+	height:25px;
+	padding:6px 6px 4px;
+	}
+
+	.submit form .btn{
+	width: 100% !important;
+	margin:  5px !important;
+	font-size: 80% !important;
+	}
+
+	.submit form dt {
+		float: none !important;
+		font-size: 80% !important;
+		margin: 10px 15px 0 10px;
+
+	}
+	.submit form dd {
+		float: none !important;
+		text-align: center !important;
+		padding-top:5px;
+	}
+
+	table.head-w {
+		height: none !important;
+	}
+	table.head-w,
+	table.head-b {
+		width: 100% !important;
+		height: auto !important;
+		background-size: cover !important;
+		border-collapse: separate !important;
+		font-size: 100% !important;
+		margin: 0 auto !important;
+		padding : 20px 0;
+	}
+	table.head-w span,
+	table.head-b span {
+		font-size: 200% !important;
+	}
+
+
+	table.obi,
+	table.obi-b{
+	background-size: cover !important;
+	}
+
+	table.obi,
+	table.obi-b,
+	table.gra-blue,
+	table.gra-red,
+	table.gra-green,
+	table.gra-purple,
+	table.gra-gray,
+	table.gra-yellow,
+	table.fab-blue,
+	table.fab-red,
+	table.fab-green,
+	table.fab-purple,
+	table.fab-gray {
+		width: 100% !important;
+		height: 80px !important;
+		font-size: 110% !important;
+		margin: 0 auto !important;
+	}
+	table.obi span,
+	table.obi-b span,
+	table.gra-blue span,
+	table.gra-red span,
+	table.gra-green span,
+	table.gra-purple span,
+	table.gra-gray span,
+	table.gra-yellow span,
+	table.fab-blue span,
+	table.fab-red span,
+	table.fab-green span,
+	table.fab-purple span,
+	table.fab-gray span {
+		font-size: 100% !important;
+	}
+	table.wide {
+		width: 100% !important;
+		margin: 0 !important;
+		padding:0 !important;
+	}
+	table.wide p {
+		padding-left: 10px !important;
+	}
+
+	table.wide td{
+	padding:0;
+	}
+
+
+	.btn-blue-sma,
+	input[type="submit"].btn-blue-sma,
+	.btn-blue-3d-sma,
+	input[type="submit"].btn-blue-3d-sma,
+	.btn-red-sma,
+	input[type="submit"].btn-red-sma,
+	.btn-red-3d-sma,
+	input[type="submit"].btn-red-3d-sma,
+	.btn-green-sma,
+	input[type="submit"].btn-green-sma,
+	.btn-green-3d-sma,
+	input[type="submit"].btn-green-3d-sma,
+	.btn-purple-sma,
+	input[type="submit"].btn-purple-sma,
+	.btn-purple-3d-sma,
+	input[type="submit"].btn-purple-3d-sma,
+	.btn-gray-sma,
+	input[type="submit"].btn-gray-sma,
+	.btn-gray-3d-sma,
+	input[type="submit"].btn-gray-3d-sma {
+		width: 90% !important;
+		font-size: 110% !important;
+		/*margin-left: 20px !important;*/
+	}
+	.btn-blue,
+	input[type="submit"].btn-blue,
+	.btn-blue-3d,
+	input[type="submit"].btn-blue-3d,
+	.btn-red,
+	input[type="submit"].btn-red,
+	.btn-red-3d,
+	input[type="submit"].btn-red-3d,
+	.btn-green,
+	input[type="submit"].btn-green,
+	.btn-green-3d,
+	input[type="submit"].btn-green-3d,
+	.btn-purple,
+	input[type="submit"].btn-purple,
+	.btn-purple-3d,
+	input[type="submit"].btn-purple-3d,
+	.btn-gray,
+	input[type="submit"].btn-gray,
+	.btn-gray-3d,
+	input[type="submit"].btn-gray-3d {
+		width: 90% !important;
+		font-size: 110% !important;
+	}
+
+	.navbar {
+		margin-bottom: 30px !important;
+	}
+	.navbar .navbar-inner {
+		height: 50px !important;
+	}
+	.navbar .brand {
+		font-size: 100% !important;
+	}
+
+	dl.pub_form input {
+		width: 100% !important;
+		height:25px;
+		padding:6px 6px 4px;
+	}
+
+	.absolute {
+		position: relative !important;
+	}
+
+	.content-width {
+		width: auto !important;
+	}
+
+	nav.fixed_menu1 ul,
+	nav.fixed_menu2 ul {
+		width: 100%;
+		height: auto;
+		padding-top: 30px;
+	}
+	nav.fixed_menu1 ul li,
+	nav.fixed_menu2 ul li {
+		display: block !important;
+	}
+	nav.fixed_menu1 ul li {
+		background-color: #333;
+	}
+	nav.fixed_menu2 ul li {
+		background-color: #eee;
+	}
+}

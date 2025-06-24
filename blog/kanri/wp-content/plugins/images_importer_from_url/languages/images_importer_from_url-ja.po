@@ -1,0 +1,136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: images importer from url\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-04 18:27+0900\n"
+"PO-Revision-Date: 2014-08-04 18:27+0900\n"
+"Last-Translator: Tom <webmaster@dwm.me>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../form.php:2
+msgid "Please enter the URL of the old site:"
+msgstr "元のサイトのURLを入力してください："
+
+#: ../form.php:3
+msgid "Submit"
+msgstr "送信"
+
+#: ../images_importer_from_url.php:29
+msgid "Imports images from URL"
+msgstr "URLから画像をインポート"
+
+#: ../images_importer_from_url.php:39
+msgid "extract the image file of the page that was imported from MT2 format. and it save to \"wp-content/uploads/\"."
+msgstr "MT2形式からインポートしたページの画像ファイルを抽出して、\"wp-content/uploads/\" に保存します。"
+
+#: ../images_importer_from_url.php:40
+msgid "Image URLs in the page will automatically rewrite to URL of the file that has been saved."
+msgstr "ページの中の画像URLは保存されたファイルのURLに自動で書き替えます。"
+
+#: ../images_importer_from_url.php:41
+#, php-format
+msgid "Please see the %s is detailed explanation."
+msgstr "詳しい説明は %s をご覧ください。"
+
+#: ../js.php:16
+msgid "^\\s+|\\s+$"
+msgstr "^(\\s|　)+|(\\s|　)+$"
+
+#: ../js.php:19
+msgid "Please Enter the URL."
+msgstr "URLを入力してください。"
+
+#: ../js.php:24
+msgid "It is not in the format of the URL."
+msgstr "入力したのはURLのフォーマットではありません。"
+
+#: ../js.php:48
+msgid "This browser does not support XMLHttpRequest."
+msgstr "お使いのブラウザでは XMLHttpRequest がサポートされていません。"
+
+#: ../js.php:62
+#, php-format
+msgid "Failed to import %d files."
+msgstr "%d個のファイルのインポートに失敗しました。"
+
+#: ../js.php:66
+#, php-format
+msgid "Imported the %d files."
+msgstr "%d個のファイルをインポートしました。"
+
+#: ../js.php:68
+msgid "Work of this plug-in was over. You can safely delete the plug-in. Thank you for everything. (Please do not forget to stop before you remove the plug-in)"
+msgstr "これで、このプラグインの仕事は終わりました。プラグインを削除して構いません。お世話になりました。（プラグインを削除する前に停止させるのを忘れないでください）"
+
+#: ../js.php:102
+#, php-format
+msgid "failed to import (%s)"
+msgstr "インポートに失敗しました（%s)"
+
+#: ../xml_http_request_server.php:21
+msgid "Remote server did not respond"
+msgstr "リモートサーバが応答しませんでした。"
+
+#: ../xml_http_request_server.php:26
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "リモートサーバーが %1$d 個の %2$s エラーを返しました。"
+
+#: ../xml_http_request_server.php:35
+msgid "Remote file is incorrect size"
+msgstr "リモートファイルが正しくないサイズです。"
+
+#: ../xml_http_request_server.php:40
+msgid "Zero size file downloaded"
+msgstr "ダウンロードされたファイルのサイズがゼロです。"
+
+#: ../xml_http_request_server.php:46
+msgid "Invalid file type"
+msgstr "無効なファイルの種類です。"
+
+#: ../xml_http_request_server.php:82
+msgid "Database Error."
+msgstr "データベースでエラーが発生しました。"
+
+#: ../import.php:16
+msgid "Sorry, an error occurred on the server. please re-send the URL."
+msgstr "サーバーでエラーが起こりました。お手数ですがURLを下のフォームから再送信してください。"
+
+#: ../import.php:28
+msgid "Send data was not in the correct URL. Please resubmit."
+msgstr "送信されたデータは正しいURLではありません。URLを下のフォームから再送信してください。"
+
+#: ../import.php:81
+msgid "Image URL of the old domain was not found."
+msgstr "旧ドメインの画像URLは見つかりませんでした。"
+
+#: ../import.php:85
+msgid "Start"
+msgstr "スタート"
+
+#: ../import.php:89
+#, php-format
+msgid "Found the image %d files. Click the %s button to begin the import."
+msgstr "%d個の画像ファイルを見つけました。%sボタンを押すとインポートを開始します。"
+
+#: ../import.php:90
+msgid "Please click the button on the right if there is no problem."
+msgstr "問題がなければ右のボタンを押してください。"
+
+#: ../import.php:101
+#, php-format
+msgid "Please click the %s button if there is no problem.&nbsp;&nbsp;%s"
+msgstr "問題がなければ右の%sボタンを押してください。&nbsp;&nbsp;%s"
+
+msgid "This plugin imports images from old url. Used for when your domain was changed."
+msgstr "インポートしたページの画像ファイルを抽出して、\"wp-content/uploads/\" に保存し、画像リンクを差し替えます。MT2形式の旧ブログからWordPressに移行した際にお使いください。"

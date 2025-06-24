@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+#AuthUserFile "/var/www/data/acc_cnt_user_list.dat"
+#AuthGroupFile "/dev/null"
+#AuthName "Alpha-MAIL AccessControlServices"
+#AuthType Basic
+#require user 
+#require user builduser

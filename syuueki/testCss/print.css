@@ -1,0 +1,23 @@
+#footerNavi,
+#header, 
+#mainVisual2, 
+#pageNavi,
+#footer,
+ul.topicPath,
+ul.paging,
+ul.btn btn01,
+a.pageTop,
+ul.btn clearfix,
+li.btn02 {
+	display: none !important;
+}
+
+body {
+	_zoom: 67%; /*WinIE only*/
+}
+
+#contents div#sideContents ,
+#contents div#mainContents {
+	margin: 0;
+	padding: 0;
+}

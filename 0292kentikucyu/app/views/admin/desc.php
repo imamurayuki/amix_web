@@ -1,0 +1,54 @@
+<h2>記事一覧</h2>
+<p><?php echo $this->escape($build['name']) ?></p>
+
+<table cellpadding="0" cellspacing="0" class="admin-col-table-01" id="TableUsers">
+  <tr>
+    <th>物件説明</th>
+    <th>公開状況</th>
+    <th>作成日時</th>
+    <th>操作</th>
+  </tr>
+  <?php if (!empty($data)): ?>
+  <?php $i = 0; foreach ($data as $item): ?>
+<?php
+     $color = '';
+     if ($i++ % 2 == 0) {
+         $color = ' class="altrow"';
+         if ($item['status'] != 1) {
+            $color = ' class="disablerow"';   
+         }
+     } else {
+         if ($item['status'] != 1) {
+            $color = ' class="disablerow"';   
+         }
+     }
+?>
+  <tr<?php echo $color ?>>
+    <td><?php echo $this->truncate(strip_tags($item['description']), 40, '…'); ?></td>
+    <td style="text-align:center;">
+    <?php 
+     switch ($item['status']) {
+       case 1:
+           echo '◯';
+       break;
+       default:
+           echo '×';
+     }
+    ?>
+    </td>
+    <td><?php echo date('Y年m月d日 H:i:s', strtotime($item['created_at'])) ?></td>
+    <td class="operation-button">
+      <a href="<?php echo $base_url ?>/admin/desc/edit/<?php echo $building_id . '/' . $item['id'] ?>" class="btn-orange-s button-s">編集</a>
+      <a href="<?php echo $base_url ?>/admin/desc/delete/<?php echo $building_id . '/' . $item['id'] ?>" class="btn-gray-s button-s" 
+         onclick="return confirm(&#039;admin を本当に削除してもいいですか？&#039;);">削除</a>
+    </td>
+  </tr>
+  <?php endforeach; ?>
+  <?php endif; ?>
+</table>
+
+<div class="align-center">
+  <a href="<?php echo $base_url ?>/admin/desc/add/<?php echo $building_id ?>" class="btn-red button">新規投稿</a>
+  <a href="<?php echo $base_url ?>/admin" class="btn-green button">物件一覧に戻る</a>
+  <a href="<?php echo $base_url ?>/detail/<?php echo $building_id ?>" class="btn-gray button" target="_blank">プレビュー</a>
+</div>
