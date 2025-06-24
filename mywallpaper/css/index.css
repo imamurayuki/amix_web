@@ -1,0 +1,276 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+
+
+@media screen and (max-device-width:640px) {
+body, #container, #header, #main {
+	width: 100% !important;
+}
+#main .section .inner {
+	width: 100% !important;
+}
+
+
+
+
+#header .hBox {
+	margin: 0 auto;
+	width: 100% !important;
+	position: relative;
+}
+
+#header .hBox .ttlBox {
+	position: absolute;
+	top: 70px !important;
+	left: 100px !important;
+	width:80%;
+}
+
+#header .hBox .ttlBox p {
+	margin-bottom: 12px;
+	width: 100% !important;
+	float: right;
+	color: #FFF;
+	font-size: 32px;
+	line-height: 1.4 !important;
+}
+
+#header .hBox .ttlBox p span {
+	margin-bottom: 0px;
+	display: block;
+	font-size: 38px;
+}
+
+
+#header h1 {
+	clear: both;
+	text-align: center;
+}
+
+
+
+
+
+
+
+#footer {
+	width:100% !important;
+	padding-bottom: 47px;
+	clear: both;
+	zoom: 1;
+	background: url(../../img/common/footer_bg.gif) #304757 no-repeat right top;
+}
+
+#footer .fInner {
+	margin: 0 auto;
+	width:100% !important;
+}
+
+
+
+
+.comDlTxt dd {
+	font-size:24px !important;
+}
+
+
+#main .imgList li dd {
+	padding: 0px !important;
+	line-height:40px !important;
+	font-size: 30px !important;
+	background: url(../img/index/detail01_dd_bg.png) no-repeat left top;
+}
+
+#main .wallpaper .inner li {
+	font-size:16px !important;
+}
+
+#footer .fInner .txtBox .tel {
+	font-size: 38px !important;
+}
+
+#footer .fInner .txtBox .txt span {
+	margin: 1px 0 0;
+	font-size: 1.2em;
+}
+
+#footer .fInner .txtBox .link {
+	margin-bottom: 27px;
+	width: 500px;
+	font-size: 30px;
+}
+
+#footer .fInner .txtBox .link a {
+	-moz-background-size:100% auto !important;
+	background-size:100% auto !important; 
+}
+
+a.mailcont {
+	font-size:38px !important;
+}
+	
+}
+
+
+a.mailcont {
+	color:#FFFFFF;
+}
+
+#main .nightView {
+	background: url(../img/index/night_view_bg.gif) #373e44 no-repeat right top;
+}
+
+#main .section {
+	clear: both;
+	zoom: 1;
+}
+
+#main .section .inner {
+	margin: 0 auto;
+	width: 950px;
+	position: relative;
+}
+
+#main .section .inner .photoBox {
+	float: right;
+}
+
+#main .inner .txtBox {
+	width: 320px;
+	margin-top: -118px;
+	float: left;
+	position: relative;
+}
+
+#main .inner .txtBox .ttlImg {
+	margin-bottom: 3px;
+}
+
+#main .inner .txtBox li {
+	margin-bottom: 13px;
+	float: left;
+	position: relative;
+	width: 320px;
+}
+
+#main .inner li img {
+	display: block;
+}
+
+#main .inner .txtBox .arrow img {
+	margin: 0 auto;
+	width: 42px;
+}
+
+#main .inner .txtBox li span {
+	position: absolute;
+	top: 10px;
+	left: 9px;
+}
+
+#main .bigPhoto {
+	clear: both;
+	text-align: center;
+}
+
+#main .bicycle {
+	background: url(../img/index/bicycle_bg.gif) #e4e1d0 no-repeat right top;
+}
+
+#main .bicycle .inner .txtBox .comDlTxt {
+	background: url(../img/index/dl_txt_bg02.png) no-repeat left top;
+}
+
+#main .detail01 {
+	padding: 40px 0 30px;
+	background: url(../img/index/detail01_bg.gif) #191718 no-repeat right top;
+}
+
+#main .imgList {
+	margin-bottom: 20px;
+	clear: both;
+}
+
+#main .imgList li {
+	width: 470px;
+	float: left;
+}
+
+#main .imgList dl {
+	margin-top: 5px;
+}
+
+#main .imgList li dt {
+	float: left;
+}
+
+#main .imgList li dd {
+	padding: 7px 5px 0px;
+	min-height: 33px;
+	width: 310px;
+	float: right;
+	font-size: 2.2em;
+	background: url(../img/index/detail01_dd_bg.png) no-repeat left top;
+}
+
+#main .detail02 {
+	padding: 40px 0 150px;
+	background: url(../img/index/detail02_bg.gif) #E4E1D0 no-repeat right top;
+}
+
+#main .wallpaper {
+	padding: 27px 0 182px;
+	background: url(../img/index/wallpaper_bg.gif) #EFF3F4 no-repeat right top;
+}
+
+#main .wallpaper .inner .comDlTxt {
+	margin: -127px 0 51px;
+	padding: 13px 10px 20px 13px;
+	width: 297px;
+	position: relative;
+	background: url(../img/index/dl_txt_bg03.png) no-repeat left top;
+}
+
+#main .wallpaper .inner .comDlTxt dt {
+	margin-bottom: 20px;
+}
+
+#main .wallpaper .inner li {
+	padding-left: 18px;
+	float: left;
+}
+
+#main .wallpaper .inner .step01 {
+	width: 336px;
+}
+
+#main .wallpaper .inner .step02 {
+	width: 311px;
+}
+
+#main .wallpaper .inner .step03 {
+	width: 240px;
+}
+
+#main .wallpaper .inner .step03 dl {
+	width: 240px;
+}
+
+#main .wallpaper .inner li dl {
+	margin-top: 77px;
+	width: 260px;
+	line-height: 1.25;
+}
+
+#main .wallpaper .inner li dt {
+	float: left;
+}
+
+#main .wallpaper .inner li dd {
+	padding: 5px 0 0 2.8em;
+	color: #666;
+	font-size: 1.6em;
+}
+

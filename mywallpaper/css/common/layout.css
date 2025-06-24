@@ -1,0 +1,212 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	font-size: 1em;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family: Meiryo, "メイリオ", sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+a:link {
+	color: #CCC;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #CCC;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #CCC;
+	text-decoration: none;
+}
+
+a:active {
+	color: #CCC;
+	text-decoration: none;
+}
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	min-width: 950px;
+	text-align:center;
+	line-height: 1.5;
+	color: #FFF;
+}
+
+#container{
+	text-align: left;
+}
+
+#main {
+}
+
+	* html #main {
+		zoom: 1;
+	}
+
+	*+html #main {
+		zoom: 1;
+	}
+
+#main:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#header .hBox {
+	margin: 0 auto;
+	width: 950px;
+	position: relative;
+}
+
+#header .hBox .ttlBox {
+	position: absolute;
+	top: 138px;
+	left: 99px;
+}
+
+#header .hBox .ttlBox p {
+	margin-bottom: 12px;
+	width: 321px;
+	float: right;
+	color: #FFF;
+	font-size: 1.6em;
+	line-height: 1.6;
+}
+
+#header .hBox .ttlBox p span {
+	margin-bottom: 0px;
+	display: block;
+	font-size: 1.5em;
+}
+
+
+#header h1 {
+	clear: both;
+	text-align: center;
+}
+
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#footer {
+	padding-bottom: 47px;
+	clear: both;
+	zoom: 1;
+	background: url(../../img/common/footer_bg.gif) #304757 no-repeat right top;
+}
+
+#footer .fInner {
+	margin: 0 auto;
+	width: 950px;
+}
+
+#footer .fInner .comDlTxt {
+	margin-top: -60px;
+	padding: 13px 10px 22px 13px;
+	width: 297px;
+	float: left;
+	position: relative;
+	z-index: 10;
+	background: url(../../img/common/dl_txt_bg.png) no-repeat left top;
+}
+
+#footer .fInner .comDlTxt dt {
+	margin-bottom: 25px;
+}
+
+#footer .fInner .txtBox {
+	margin-top: 117px;
+	width: 570px;
+	float: right;
+}
+
+#footer .fInner .txtBox .link {
+	margin-bottom: 27px;
+	width: 319px;
+	font-size: 16px;
+}
+
+#footer .fInner .txtBox .link a {
+	padding: 9px 23px 7px;
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	background: url(../../img/common/f_link_bg.gif) #93ACB1 no-repeat left top;
+}
+
+#footer .fInner .txtBox .link a:hover {
+	background: url(../../img/common/f_link_over_bg.gif) #728589 no-repeat left top;
+}
+
+#footer .fInner .txtBox p {
+	margin-bottom: 24px;
+	font-size: 1.3em;
+}
+
+#footer .fInner .txtBox p span {
+	display: inline-block;
+	margin: 2px 40px 1px 0;
+	font-size: 1.6em;
+}
+
+#footer .fInner .txtBox .bigTxt {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+#footer .fInner .txtBox .txt span {
+	margin: 1px 0 0;
+	font-size: 1.2em;
+}
